@@ -18,3 +18,16 @@ Process::Process(float arrivalTime, float runTime, int priority) {
 bool processPtrCompare(Process* a, Process* b) {
     return (a->arrivalTime < b->arrivalTime);
 }
+
+
+std::vector<Process*> generateProcessVector(int numberOfProcesses) {
+
+    std::vector<Process*> processVector;
+
+    for(int i = 0 ; i < numberOfProcesses ; i++) {
+        processVector.push_back(new Process());
+    }
+
+    return processVector;
+
+}

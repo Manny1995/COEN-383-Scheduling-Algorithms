@@ -1,6 +1,8 @@
 #ifndef PROCESS_H
 #define PROCESS_H
 
+#include <vector>
+
 class Process {
 
 public:
@@ -22,5 +24,7 @@ public:
 };
 
 bool processPtrCompare(Process *a, Process *b);
+
+std::vector<Process*> generateProcessVector(int numberOfProcesses);
 
 #endif /* PROCESS_H */
