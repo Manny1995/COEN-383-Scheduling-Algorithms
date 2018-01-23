@@ -8,14 +8,17 @@
 #define TOOLS_H
 
 #include "process.h"
+#include <vector>
+
+using namespace std;
 
 namespace generate {
 
 
-	vector<Process *> generateProcessList() {
+	vector<Process *> generateProcessList();
 	Process *generateNewProcess();
     
-    
+
     float arrivalTime();
     float runTime();
     int priority();

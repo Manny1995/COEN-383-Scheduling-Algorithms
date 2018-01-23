@@ -3,6 +3,10 @@
 
 #include <iostream>
 #include <stdlib.h>
+#include <queue>
+
+#include "../tools/process.h"
+
 
 using namespace std;
 
@@ -11,8 +15,11 @@ class FCFSQueue {
 		queue<Process *> container;
 	public:
 		FCFSQueue();
-		Process *pop();
+		Process *top();
+		void pop();
 		void push(Process *);
+		bool isEmpty();
+		void startSimulation(vector<Process *> processList);
 };
 
 

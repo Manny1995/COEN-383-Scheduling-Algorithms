@@ -11,7 +11,16 @@
 #include "process.h"
 #include <vector>
 
+#include <iostream>
+
 using namespace std;
+
+
+// sorts processes based on arrival time
+bool processSorter (Process *i,Process *j) { 
+	return (i->arrivalTime <= j->arrivalTime);
+}
+
 
 // generates a list of processes for simulation, default 100
 vector<Process *>generate::generateProcessList() {
@@ -19,17 +28,14 @@ vector<Process *>generate::generateProcessList() {
 	vector<Process *> res;
 	for (int i = 0; i < 100; i++) {
 		res.push_back(generate::generateNewProcess());
+		cerr << "Generated process " << res[i]->arrivalTime << endl;
 	}
 
-	std::sort(res.begin(), res.end(), generate::processSorter);
+	std::sort(res.begin(), res.end(), processSorter);
 
 	return res;
 }
 
-// sorts processes based on arrival time
-bool generate::processSorter (Process *i,Process *j) { 
-	return (i.arrivalTime <= j.arrivalTime);
-}
 
 
 Process *generate::generateNewProcess() {

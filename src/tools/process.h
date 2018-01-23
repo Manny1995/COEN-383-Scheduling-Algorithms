@@ -21,6 +21,11 @@ public:
     float runTime;
     int priority;
 
+    // the time that the process actually started execution
+    float startTime;
+    float responseTime;
+    
+
 };
 
 bool processPtrCompare(Process *a, Process *b);
