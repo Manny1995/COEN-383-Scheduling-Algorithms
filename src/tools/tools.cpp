@@ -27,11 +27,19 @@ vector<Process *>generate::generateProcessList() {
 
 	vector<Process *> res;
 	for (int i = 0; i < 100; i++) {
-		res.push_back(generate::generateNewProcess());
+
+		Process *p = generate::generateNewProcess();
+
+		res.push_back(p);
 		cerr << "Generated process " << res[i]->arrivalTime << endl;
 	}
 
 	std::sort(res.begin(), res.end(), processSorter);
+
+	for (int i = 0; i < 100; i++) {
+		char temp = 'A' + i;
+		res[i]->identifier = temp;
+	}
 
 	return res;
 }
