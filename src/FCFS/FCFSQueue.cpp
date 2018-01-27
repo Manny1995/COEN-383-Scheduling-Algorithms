@@ -74,7 +74,7 @@ void FCFSQueue::startSimulation(vector<Process *> processList) {
 		// add new processes to queue
 		while (i < processList.size() && (float) newProc->arrivalTime == (float) cur_time) {
 			newProc = processList[i];
-			cerr << "The new process arrival time is at time " << cur_time << " and is " << newProc->arrivalTime << endl;
+			cerr << "The new process started at " << cur_time << ", arrival time is " << newProc->arrivalTime << " and run time is " << newProc->runTime << " and priority is " << newProc->priority << endl;
 			push(newProc);
 			i+=1;
 		}

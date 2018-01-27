@@ -24,12 +24,13 @@ public:
     }
 
     
-    bool operator <(const Process &l) const {
-        if (arrivalTime < l.arrivalTime) {
-            return true;
-        }
-        return false;
-    }
+    // Do not use this
+    // bool operator <(const Process &l) const {
+    //     if (arrivalTime < l.arrivalTime) {
+    //         return true;
+    //     }
+    //     return false;
+    // }
     
     float arrivalTime;
     float runTime;
@@ -41,6 +42,8 @@ public:
     // identifier for the time graph
     char identifier;
 
+    friend bool operator < ( Process& lhs,  Process& rhs);
+    friend bool operator > ( Process& lhs,  Process& rhs);
 
 };
 

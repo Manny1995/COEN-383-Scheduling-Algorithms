@@ -43,3 +43,16 @@ std::vector<Process*> generateProcessVector(int numberOfProcesses) {
     return processVector;
 
 }
+
+
+// Sort the priority in an order where greatest first!
+bool operator < (Process& lhs, Process& rhs)
+{
+    return lhs.priority >= rhs.priority;
+}
+
+bool operator > (Process& lhs, Process& rhs)
+{
+    return lhs.priority < rhs.priority;
+}
+
