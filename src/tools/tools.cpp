@@ -31,7 +31,7 @@ vector<Process *>generate::generateProcessList() {
 		Process *p = generate::generateNewProcess();
 
 		res.push_back(p);
-		cerr << "Generated process " << res[i]->arrivalTime << endl;
+		//cerr << "Generated process " << res[i]->arrivalTime << endl;
 	}
 
 	std::sort(res.begin(), res.end(), processSorter);
