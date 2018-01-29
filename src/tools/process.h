@@ -24,13 +24,6 @@ public:
     }
 
     
-    // Do not use this
-    // bool operator <(const Process &l) const {
-    //     if (arrivalTime < l.arrivalTime) {
-    //         return true;
-    //     }
-    //     return false;
-    // }
     
     float arrivalTime;
     float runTime;
@@ -38,6 +31,8 @@ public:
 
     // the time that the process actually started execution
     float responseTime;
+
+    bool started;
 
     // identifier for the time graph
     char identifier;

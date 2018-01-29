@@ -15,11 +15,11 @@ class FCFSQueue {
 		queue<Process *> container;
 	public:
 		FCFSQueue();
+		FCFSQueue(vector<Process *>processList);
 		Process *top();
 		void pop();
 		void push(Process *);
 		bool isEmpty();
-		void startSimulation(vector<Process *> processList);
 };
 
 
