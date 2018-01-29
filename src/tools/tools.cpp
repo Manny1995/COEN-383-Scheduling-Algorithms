@@ -25,8 +25,10 @@ bool processSorter (Process *i,Process *j) {
 // generates a list of processes for simulation, default 100
 vector<Process *>generate::generateProcessList() {
 
+	int max = 40;
+
 	vector<Process *> res;
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < max; i++) {
 
 		Process *p = generate::generateNewProcess();
 
@@ -36,7 +38,7 @@ vector<Process *>generate::generateProcessList() {
 
 	std::sort(res.begin(), res.end(), processSorter);
 
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < max; i++) {
 		char temp = 'A' + i;
 		res[i]->identifier = temp;
 	}
