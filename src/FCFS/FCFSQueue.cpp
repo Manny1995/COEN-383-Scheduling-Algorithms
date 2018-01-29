@@ -104,6 +104,9 @@ void FCFSQueue::startSimulation(vector<Process *> processList) {
 			pop();
 		}
 	}
+
+	cout << "Stats" << endl;
+	cout << "----------------" << endl;
 	cout << "Avg response time is " << totalResponseTime/jobsStarted << endl;
 	cout << "Avg waiting time is 0 (because first come first serve)" << endl;
 	cout << "Avg Turnaround time is " << totalTurnaroundTime / jobsFinished << endl;
