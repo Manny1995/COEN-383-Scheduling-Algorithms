@@ -8,6 +8,7 @@ Process::Process() {
     runTime = generate::runTime();
     priority = generate::priority();
     responseTime = -1;
+    started = false;
 }
 
 
