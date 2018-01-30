@@ -22,6 +22,6 @@ private:
     // - avg turnaroudn time
     // - avg response time
     // - generate quanta graph
-    void calculateStatistics(std::list<Process*> pList);
+    void calculateStatistics(std::list<Process*> pList, float totalTime);
 
 };

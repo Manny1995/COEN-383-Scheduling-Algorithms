@@ -58,7 +58,7 @@ void printProcessList(list<Process *> processList,
 
 }
 
-void printProcessMap(list<Process*> pList) {
+float printProcessMap(list<Process*> pList) {
     
     cout << "Process Map" << endl;
     float currentTime = 0.0;
@@ -72,9 +72,9 @@ void printProcessMap(list<Process*> pList) {
     string graph = "";
     for (iter = pList.begin(); iter != pList.end(); ++iter) {
         
-        while ((*iter)->arrivalTime > currentTime) {
-            currentTime += 0.1;
+        while ((*iter)->arrivalTime > currentTime + 0.1) {
             graph += '-';
+            currentTime += 0.1;
         }
         
         startTime = currentTime;
@@ -86,11 +86,13 @@ void printProcessMap(list<Process*> pList) {
         
     }
     
-    cout << graph.length() << endl;
-    cout << ceil(graph.length() / 10) << endl;
     for (int quanta = 0; quanta <= ceil(graph.length() / 10); quanta++) {
         cout << "Quanta " << quanta << ":\t" << graph.substr(quanta * 10, 10) << endl;
     }
+    
+    cout << "\n" << endl;
+    
+    return graph.length() / 10.0;
     
 }
 
@@ -110,10 +112,18 @@ list<Process*> SJF::sjfSort(list<Process*> pList) {
     list<Process*>::iterator reference = pList.begin();
     list<Process*> sjfDeque;
     list<Process*> currentProcesses;
+    float currentTime = 0.0;
+    bool started = false;
     
     while (iter != pList.end()) {
         
-        while ((iter != pList.end()) && ((*iter)->arrivalTime == (*reference)->arrivalTime)) {
+        if (!started) {
+            currentTime = (*iter)->arrivalTime;
+            started = true;
+        }
+        
+        while ((iter != pList.end()) && ((*iter)->arrivalTime == (*reference)->arrivalTime) && currentTime < 100) {
+            currentTime += (*iter)->runTime;
             currentProcesses.push_back(*iter++);
         }
         
@@ -126,6 +136,9 @@ list<Process*> SJF::sjfSort(list<Process*> pList) {
         }
         
         currentProcesses.clear();
+        
+        if (currentTime > 99)
+            break;
         
     }
     
@@ -156,15 +169,18 @@ void SJF::simulate(vector<Process*> processList) {
     list<Process*> processesSorted = sjfSort(processes);
     printProcessList(processesSorted);
     
-    calculateStatistics(processesSorted);
-    printProcessMap(processesSorted);
+    float actualTotalTime = printProcessMap(processesSorted);
+    calculateStatistics(processesSorted, actualTotalTime);
     
     return;
     
 }
 
+float roundToTenth(float floatValue) {
+    return floor(floatValue*10+0.5)/10;;
+}
 
-void SJF::calculateStatistics(list<Process*> pList) {
+void SJF::calculateStatistics(list<Process*> pList, float totalTime) {
     
     cout << "Statistics Report:" << endl;
     
@@ -191,13 +207,22 @@ void SJF::calculateStatistics(list<Process*> pList) {
             totalTurnaroundTime += (currentTime + (*iter)->runTime) - (*iter)->arrivalTime;
         } else {
             waitTimes.push_back(currentTime - startProcessesTime);
-            responseTimes.push_back(currentTime - (*iter)->arrivalTime);
-            turnaroundTimes.push_back((currentTime + (*iter)->runTime) - (*iter)->arrivalTime);
+            
+            float endTimeRT = (currentTime < (*iter)->arrivalTime) ?
+                (*iter)->arrivalTime :
+                currentTime;
+            
+            responseTimes.push_back(roundToTenth(endTimeRT - (*iter)->arrivalTime));
+            
+            float endTimeTA = (currentTime < (*iter)->arrivalTime) ?
+                (*iter)->arrivalTime + (*iter)->runTime :
+                (currentTime + (*iter)->runTime);
+            
+            turnaroundTimes.push_back(roundToTenth(endTimeTA - (*iter)->arrivalTime));
             currentTime = (*iter)->runTime + currentTime;
             
-            totalWaitTime +=
-            totalTurnaroundTime += (currentTime + (*iter)->runTime) - (*iter)->arrivalTime;
-            totalResponseTime += currentTime - (*iter)->arrivalTime;
+            totalTurnaroundTime += roundToTenth(endTimeTA - (*iter)->arrivalTime);
+            totalResponseTime += roundToTenth(currentTime - (*iter)->arrivalTime);
         }
         
     }
@@ -207,6 +232,7 @@ void SJF::calculateStatistics(list<Process*> pList) {
     cout << "Average turnaround time: " << totalTurnaroundTime / totalProcesses << endl;
     cout << "Average wait time: " << totalResponseTime / totalProcesses << endl;
     cout << "Average reponse time: " << totalResponseTime / totalProcesses << endl;
+    cout << "Average throughput: " << totalProcesses / totalTime << endl;
     cout << "\n" << endl;
 
 }
