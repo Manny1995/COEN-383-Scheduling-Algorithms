@@ -15,23 +15,13 @@ public:
     Process(Process &p);
 
     double startExecution(double time);
-
-    bool hasStarted() {
-        return responseTime > -1;
-    }
-
-    double finishExecution(double time) {
-        return time - (arrivalTime + responseTime);
-    }
-
     
     
     float arrivalTime;
     float runTime;
     int priority;
 
-    // the time that the process actually started execution
-    float responseTime;
+    float timeLeft;
 
     bool started;
 

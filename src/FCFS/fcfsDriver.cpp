@@ -51,6 +51,8 @@ void startSimulation(FCFSQueue &model) {
 	while (!finished) {
 
 		string timeGraph = "";
+
+		float tempTurnaroundTime = 0.0;
 		for (float slice = 0.0; slice < 1.0; slice = slice+0.1) {
 			Process *top = model.top();
 
@@ -70,13 +72,10 @@ void startSimulation(FCFSQueue &model) {
 				if (top->started == false) {
 					top->started = true;
 
-					// waiting time = amount of time ready to run but not running
-					float waitingTime = ((float) quanta + slice) - top->arrivalTime;
 
-					// response time = first response to command
+					// response time = start time - arrival time
 					float responseTime = ((float) quanta + slice) - top->arrivalTime;
 
-					aggregateWaitingTime+=waitingTime;
 					aggregateResponseTime+=responseTime;
 
 
@@ -86,6 +85,7 @@ void startSimulation(FCFSQueue &model) {
 
 				// decrement runtime
 				top->runTime -= 0.1;
+				tempTurnaroundTime+=0.1;
 
 				// add process to the time graph
 				timeGraph+=top->identifier;
@@ -93,10 +93,12 @@ void startSimulation(FCFSQueue &model) {
 				// when runtime hits this, then the process is done
 				if (top->runTime <= 0.1) {
 
-					// turnaround time = time finished execution - arrival time
-					float turnaroundTime = ((float) quanta + slice) - top->arrivalTime;
+					// waiting time = time finished execution - arrival time
+					float waitingTime = ((float) quanta + slice) - top->arrivalTime;
 
-					aggregateTurnaroundTime=turnaroundTime;
+					float turnaroundTime = top->timeLeft;
+
+					aggregateTurnaroundTime+=turnaroundTime;
 
 					model.pop();
 
