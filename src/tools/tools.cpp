@@ -59,6 +59,21 @@ vector<vector<Process *> > generate::generateSimulationData() {
 	return res;
 }
 
+vector<vector<Process *> > generate::getCopiedData(const vector<vector<Process *> > data) {
+
+	vector <vector<Process *> > res;
+	for (int i = 0; i < data.size(); i++) {
+		vector<Process *> temp;
+		for (int j = 0; j < data[i].size(); j++) {
+			temp.push_back(new Process(*data[i][j]));
+		}
+
+		res.push_back(temp);
+
+	}
+	return res;
+
+}
 
 Process *generate::generateNewProcess() {
 

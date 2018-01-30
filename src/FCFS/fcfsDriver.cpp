@@ -118,7 +118,7 @@ void startSimulation(FCFSQueue &model) {
 	cout << "Avg response time is " << aggregateResponseTime/jobsFinished << endl;
 	cout << "Avg waiting time is " << aggregateResponseTime/jobsFinished << endl;
 	cout << "Avg Turnaround time is " << aggregateTurnaroundTime / jobsFinished << endl;
-	cout << "Throughoutput is " << jobsFinished / (float) quanta + rem << endl;
+	cout << "Throughoutput is " << jobsFinished / ((float) quanta + rem) << endl;
 
 }
 

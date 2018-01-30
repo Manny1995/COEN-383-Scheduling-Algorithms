@@ -12,6 +12,7 @@ public:
     
     Process();
     Process(float arrivalTime, float runTime, int priority);
+    Process(Process &p);
 
     double startExecution(double time);
 

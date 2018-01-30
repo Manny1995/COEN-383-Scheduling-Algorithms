@@ -17,7 +17,17 @@ Process::Process(float arrivalTime, float runTime, int priority) {
 	this->runTime = runTime;
 	this->priority = priority;
     this->responseTime = -1;
+    this->started = false;
 
+}
+
+Process::Process (Process &p) {
+    this->arrivalTime = p.arrivalTime;
+    this->runTime = p.runTime;
+    this->priority = p.priority;
+    this->responseTime = p.responseTime;
+    this->identifier = p.identifier;
+    this->started = p.started;
 }
 
 
