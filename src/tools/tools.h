@@ -17,6 +17,8 @@ namespace generate {
 
 	vector<Process *> generateProcessList();
 	Process *generateNewProcess();
+
+	vector<vector<Process *> > generateSimulationData();
     
 
     float arrivalTime();

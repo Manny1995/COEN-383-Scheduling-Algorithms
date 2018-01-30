@@ -3,10 +3,10 @@
 #include "SJF.h"
 #include "../tools/process.h"
 #include "../tools/tools.h"
+#include "sjfDriver.h"
 
 int main() {
 
-    SJF sjf;
-    sjf.simulate(generate::generateProcessList());
+	sjfDriver(generate::generateSimulationData());
 
 }

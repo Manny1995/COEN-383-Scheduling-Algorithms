@@ -2,6 +2,9 @@
 #include <vector>
 #include "../tools/process.h"
 
+#ifndef SJF_H
+#define SJF_H
+
 class SJF {
 
 public:
@@ -25,3 +28,5 @@ private:
     void calculateStatistics(std::list<Process*> pList, float totalTime);
 
 };
+
+#endif

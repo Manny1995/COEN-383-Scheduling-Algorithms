@@ -7,14 +7,13 @@
 
 #include "../tools/process.h"
 #include "../tools/tools.h"
-#include "STR.h"
+#include "strDriver.h"
 
 using namespace std;
 
 int main(int argc, char* argv[]) {
 
-	STR model;
-	model.startSimulation(generate::generateProcessList());
+    strDriver(generate::generateSimulationData());
 
 	return 1;
 }

@@ -1,3 +1,8 @@
+
+
+#ifndef SJF_CPP
+#define SJF_CPP
+
 #include <iostream>
 #include <queue>
 #include <cmath>
@@ -236,3 +241,5 @@ void SJF::calculateStatistics(list<Process*> pList, float totalTime) {
     cout << "\n" << endl;
 
 }
+
+#endif

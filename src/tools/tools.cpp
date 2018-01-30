@@ -7,7 +7,6 @@
 #include "tools.h"
 #include <cstdlib>
 
-
 #include "process.h"
 #include <vector>
 
@@ -46,6 +45,19 @@ vector<Process *>generate::generateProcessList() {
 	return res;
 }
 
+
+vector<vector<Process *> > generate::generateSimulationData() {
+
+	// for different number
+	srand(time(NULL));
+
+	vector<vector<Process *> > res;
+	for (int i = 0; i < 5; i++) {
+		vector<Process *> temp = generate::generateProcessList();
+		res.push_back(temp);
+	}
+	return res;
+}
 
 
 Process *generate::generateNewProcess() {
