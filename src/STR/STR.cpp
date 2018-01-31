@@ -36,8 +36,8 @@ void STR::startSimulation(vector<Process *> processList) {
 
 	//Initialize orignial runtime array
 	//used to see if the current job has started 
-	for(Process *c : processList){
-		originalRT[i] = c->runTime;
+	for(int j=0; j<processList.size(); j++){ //(Process *c : processList){
+		originalRT[i] = processList[j]->runTime;
 		i++;
 	}
 
@@ -52,11 +52,11 @@ void STR::startSimulation(vector<Process *> processList) {
 		//Locating the process with the shortest run time
 		//sets the current location index for global arrays
 		//sets checked flag for when there are no processes eligble to run
-		for (Process *c : processList) {
-            if ((c->arrivalTime <= cur_time) &&
-            (c->runTime < minTime) && (c->runTime > 0)) {
-                minTime = c->runTime;
-                currProc = c;
+	for (int j=0; j<processList.size(); j++){ //(Process *c : processList) {
+            if ((processList[j]->arrivalTime <= cur_time) &&
+            (processList[j]->runTime < minTime) && (processList[j]->runTime > 0)) {
+                minTime = processList[j]->runTime;
+                currProc = processList[j];
                 currentLocation = i;
             }
             i++;
@@ -66,8 +66,8 @@ void STR::startSimulation(vector<Process *> processList) {
 
         i = 0;
         //Increment the wait time for all of the processes not running
-        for(Process *c : processList){
-        	if((c->runTime >= 0) && (i != currentLocation) && (c->arrivalTime <= cur_time)){
+        for(int j=0; j<processList.size(); j++){ //(Process *c : processList){
+        	if((processList[j]->runTime >= 0) && (i != currentLocation) && (processList[j]->arrivalTime <= cur_time)){
         		waitTime[i] = waitTime[i] + 0.1;
         	}
         	i++;
@@ -116,10 +116,10 @@ void STR::startSimulation(vector<Process *> processList) {
 	//calculate the total waiting time
 	cout << "pid   a time   e time   r time.  w time" << endl;
 	i = 0;
-	for (Process *c : processList) {
+	for (int j=0; j<processList.size(); j++){ //(Process *c : processList) {
 		totalTurnaroundTime += (finishedTime[i] - startTime[i]);
 		wtime += (waitTime[i]);
-		cout << c->identifier << "       " << c->arrivalTime << "       " << finishedTime[i] << "      " << originalRT[i] << "       " << waitTime[i] << endl;
+		cout << processList[j]->identifier << "       " << processList[j]->arrivalTime << "       " << finishedTime[i] << "      " << originalRT[i] << "       " << waitTime[i] << endl;
 		i++;
 	}
 	for(i= 0; i < cur_time * 10; i++){
