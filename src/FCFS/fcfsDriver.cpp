@@ -54,7 +54,14 @@ void startSimulation(FCFSQueue &model) {
 
 		float tempTurnaroundTime = 0.0;
 		for (float slice = 0.0; slice < 1.0; slice = slice+0.1) {
+
+
 			Process *top = model.top();
+
+			// this solves the seg fault hopefully
+			if (top == NULL) {
+				break;
+			}
 
 			if (quanta > 100 && top->started == false) {
 				// timeGraph+="-";

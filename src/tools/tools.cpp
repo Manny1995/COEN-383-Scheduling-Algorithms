@@ -17,6 +17,18 @@ using namespace std;
 
 // sorts processes based on arrival time
 bool processSorter (Process *i,Process *j) { 
+	if (i == NULL || j == NULL) {
+		//cerr << "This IS NULL" << endl;
+		if (i == NULL) {
+			i = new Process();
+		}
+
+		if (j == NULL) {
+			j = new Process();
+		}
+
+	}
+
 	return (i->arrivalTime <= j->arrivalTime);
 }
 
@@ -32,7 +44,6 @@ vector<Process *>generate::generateProcessList() {
 		Process *p = generate::generateNewProcess();
 
 		res.push_back(p);
-		//cerr << "Generated process " << res[i]->arrivalTime << endl;
 	}
 
 	std::sort(res.begin(), res.end(), processSorter);
@@ -55,6 +66,8 @@ vector<vector<Process *> > generate::generateSimulationData() {
 	for (int i = 0; i < 5; i++) {
 		vector<Process *> temp = generate::generateProcessList();
 		res.push_back(temp);
+		cerr << "Generated data" << temp.size() << endl;
+
 	}
 	return res;
 }

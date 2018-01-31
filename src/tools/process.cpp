@@ -4,12 +4,13 @@
 using namespace std;
 
 Process::Process() {
-    arrivalTime = generate::arrivalTime();
-    runTime = generate::runTime();
-    priority = generate::priority();
-    startTime = 0;
-    timeLeft = runTime;
-    started = false;
+    this->arrivalTime = generate::arrivalTime();
+    this->runTime = generate::runTime();
+    this->priority = generate::priority();
+    this->startTime = 0;
+    this->timeLeft = runTime;
+    this->started = false;
+    this->identifier = 'N';
 }
 
 
@@ -20,6 +21,7 @@ Process::Process(float arrivalTime, float runTime, int priority) {
     this->timeLeft = runTime;
     this->started = false;
     this->startTime = 0;
+    this->identifier = 'N';
 
 }
 

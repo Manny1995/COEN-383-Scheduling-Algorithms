@@ -14,6 +14,8 @@
 #include "SJF/sjfDriver.h"
 #include "STR/strDriver.h"
 #include "RR/rrDriver.h"
+#include "HPFS/HPFS_NP_driver.h"
+#include "HPFS/HPFS_P_driver.h"
 
 using namespace std;
 
@@ -49,23 +51,27 @@ int main(int argc, char* argv[]) {
 		sjfDriver(generate::getCopiedData(data));
 		strDriver(generate::getCopiedData(data));
 		rrDriver(generate::getCopiedData(data));
+		hpfsNpDriver(generate::getCopiedData(data));
+
 	}
 	else if (choice == "fcfs") {
-		fcfsDriver(generate::getCopiedData(data));
+		fcfsDriver(data);
 	}
 	else if (choice == "sjf") {
-		sjfDriver(generate::getCopiedData(data));
+		sjfDriver(data);
 	}
 	else if (choice == "str") {
-		strDriver(generate::getCopiedData(data));
+		strDriver(data);
 	}
 	else if (choice == "rr") {
-		rrDriver(generate::getCopiedData(data));
+		rrDriver(data);
 	}
 	else if (choice == "hpf1") {
+		hpfsNpDriver(generate::getCopiedData(data));
 
 	}
 	else if (choice == "hpf2") {
+		hpfsPDriver(generate::getCopiedData(data));
 
 	}
 	else {
