@@ -13,6 +13,7 @@
 #include "FCFS/fcfsDriver.h"
 #include "SJF/sjfDriver.h"
 #include "STR/strDriver.h"
+#include "RR/rrDriver.h"
 
 using namespace std;
 
@@ -29,6 +30,7 @@ int main(int argc, char* argv[]) {
 	fcfsDriver(generate::getCopiedData(data));
 	sjfDriver(generate::getCopiedData(data));
 	strDriver(generate::getCopiedData(data));
+	rrDriver(generate::getCopiedData(data));
 
 	return 1;
 }
