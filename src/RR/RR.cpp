@@ -27,7 +27,6 @@ void RR::injectProc(double quanta){
         //inject the process(es) into the queue upon its arrival time
         while(procs[0]->arrivalTime == (double)quanta){ //seg faulting here, trying to access procs[0]
 		    if(procs.size() != 0){
-            cout << "Check" << endl;
             procQueue.push(procs[0]);
             procs.erase(procs.begin());
             }else{ 
