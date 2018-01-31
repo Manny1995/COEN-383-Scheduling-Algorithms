@@ -106,7 +106,7 @@ void STR::startSimulation(vector<Process *> processList) {
 
 		//checks to see if all the processes have completed
 		//if the processes have been completed then the loop will break
-		if(jobsFinished == 100){
+		if(jobsFinished == processList.size()){
 			completed = true;
 		}
 
@@ -133,10 +133,10 @@ void STR::startSimulation(vector<Process *> processList) {
 	}
 
 	cout << " " << endl;
-	cout << "Avg response time is " << totalResponseTime/100 << endl;
-	cout << "Avg waiting time is " << wtime << endl;
-	cout << "Avg Turnaround time is " << totalTurnaroundTime / 100 << endl;
-	cout << "Throughoutput is " << 100 / cur_time << endl;
+	cout << "Avg response time is " << totalResponseTime/processList.size() << endl;
+	cout << "Avg waiting time is " << wtime / processList.size() << endl;
+	cout << "Avg Turnaround time is " << totalTurnaroundTime / processList.size() << endl;
+	cout << "Throughoutput is " << processList.size() / cur_time << endl;
 }
 
 
