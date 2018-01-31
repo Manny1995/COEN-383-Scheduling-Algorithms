@@ -96,9 +96,11 @@ void startSimulation(FCFSQueue &model) {
 					// waiting time = time finished execution - arrival time
 					float waitingTime = ((float) quanta + slice) - top->arrivalTime;
 
+					// because nonpreemptive guarantees staying in the CPU, we can just use the duration of the process as the turnaround time
 					float turnaroundTime = top->timeLeft;
 
 					aggregateTurnaroundTime+=turnaroundTime;
+					aggregateWaitingTime+=waitingTime;
 
 					model.pop();
 
@@ -118,7 +120,7 @@ void startSimulation(FCFSQueue &model) {
 	cout << "Stats" << endl;
 	cout << "----------------" << endl;
 	cout << "Avg response time is " << aggregateResponseTime/jobsFinished << endl;
-	cout << "Avg waiting time is " << aggregateResponseTime/jobsFinished << endl;
+	cout << "Avg waiting time is " << aggregateWaitingTime/jobsFinished << endl;
 	cout << "Avg Turnaround time is " << aggregateTurnaroundTime / jobsFinished << endl;
 	cout << "Throughoutput is " << jobsFinished / ((float) quanta + rem) << endl;
 
