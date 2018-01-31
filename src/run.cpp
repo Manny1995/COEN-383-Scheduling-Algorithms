@@ -52,6 +52,7 @@ int main(int argc, char* argv[]) {
 		strDriver(generate::getCopiedData(data));
 		rrDriver(generate::getCopiedData(data));
 		hpfsNpDriver(generate::getCopiedData(data));
+		hpfsPDriver(generate::getCopiedData(data));
 
 	}
 	else if (choice == "fcfs") {

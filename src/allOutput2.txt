@@ -1,0 +1,4134 @@
+Simulation #1
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	4	|	8	|	3
+	B	|	7	|	2	|	3
+	C	|	7	|	7	|	4
+	D	|	9	|	6	|	3
+	E	|	9	|	7	|	3
+	F	|	11	|	0.1	|	1
+	G	|	12	|	4	|	2
+	H	|	13	|	3	|	1
+	I	|	19	|	8	|	4
+	J	|	20	|	0.1	|	2
+	K	|	20	|	6	|	3
+	L	|	23	|	7	|	1
+	M	|	23	|	0.1	|	3
+	N	|	24	|	1	|	2
+	O	|	33	|	9	|	1
+	P	|	38	|	2	|	1
+	Q	|	38	|	1	|	3
+	R	|	42	|	5	|	1
+	S	|	46	|	2	|	4
+	T	|	47	|	3	|	1
+	U	|	49	|	2	|	2
+	V	|	51	|	9	|	3
+	W	|	52	|	6	|	4
+	X	|	94	|	5	|	2
+	Y	|	52	|	6	|	3
+	Z	|	57	|	7	|	2
+	[	|	57	|	8	|	3
+	\	|	58	|	5	|	1
+	]	|	58	|	0.1	|	3
+	^	|	59	|	5	|	2
+	_	|	61	|	5	|	3
+	`	|	62	|	4	|	2
+	a	|	63	|	0.1	|	1
+	b	|	73	|	7	|	2
+	c	|	73	|	9	|	3
+	d	|	80	|	6	|	3
+	e	|	85	|	5	|	4
+	f	|	91	|	6	|	1
+	g	|	97	|	2	|	2
+	h	|	99	|	6	|	4
+---------------------------------------------------------------
+
+
+Starting First Come First Serve
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	AAAAAAAAAA
+Quanta 5:	AAAAAAAAAA
+Quanta 6:	AAAAAAAAAA
+Quanta 7:	AAAAAAAAAA
+Quanta 8:	AAAAAAAAAA
+Quanta 9:	AAAAAAAAAA
+Quanta 10:	AAAAAAAAAA
+Quanta 11:	AAAAAAAAAA
+Quanta 12:	BBBBBBBBBB
+Quanta 13:	BBBBBBBBBC
+Quanta 14:	CCCCCCCCCC
+Quanta 15:	CCCCCCCCCC
+Quanta 16:	CCCCCCCCCC
+Quanta 17:	CCCCCCCCCC
+Quanta 18:	CCCCCCCCCC
+Quanta 19:	CCCCCCCCCC
+Quanta 20:	CCCCCCCCCD
+Quanta 21:	DDDDDDDDDD
+Quanta 22:	DDDDDDDDDD
+Quanta 23:	DDDDDDDDDD
+Quanta 24:	DDDDDDDDDD
+Quanta 25:	DDDDDDDDDD
+Quanta 26:	DDDDDDDDDE
+Quanta 27:	EEEEEEEEEE
+Quanta 28:	EEEEEEEEEE
+Quanta 29:	EEEEEEEEEE
+Quanta 30:	EEEEEEEEEE
+Quanta 31:	EEEEEEEEEE
+Quanta 32:	EEEEEEEEEE
+Quanta 33:	EEEEEEEEEF
+Quanta 34:	GGGGGGGGGG
+Quanta 35:	GGGGGGGGGG
+Quanta 36:	GGGGGGGGGG
+Quanta 37:	GGGGGGGGGG
+Quanta 38:	HHHHHHHHHH
+Quanta 39:	HHHHHHHHHH
+Quanta 40:	HHHHHHHHHH
+Quanta 41:	IIIIIIIIII
+Quanta 42:	IIIIIIIIII
+Quanta 43:	IIIIIIIIII
+Quanta 44:	IIIIIIIIII
+Quanta 45:	IIIIIIIIII
+Quanta 46:	IIIIIIIIII
+Quanta 47:	IIIIIIIIII
+Quanta 48:	IIIIIIIIII
+Quanta 49:	JKKKKKKKKK
+Quanta 50:	KKKKKKKKKK
+Quanta 51:	KKKKKKKKKK
+Quanta 52:	KKKKKKKKKK
+Quanta 53:	KKKKKKKKKK
+Quanta 54:	KKKKKKKKKK
+Quanta 55:	KLLLLLLLLL
+Quanta 56:	LLLLLLLLLL
+Quanta 57:	LLLLLLLLLL
+Quanta 58:	LLLLLLLLLL
+Quanta 59:	LLLLLLLLLL
+Quanta 60:	LLLLLLLLLL
+Quanta 61:	LLLLLLLLLL
+Quanta 62:	LMNNNNNNNN
+Quanta 63:	NOOOOOOOOO
+Quanta 64:	OOOOOOOOOO
+Quanta 65:	OOOOOOOOOO
+Quanta 66:	OOOOOOOOOO
+Quanta 67:	OOOOOOOOOO
+Quanta 68:	OOOOOOOOOO
+Quanta 69:	OOOOOOOOOO
+Quanta 70:	OOOOOOOOOO
+Quanta 71:	OOOOOOOOOO
+Quanta 72:	OPPPPPPPPP
+Quanta 73:	PPPPPPPPPP
+Quanta 74:	QQQQQQQQQR
+Quanta 75:	RRRRRRRRRR
+Quanta 76:	RRRRRRRRRR
+Quanta 77:	RRRRRRRRRR
+Quanta 78:	RRRRRRRRRR
+Quanta 79:	RRRRRRRRRS
+Quanta 80:	SSSSSSSSSS
+Quanta 81:	SSSSSSSSTT
+Quanta 82:	TTTTTTTTTT
+Quanta 83:	TTTTTTTTTT
+Quanta 84:	TTTTTTTTUU
+Quanta 85:	UUUUUUUUUU
+Quanta 86:	UUUUUUUVVV
+Quanta 87:	VVVVVVVVVV
+Quanta 88:	VVVVVVVVVV
+Quanta 89:	VVVVVVVVVV
+Quanta 90:	VVVVVVVVVV
+Quanta 91:	VVVVVVVVVV
+Quanta 92:	VVVVVVVVVV
+Quanta 93:	VVVVVVVVVV
+Quanta 94:	VVVVVVVVVV
+Quanta 95:	VVVVVVVWWW
+Quanta 96:	WWWWWWWWWW
+Quanta 97:	WWWWWWWWWW
+Quanta 98:	WWWWWWWWWW
+Quanta 99:	WWWWWWWWWW
+Quanta 100:	WWWWWWWWWW
+Quanta 101:	WWWWWWW
+Stats
+----------------
+Avg response time is 26.8739
+Avg waiting time is 31.0217
+Avg Turnaround time is 4.27391
+Throughoutput is 0.223953
+Simulation #2
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	1	|	0.1	|	4
+	B	|	2	|	1	|	4
+	C	|	2	|	1	|	2
+	D	|	3	|	3	|	1
+	E	|	8	|	2	|	2
+	F	|	9	|	6	|	2
+	G	|	10	|	1	|	3
+	H	|	10	|	4	|	1
+	I	|	11	|	3	|	2
+	J	|	13	|	5	|	3
+	K	|	15	|	1	|	2
+	L	|	19	|	5	|	2
+	M	|	22	|	8	|	2
+	N	|	22	|	6	|	3
+	O	|	22	|	6	|	3
+	P	|	36	|	6	|	3
+	Q	|	23	|	5	|	1
+	R	|	25	|	0.1	|	1
+	S	|	36	|	1	|	1
+	T	|	41	|	6	|	3
+	U	|	46	|	9	|	4
+	V	|	54	|	3	|	2
+	W	|	59	|	8	|	1
+	X	|	60	|	3	|	4
+	Y	|	60	|	7	|	2
+	Z	|	62	|	2	|	4
+	[	|	65	|	3	|	1
+	\	|	68	|	4	|	1
+	]	|	73	|	7	|	3
+	^	|	74	|	3	|	2
+	_	|	77	|	8	|	2
+	`	|	77	|	9	|	2
+	a	|	78	|	6	|	4
+	b	|	79	|	0.1	|	2
+	c	|	80	|	5	|	4
+	d	|	82	|	3	|	1
+	e	|	85	|	2	|	1
+	f	|	90	|	7	|	1
+	g	|	93	|	2	|	3
+	h	|	99	|	3	|	4
+---------------------------------------------------------------
+
+
+Starting First Come First Serve
+Quanta 0:	----------
+Quanta 1:	A---------
+Quanta 2:	BBBBBBBBBC
+Quanta 3:	CCCCCCCCDD
+Quanta 4:	DDDDDDDDDD
+Quanta 5:	DDDDDDDDDD
+Quanta 6:	DDDDDDDD--
+Quanta 7:	----------
+Quanta 8:	EEEEEEEEEE
+Quanta 9:	EEEEEEEEEF
+Quanta 10:	FFFFFFFFFF
+Quanta 11:	FFFFFFFFFF
+Quanta 12:	FFFFFFFFFF
+Quanta 13:	FFFFFFFFFF
+Quanta 14:	FFFFFFFFFF
+Quanta 15:	FFFFFFFFFG
+Quanta 16:	GGGGGGGGHH
+Quanta 17:	HHHHHHHHHH
+Quanta 18:	HHHHHHHHHH
+Quanta 19:	HHHHHHHHHH
+Quanta 20:	HHHHHHHHII
+Quanta 21:	IIIIIIIIII
+Quanta 22:	IIIIIIIIII
+Quanta 23:	IIIIIIIIJJ
+Quanta 24:	JJJJJJJJJJ
+Quanta 25:	JJJJJJJJJJ
+Quanta 26:	JJJJJJJJJJ
+Quanta 27:	JJJJJJJJJJ
+Quanta 28:	JJJJJJJJKK
+Quanta 29:	KKKKKKKLLL
+Quanta 30:	LLLLLLLLLL
+Quanta 31:	LLLLLLLLLL
+Quanta 32:	LLLLLLLLLL
+Quanta 33:	LLLLLLLLLL
+Quanta 34:	LLLLLLLMMM
+Quanta 35:	MMMMMMMMMM
+Quanta 36:	MMMMMMMMMM
+Quanta 37:	MMMMMMMMMM
+Quanta 38:	MMMMMMMMMM
+Quanta 39:	MMMMMMMMMM
+Quanta 40:	MMMMMMMMMM
+Quanta 41:	MMMMMMMMMM
+Quanta 42:	MMMMMMMNNN
+Quanta 43:	NNNNNNNNNN
+Quanta 44:	NNNNNNNNNN
+Quanta 45:	NNNNNNNNNN
+Quanta 46:	NNNNNNNNNN
+Quanta 47:	NNNNNNNNNN
+Quanta 48:	NNNNNNNOOO
+Quanta 49:	OOOOOOOOOO
+Quanta 50:	OOOOOOOOOO
+Quanta 51:	OOOOOOOOOO
+Quanta 52:	OOOOOOOOOO
+Quanta 53:	OOOOOOOOOO
+Quanta 54:	OOOOOOOPPP
+Quanta 55:	PPPPPPPPPP
+Quanta 56:	PPPPPPPPPP
+Quanta 57:	PPPPPPPPPP
+Quanta 58:	PPPPPPPPPP
+Quanta 59:	PPPPPPPPPP
+Quanta 60:	PPPPPPPQQQ
+Quanta 61:	QQQQQQQQQQ
+Quanta 62:	QQQQQQQQQQ
+Quanta 63:	QQQQQQQQQQ
+Quanta 64:	QQQQQQQQQQ
+Quanta 65:	QQQQQQQRSS
+Quanta 66:	SSSSSSSTTT
+Quanta 67:	TTTTTTTTTT
+Quanta 68:	TTTTTTTTTT
+Quanta 69:	TTTTTTTTTT
+Quanta 70:	TTTTTTTTTT
+Quanta 71:	TTTTTTTTTT
+Quanta 72:	TTTTTTTUUU
+Quanta 73:	UUUUUUUUUU
+Quanta 74:	UUUUUUUUUU
+Quanta 75:	UUUUUUUUUU
+Quanta 76:	UUUUUUUUUU
+Quanta 77:	UUUUUUUUUU
+Quanta 78:	UUUUUUUUUU
+Quanta 79:	UUUUUUUUUU
+Quanta 80:	UUUUUUUUUU
+Quanta 81:	UUUUUUUVVV
+Quanta 82:	VVVVVVVVVV
+Quanta 83:	VVVVVVVVVV
+Quanta 84:	VVVVVVVWWW
+Quanta 85:	WWWWWWWWWW
+Quanta 86:	WWWWWWWWWW
+Quanta 87:	WWWWWWWWWW
+Quanta 88:	WWWWWWWWWW
+Quanta 89:	WWWWWWWWWW
+Quanta 90:	WWWWWWWWWW
+Quanta 91:	WWWWWWWWWW
+Quanta 92:	WWWWWWWXXX
+Quanta 93:	XXXXXXXXXX
+Quanta 94:	XXXXXXXXXX
+Quanta 95:	XXXXXXXYYY
+Quanta 96:	YYYYYYYYYY
+Quanta 97:	YYYYYYYYYY
+Quanta 98:	YYYYYYYYYY
+Quanta 99:	YYYYYYYYYY
+Quanta 100:	YYYYYYYYYY
+Quanta 101:	YYYYYYYYYY
+Quanta 102:	YYYYYYY
+Stats
+----------------
+Avg response time is 16.864
+Avg waiting time is 20.748
+Avg Turnaround time is 4.008
+Throughoutput is 0.24108
+Simulation #3
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	4	|	6	|	2
+	B	|	6	|	8	|	2
+	C	|	13	|	2	|	3
+	D	|	14	|	4	|	3
+	E	|	18	|	8	|	1
+	F	|	19	|	2	|	3
+	G	|	20	|	6	|	3
+	H	|	20	|	0.1	|	3
+	I	|	22	|	7	|	1
+	J	|	26	|	6	|	2
+	K	|	26	|	9	|	2
+	L	|	27	|	4	|	3
+	M	|	27	|	8	|	2
+	N	|	29	|	3	|	3
+	O	|	32	|	4	|	4
+	P	|	34	|	2	|	4
+	Q	|	37	|	1	|	4
+	R	|	39	|	2	|	1
+	S	|	43	|	9	|	2
+	T	|	43	|	1	|	3
+	U	|	44	|	7	|	1
+	V	|	46	|	3	|	3
+	W	|	50	|	1	|	1
+	X	|	52	|	6	|	3
+	Y	|	88	|	7	|	2
+	Z	|	52	|	6	|	2
+	[	|	53	|	5	|	2
+	\	|	64	|	2	|	1
+	]	|	64	|	2	|	1
+	^	|	79	|	0.1	|	4
+	_	|	81	|	1	|	2
+	`	|	83	|	0.1	|	1
+	a	|	86	|	7	|	2
+	b	|	90	|	3	|	3
+	c	|	91	|	4	|	4
+	d	|	93	|	6	|	3
+	e	|	94	|	4	|	4
+	f	|	95	|	4	|	3
+	g	|	97	|	7	|	2
+	h	|	99	|	8	|	3
+---------------------------------------------------------------
+
+
+Starting First Come First Serve
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	AAAAAAAAAA
+Quanta 5:	AAAAAAAAAA
+Quanta 6:	AAAAAAAAAA
+Quanta 7:	AAAAAAAAAA
+Quanta 8:	AAAAAAAAAA
+Quanta 9:	AAAAAAAAAA
+Quanta 10:	BBBBBBBBBB
+Quanta 11:	BBBBBBBBBB
+Quanta 12:	BBBBBBBBBB
+Quanta 13:	BBBBBBBBBB
+Quanta 14:	BBBBBBBBBB
+Quanta 15:	BBBBBBBBBB
+Quanta 16:	BBBBBBBBBB
+Quanta 17:	BBBBBBBBBB
+Quanta 18:	CCCCCCCCCC
+Quanta 19:	CCCCCCCCCD
+Quanta 20:	DDDDDDDDDD
+Quanta 21:	DDDDDDDDDD
+Quanta 22:	DDDDDDDDDD
+Quanta 23:	DDDDDDDDDE
+Quanta 24:	EEEEEEEEEE
+Quanta 25:	EEEEEEEEEE
+Quanta 26:	EEEEEEEEEE
+Quanta 27:	EEEEEEEEEE
+Quanta 28:	EEEEEEEEEE
+Quanta 29:	EEEEEEEEEE
+Quanta 30:	EEEEEEEEEE
+Quanta 31:	EEEEEEEEEF
+Quanta 32:	FFFFFFFFFF
+Quanta 33:	FFFFFFFFGG
+Quanta 34:	GGGGGGGGGG
+Quanta 35:	GGGGGGGGGG
+Quanta 36:	GGGGGGGGGG
+Quanta 37:	GGGGGGGGGG
+Quanta 38:	GGGGGGGGGG
+Quanta 39:	GGGGGGGGHI
+Quanta 40:	IIIIIIIIII
+Quanta 41:	IIIIIIIIII
+Quanta 42:	IIIIIIIIII
+Quanta 43:	IIIIIIIIII
+Quanta 44:	IIIIIIIIII
+Quanta 45:	IIIIIIIIII
+Quanta 46:	IIIIIIIIIJ
+Quanta 47:	JJJJJJJJJJ
+Quanta 48:	JJJJJJJJJJ
+Quanta 49:	JJJJJJJJJJ
+Quanta 50:	JJJJJJJJJJ
+Quanta 51:	JJJJJJJJJJ
+Quanta 52:	JJJJJJJJJK
+Quanta 53:	KKKKKKKKKK
+Quanta 54:	KKKKKKKKKK
+Quanta 55:	KKKKKKKKKK
+Quanta 56:	KKKKKKKKKK
+Quanta 57:	KKKKKKKKKK
+Quanta 58:	KKKKKKKKKK
+Quanta 59:	KKKKKKKKKK
+Quanta 60:	KKKKKKKKKK
+Quanta 61:	KKKKKKKKKL
+Quanta 62:	LLLLLLLLLL
+Quanta 63:	LLLLLLLLLL
+Quanta 64:	LLLLLLLLLL
+Quanta 65:	LLLLLLLLLM
+Quanta 66:	MMMMMMMMMM
+Quanta 67:	MMMMMMMMMM
+Quanta 68:	MMMMMMMMMM
+Quanta 69:	MMMMMMMMMM
+Quanta 70:	MMMMMMMMMM
+Quanta 71:	MMMMMMMMMM
+Quanta 72:	MMMMMMMMMM
+Quanta 73:	MMMMMMMMMN
+Quanta 74:	NNNNNNNNNN
+Quanta 75:	NNNNNNNNNN
+Quanta 76:	NNNNNNNNNO
+Quanta 77:	OOOOOOOOOO
+Quanta 78:	OOOOOOOOOO
+Quanta 79:	OOOOOOOOOO
+Quanta 80:	OOOOOOOOOP
+Quanta 81:	PPPPPPPPPP
+Quanta 82:	PPPPPPPPQQ
+Quanta 83:	QQQQQQQRRR
+Quanta 84:	RRRRRRRRRR
+Quanta 85:	RRRRRRSSSS
+Quanta 86:	SSSSSSSSSS
+Quanta 87:	SSSSSSSSSS
+Quanta 88:	SSSSSSSSSS
+Quanta 89:	SSSSSSSSSS
+Quanta 90:	SSSSSSSSSS
+Quanta 91:	SSSSSSSSSS
+Quanta 92:	SSSSSSSSSS
+Quanta 93:	SSSSSSSSSS
+Quanta 94:	SSSSSSTTTT
+Quanta 95:	TTTTTUUUUU
+Quanta 96:	UUUUUUUUUU
+Quanta 97:	UUUUUUUUUU
+Quanta 98:	UUUUUUUUUU
+Quanta 99:	UUUUUUUUUU
+Quanta 100:	UUUUUUUUUU
+Quanta 101:	UUUUUUUUUU
+Quanta 102:	UUUUU
+Stats
+----------------
+Avg response time is 27.6048
+Avg waiting time is 32.1952
+Avg Turnaround time is 4.71905
+Throughoutput is 0.202899
+Simulation #4
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	6	|	4	|	1
+	B	|	11	|	3	|	2
+	C	|	14	|	0.1	|	3
+	D	|	14	|	6	|	1
+	E	|	14	|	0.1	|	4
+	F	|	15	|	5	|	2
+	G	|	21	|	5	|	1
+	H	|	23	|	1	|	1
+	I	|	28	|	3	|	4
+	J	|	28	|	9	|	3
+	K	|	30	|	3	|	3
+	L	|	31	|	3	|	4
+	M	|	33	|	9	|	4
+	N	|	33	|	3	|	1
+	O	|	40	|	4	|	2
+	P	|	41	|	8	|	2
+	Q	|	41	|	4	|	4
+	R	|	46	|	4	|	2
+	S	|	48	|	5	|	1
+	T	|	49	|	1	|	4
+	U	|	52	|	2	|	3
+	V	|	53	|	4	|	4
+	W	|	54	|	8	|	1
+	X	|	54	|	6	|	4
+	Y	|	73	|	9	|	2
+	Z	|	59	|	6	|	3
+	[	|	60	|	4	|	2
+	\	|	61	|	5	|	2
+	]	|	63	|	5	|	4
+	^	|	66	|	8	|	1
+	_	|	68	|	4	|	2
+	`	|	73	|	8	|	3
+	a	|	74	|	3	|	2
+	b	|	78	|	9	|	4
+	c	|	82	|	6	|	4
+	d	|	84	|	8	|	1
+	e	|	87	|	2	|	1
+	f	|	88	|	8	|	1
+	g	|	92	|	1	|	3
+	h	|	99	|	5	|	4
+---------------------------------------------------------------
+
+
+Starting First Come First Serve
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	----------
+Quanta 5:	----------
+Quanta 6:	AAAAAAAAAA
+Quanta 7:	AAAAAAAAAA
+Quanta 8:	AAAAAAAAAA
+Quanta 9:	AAAAAAAAAA
+Quanta 10:	----------
+Quanta 11:	BBBBBBBBBB
+Quanta 12:	BBBBBBBBBB
+Quanta 13:	BBBBBBBBBB
+Quanta 14:	CDDDDDDDDD
+Quanta 15:	DDDDDDDDDD
+Quanta 16:	DDDDDDDDDD
+Quanta 17:	DDDDDDDDDD
+Quanta 18:	DDDDDDDDDD
+Quanta 19:	DDDDDDDDDD
+Quanta 20:	DEFFFFFFFF
+Quanta 21:	FFFFFFFFFF
+Quanta 22:	FFFFFFFFFF
+Quanta 23:	FFFFFFFFFF
+Quanta 24:	FFFFFFFFFF
+Quanta 25:	FFGGGGGGGG
+Quanta 26:	GGGGGGGGGG
+Quanta 27:	GGGGGGGGGG
+Quanta 28:	GGGGGGGGGG
+Quanta 29:	GGGGGGGGGG
+Quanta 30:	GGHHHHHHHH
+Quanta 31:	HIIIIIIIII
+Quanta 32:	IIIIIIIIII
+Quanta 33:	IIIIIIIIII
+Quanta 34:	IJJJJJJJJJ
+Quanta 35:	JJJJJJJJJJ
+Quanta 36:	JJJJJJJJJJ
+Quanta 37:	JJJJJJJJJJ
+Quanta 38:	JJJJJJJJJJ
+Quanta 39:	JJJJJJJJJJ
+Quanta 40:	JJJJJJJJJJ
+Quanta 41:	JJJJJJJJJJ
+Quanta 42:	JJJJJJJJJJ
+Quanta 43:	JKKKKKKKKK
+Quanta 44:	KKKKKKKKKK
+Quanta 45:	KKKKKKKKKK
+Quanta 46:	KLLLLLLLLL
+Quanta 47:	LLLLLLLLLL
+Quanta 48:	LLLLLLLLLL
+Quanta 49:	LMMMMMMMMM
+Quanta 50:	MMMMMMMMMM
+Quanta 51:	MMMMMMMMMM
+Quanta 52:	MMMMMMMMMM
+Quanta 53:	MMMMMMMMMM
+Quanta 54:	MMMMMMMMMM
+Quanta 55:	MMMMMMMMMM
+Quanta 56:	MMMMMMMMMM
+Quanta 57:	MMMMMMMMMM
+Quanta 58:	MNNNNNNNNN
+Quanta 59:	NNNNNNNNNN
+Quanta 60:	NNNNNNNNNN
+Quanta 61:	NOOOOOOOOO
+Quanta 62:	OOOOOOOOOO
+Quanta 63:	OOOOOOOOOO
+Quanta 64:	OOOOOOOOOO
+Quanta 65:	OPPPPPPPPP
+Quanta 66:	PPPPPPPPPP
+Quanta 67:	PPPPPPPPPP
+Quanta 68:	PPPPPPPPPP
+Quanta 69:	PPPPPPPPPP
+Quanta 70:	PPPPPPPPPP
+Quanta 71:	PPPPPPPPPP
+Quanta 72:	PPPPPPPPPP
+Quanta 73:	PQQQQQQQQQ
+Quanta 74:	QQQQQQQQQQ
+Quanta 75:	QQQQQQQQQQ
+Quanta 76:	QQQQQQQQQQ
+Quanta 77:	QRRRRRRRRR
+Quanta 78:	RRRRRRRRRR
+Quanta 79:	RRRRRRRRRR
+Quanta 80:	RRRRRRRRRR
+Quanta 81:	RSSSSSSSSS
+Quanta 82:	SSSSSSSSSS
+Quanta 83:	SSSSSSSSSS
+Quanta 84:	SSSSSSSSSS
+Quanta 85:	SSSSSSSSSS
+Quanta 86:	STTTTTTTTT
+Quanta 87:	UUUUUUUUUU
+Quanta 88:	UUUUUUUUUV
+Quanta 89:	VVVVVVVVVV
+Quanta 90:	VVVVVVVVVV
+Quanta 91:	VVVVVVVVVV
+Quanta 92:	VVVVVVVVVW
+Quanta 93:	WWWWWWWWWW
+Quanta 94:	WWWWWWWWWW
+Quanta 95:	WWWWWWWWWW
+Quanta 96:	WWWWWWWWWW
+Quanta 97:	WWWWWWWWWW
+Quanta 98:	WWWWWWWWWW
+Quanta 99:	WWWWWWWWWW
+Quanta 100:	WWWWWWWWWX
+Quanta 101:	XXXXXXXXXX
+Quanta 102:	XXXXXXXXXX
+Quanta 103:	XXXXXXXXXX
+Quanta 104:	XXXXXXXXXX
+Quanta 105:	XXXXXXXXXX
+Quanta 106:	XXXXXXXXX
+Stats
+----------------
+Avg response time is 18.1958
+Avg waiting time is 22.2583
+Avg Turnaround time is 4.175
+Throughoutput is 0.222428
+Simulation #5
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	10	|	8	|	3
+	B	|	10	|	0.1	|	1
+	C	|	15	|	3	|	2
+	D	|	17	|	8	|	2
+	E	|	17	|	7	|	1
+	F	|	19	|	3	|	1
+	G	|	20	|	9	|	4
+	H	|	20	|	0.1	|	3
+	I	|	23	|	0.1	|	4
+	J	|	28	|	8	|	2
+	K	|	29	|	2	|	2
+	L	|	30	|	6	|	4
+	M	|	30	|	5	|	2
+	N	|	42	|	7	|	4
+	O	|	42	|	3	|	3
+	P	|	43	|	0.1	|	2
+	Q	|	45	|	3	|	2
+	R	|	46	|	7	|	3
+	S	|	52	|	9	|	1
+	T	|	52	|	1	|	4
+	U	|	55	|	9	|	3
+	V	|	56	|	6	|	1
+	W	|	57	|	5	|	1
+	X	|	58	|	9	|	1
+	Y	|	60	|	3	|	1
+	Z	|	88	|	2	|	2
+	[	|	60	|	9	|	3
+	\	|	62	|	8	|	2
+	]	|	74	|	8	|	3
+	^	|	76	|	4	|	2
+	_	|	76	|	2	|	3
+	`	|	76	|	1	|	4
+	a	|	77	|	8	|	1
+	b	|	81	|	9	|	1
+	c	|	88	|	1	|	4
+	d	|	92	|	9	|	1
+	e	|	93	|	4	|	4
+	f	|	94	|	0.1	|	4
+	g	|	97	|	0.1	|	1
+	h	|	99	|	6	|	1
+---------------------------------------------------------------
+
+
+Starting First Come First Serve
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	----------
+Quanta 5:	----------
+Quanta 6:	----------
+Quanta 7:	----------
+Quanta 8:	----------
+Quanta 9:	----------
+Quanta 10:	AAAAAAAAAA
+Quanta 11:	AAAAAAAAAA
+Quanta 12:	AAAAAAAAAA
+Quanta 13:	AAAAAAAAAA
+Quanta 14:	AAAAAAAAAA
+Quanta 15:	AAAAAAAAAA
+Quanta 16:	AAAAAAAAAA
+Quanta 17:	AAAAAAAAAA
+Quanta 18:	BCCCCCCCCC
+Quanta 19:	CCCCCCCCCC
+Quanta 20:	CCCCCCCCCC
+Quanta 21:	CDDDDDDDDD
+Quanta 22:	DDDDDDDDDD
+Quanta 23:	DDDDDDDDDD
+Quanta 24:	DDDDDDDDDD
+Quanta 25:	DDDDDDDDDD
+Quanta 26:	DDDDDDDDDD
+Quanta 27:	DDDDDDDDDD
+Quanta 28:	DDDDDDDDDD
+Quanta 29:	DEEEEEEEEE
+Quanta 30:	EEEEEEEEEE
+Quanta 31:	EEEEEEEEEE
+Quanta 32:	EEEEEEEEEE
+Quanta 33:	EEEEEEEEEE
+Quanta 34:	EEEEEEEEEE
+Quanta 35:	EEEEEEEEEE
+Quanta 36:	EFFFFFFFFF
+Quanta 37:	FFFFFFFFFF
+Quanta 38:	FFFFFFFFFF
+Quanta 39:	FGGGGGGGGG
+Quanta 40:	GGGGGGGGGG
+Quanta 41:	GGGGGGGGGG
+Quanta 42:	GGGGGGGGGG
+Quanta 43:	GGGGGGGGGG
+Quanta 44:	GGGGGGGGGG
+Quanta 45:	GGGGGGGGGG
+Quanta 46:	GGGGGGGGGG
+Quanta 47:	GGGGGGGGGG
+Quanta 48:	GHIJJJJJJJ
+Quanta 49:	JJJJJJJJJJ
+Quanta 50:	JJJJJJJJJJ
+Quanta 51:	JJJJJJJJJJ
+Quanta 52:	JJJJJJJJJJ
+Quanta 53:	JJJJJJJJJJ
+Quanta 54:	JJJJJJJJJJ
+Quanta 55:	JJJJJJJJJJ
+Quanta 56:	JJJKKKKKKK
+Quanta 57:	KKKKKKKKKK
+Quanta 58:	KKLLLLLLLL
+Quanta 59:	LLLLLLLLLL
+Quanta 60:	LLLLLLLLLL
+Quanta 61:	LLLLLLLLLL
+Quanta 62:	LLLLLLLLLL
+Quanta 63:	LLLLLLLLLL
+Quanta 64:	LLMMMMMMMM
+Quanta 65:	MMMMMMMMMM
+Quanta 66:	MMMMMMMMMM
+Quanta 67:	MMMMMMMMMM
+Quanta 68:	MMMMMMMMMM
+Quanta 69:	MMNNNNNNNN
+Quanta 70:	NNNNNNNNNN
+Quanta 71:	NNNNNNNNNN
+Quanta 72:	NNNNNNNNNN
+Quanta 73:	NNNNNNNNNN
+Quanta 74:	NNNNNNNNNN
+Quanta 75:	NNNNNNNNNN
+Quanta 76:	NNOOOOOOOO
+Quanta 77:	OOOOOOOOOO
+Quanta 78:	OOOOOOOOOO
+Quanta 79:	OOPQQQQQQQ
+Quanta 80:	QQQQQQQQQQ
+Quanta 81:	QQQQQQQQQQ
+Quanta 82:	QQQRRRRRRR
+Quanta 83:	RRRRRRRRRR
+Quanta 84:	RRRRRRRRRR
+Quanta 85:	RRRRRRRRRR
+Quanta 86:	RRRRRRRRRR
+Quanta 87:	RRRRRRRRRR
+Quanta 88:	RRRRRRRRRR
+Quanta 89:	RRRSSSSSSS
+Quanta 90:	SSSSSSSSSS
+Quanta 91:	SSSSSSSSSS
+Quanta 92:	SSSSSSSSSS
+Quanta 93:	SSSSSSSSSS
+Quanta 94:	SSSSSSSSSS
+Quanta 95:	SSSSSSSSSS
+Quanta 96:	SSSSSSSSSS
+Quanta 97:	SSSSSSSSSS
+Quanta 98:	SSSTTTTTTT
+Quanta 99:	TTUUUUUUUU
+Quanta 100:	UUUUUUUUUU
+Quanta 101:	UUUUUUUUUU
+Quanta 102:	UUUUUUUUUU
+Quanta 103:	UUUUUUUUUU
+Quanta 104:	UUUUUUUUUU
+Quanta 105:	UUUUUUUUUU
+Quanta 106:	UUUUUUUUUU
+Quanta 107:	UUUUUUUUUU
+Quanta 108:	UU
+Stats
+----------------
+Avg response time is 24.8952
+Avg waiting time is 29.4714
+Avg Turnaround time is 4.68571
+Throughoutput is 0.192308
+Starting Shortest Job First
+Simulation #1
+Processes as they will be handled
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	4	|	8	|	3
+	B	|	7	|	2	|	3
+	C	|	7	|	7	|	4
+	D	|	9	|	6	|	3
+	E	|	9	|	7	|	3
+	F	|	11	|	0.1	|	1
+	G	|	12	|	4	|	2
+	H	|	13	|	3	|	1
+	I	|	19	|	8	|	4
+	J	|	20	|	0.1	|	2
+	K	|	20	|	6	|	3
+	M	|	23	|	0.1	|	3
+	L	|	23	|	7	|	1
+	N	|	24	|	1	|	2
+	O	|	33	|	9	|	1
+	Q	|	38	|	1	|	3
+	P	|	38	|	2	|	1
+	R	|	42	|	5	|	1
+	S	|	46	|	2	|	4
+	T	|	47	|	3	|	1
+	U	|	49	|	2	|	2
+	V	|	51	|	9	|	3
+	W	|	52	|	6	|	4
+---------------------------------------------------------------
+
+
+Process Map
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	AAAAAAAAAA
+Quanta 5:	AAAAAAAAAA
+Quanta 6:	AAAAAAAAAA
+Quanta 7:	AAAAAAAAAA
+Quanta 8:	AAAAAAAAAA
+Quanta 9:	AAAAAAAAAA
+Quanta 10:	AAAAAAAAAA
+Quanta 11:	AAAAAAAAAA
+Quanta 12:	BBBBBBBBBB
+Quanta 13:	BBBBBBBBBB
+Quanta 14:	CCCCCCCCCC
+Quanta 15:	CCCCCCCCCC
+Quanta 16:	CCCCCCCCCC
+Quanta 17:	CCCCCCCCCC
+Quanta 18:	CCCCCCCCCC
+Quanta 19:	CCCCCCCCCC
+Quanta 20:	CCCCCCCCCC
+Quanta 21:	DDDDDDDDDD
+Quanta 22:	DDDDDDDDDD
+Quanta 23:	DDDDDDDDDD
+Quanta 24:	DDDDDDDDDD
+Quanta 25:	DDDDDDDDDD
+Quanta 26:	DDDDDDDDDD
+Quanta 27:	EEEEEEEEEE
+Quanta 28:	EEEEEEEEEE
+Quanta 29:	EEEEEEEEEE
+Quanta 30:	EEEEEEEEEE
+Quanta 31:	EEEEEEEEEE
+Quanta 32:	EEEEEEEEEE
+Quanta 33:	EEEEEEEEEE
+Quanta 34:	EFGGGGGGGG
+Quanta 35:	GGGGGGGGGG
+Quanta 36:	GGGGGGGGGG
+Quanta 37:	GGGGGGGGGG
+Quanta 38:	GGGHHHHHHH
+Quanta 39:	HHHHHHHHHH
+Quanta 40:	HHHHHHHHHH
+Quanta 41:	HHHHIIIIII
+Quanta 42:	IIIIIIIIII
+Quanta 43:	IIIIIIIIII
+Quanta 44:	IIIIIIIIII
+Quanta 45:	IIIIIIIIII
+Quanta 46:	IIIIIIIIII
+Quanta 47:	IIIIIIIIII
+Quanta 48:	IIIIIIIIII
+Quanta 49:	IIIIIJKKKK
+Quanta 50:	KKKKKKKKKK
+Quanta 51:	KKKKKKKKKK
+Quanta 52:	KKKKKKKKKK
+Quanta 53:	KKKKKKKKKK
+Quanta 54:	KKKKKKKKKK
+Quanta 55:	KKKKKKKMLL
+Quanta 56:	LLLLLLLLLL
+Quanta 57:	LLLLLLLLLL
+Quanta 58:	LLLLLLLLLL
+Quanta 59:	LLLLLLLLLL
+Quanta 60:	LLLLLLLLLL
+Quanta 61:	LLLLLLLLLL
+Quanta 62:	LLLLLLLLLN
+Quanta 63:	NNNNNNNNNN
+Quanta 64:	OOOOOOOOOO
+Quanta 65:	OOOOOOOOOO
+Quanta 66:	OOOOOOOOOO
+Quanta 67:	OOOOOOOOOO
+Quanta 68:	OOOOOOOOOO
+Quanta 69:	OOOOOOOOOO
+Quanta 70:	OOOOOOOOOO
+Quanta 71:	OOOOOOOOOO
+Quanta 72:	OOOOOOOOOO
+Quanta 73:	OQQQQQQQQQ
+Quanta 74:	QQPPPPPPPP
+Quanta 75:	PPPPPPPPPP
+Quanta 76:	PPPRRRRRRR
+Quanta 77:	RRRRRRRRRR
+Quanta 78:	RRRRRRRRRR
+Quanta 79:	RRRRRRRRRR
+Quanta 80:	RRRRRRRRRR
+Quanta 81:	RRRRSSSSSS
+Quanta 82:	SSSSSSSSSS
+Quanta 83:	SSSSSTTTTT
+Quanta 84:	TTTTTTTTTT
+Quanta 85:	TTTTTTTTTT
+Quanta 86:	TTTTTTUUUU
+Quanta 87:	UUUUUUUUUU
+Quanta 88:	UUUUUUUVVV
+Quanta 89:	VVVVVVVVVV
+Quanta 90:	VVVVVVVVVV
+Quanta 91:	VVVVVVVVVV
+Quanta 92:	VVVVVVVVVV
+Quanta 93:	VVVVVVVVVV
+Quanta 94:	VVVVVVVVVV
+Quanta 95:	VVVVVVVVVV
+Quanta 96:	VVVVVVVVVV
+Quanta 97:	VVVVVVVVWW
+Quanta 98:	WWWWWWWWWW
+Quanta 99:	WWWWWWWWWW
+Quanta 100:	WWWWWWWWWW
+Quanta 101:	WWWWWWWWWW
+Quanta 102:	WWWWWWWWWW
+Quanta 103:	WWWWWWWWW
+
+
+Statistics Report:
+	P name	|	Arrival	|	Dur	|	Pri	|	TA	|	Res
+-------------------------------------------------------------------------------------------------
+	A	|	4	|	8	|	3	|	8	|	0
+	B	|	7	|	2	|	3	|	7	|	5
+	C	|	7	|	7	|	4	|	14	|	7
+	D	|	9	|	6	|	3	|	18	|	12
+	E	|	9	|	7	|	3	|	25	|	18
+	F	|	11	|	0.1	|	1	|	23.1	|	23
+	G	|	12	|	4	|	2	|	26.1	|	22.1
+	H	|	13	|	3	|	1	|	28.1	|	25.1
+	I	|	19	|	8	|	4	|	30.1	|	22.1
+	J	|	20	|	0.1	|	2	|	29.2	|	29.1
+	K	|	20	|	6	|	3	|	35.2	|	29.2
+	M	|	23	|	0.1	|	3	|	32.3	|	32.2
+	L	|	23	|	7	|	1	|	39.3	|	32.3
+	N	|	24	|	1	|	2	|	39.3	|	38.3
+	O	|	33	|	9	|	1	|	39.3	|	30.3
+	Q	|	38	|	1	|	3	|	35.3	|	34.3
+	P	|	38	|	2	|	1	|	37.3	|	35.3
+	R	|	42	|	5	|	1	|	38.3	|	33.3
+	S	|	46	|	2	|	4	|	36.3	|	34.3
+	T	|	47	|	3	|	1	|	38.3	|	35.3
+	U	|	49	|	2	|	2	|	38.3	|	36.3
+	V	|	51	|	9	|	3	|	45.3	|	36.3
+	W	|	52	|	6	|	4	|	50.3	|	44.3
+-------------------------------------------------------------------------------------------------
+
+
+Average turnaround time: 31.3652
+Average wait time: 30.6696
+Average reponse time: 30.6696
+Average throughput: 0.221367
+
+
+Starting Shortest Job First
+Simulation #2
+Processes as they will be handled
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	1	|	0.1	|	4
+	B	|	2	|	1	|	4
+	C	|	2	|	1	|	2
+	D	|	3	|	3	|	1
+	E	|	8	|	2	|	2
+	F	|	9	|	6	|	2
+	G	|	10	|	1	|	3
+	H	|	10	|	4	|	1
+	I	|	11	|	3	|	2
+	J	|	13	|	5	|	3
+	K	|	15	|	1	|	2
+	L	|	19	|	5	|	2
+	N	|	22	|	6	|	3
+	O	|	22	|	6	|	3
+	M	|	22	|	8	|	2
+	P	|	36	|	6	|	3
+	Q	|	23	|	5	|	1
+	R	|	25	|	0.1	|	1
+	S	|	36	|	1	|	1
+	T	|	41	|	6	|	3
+	U	|	46	|	9	|	4
+	V	|	54	|	3	|	2
+	W	|	59	|	8	|	1
+	X	|	60	|	3	|	4
+	Y	|	60	|	7	|	2
+---------------------------------------------------------------
+
+
+Process Map
+Quanta 0:	---------A
+Quanta 1:	---------B
+Quanta 2:	BBBBBBBBBB
+Quanta 3:	CCCCCCCCCC
+Quanta 4:	CDDDDDDDDD
+Quanta 5:	DDDDDDDDDD
+Quanta 6:	DDDDDDDDDD
+Quanta 7:	DD--------
+Quanta 8:	EEEEEEEEEE
+Quanta 9:	EEEEEEEEEE
+Quanta 10:	FFFFFFFFFF
+Quanta 11:	FFFFFFFFFF
+Quanta 12:	FFFFFFFFFF
+Quanta 13:	FFFFFFFFFF
+Quanta 14:	FFFFFFFFFF
+Quanta 15:	FFFFFFFFFF
+Quanta 16:	GGGGGGGGGG
+Quanta 17:	HHHHHHHHHH
+Quanta 18:	HHHHHHHHHH
+Quanta 19:	HHHHHHHHHH
+Quanta 20:	HHHHHHHHHH
+Quanta 21:	IIIIIIIIII
+Quanta 22:	IIIIIIIIII
+Quanta 23:	IIIIIIIIII
+Quanta 24:	JJJJJJJJJJ
+Quanta 25:	JJJJJJJJJJ
+Quanta 26:	JJJJJJJJJJ
+Quanta 27:	JJJJJJJJJJ
+Quanta 28:	JJJJJJJJJJ
+Quanta 29:	KKKKKKKKKK
+Quanta 30:	LLLLLLLLLL
+Quanta 31:	LLLLLLLLLL
+Quanta 32:	LLLLLLLLLL
+Quanta 33:	LLLLLLLLLL
+Quanta 34:	LLLLLLLLLL
+Quanta 35:	LNNNNNNNNN
+Quanta 36:	NNNNNNNNNN
+Quanta 37:	NNNNNNNNNN
+Quanta 38:	NNNNNNNNNN
+Quanta 39:	NNNNNNNNNN
+Quanta 40:	NNNNNNNNNN
+Quanta 41:	NNOOOOOOOO
+Quanta 42:	OOOOOOOOOO
+Quanta 43:	OOOOOOOOOO
+Quanta 44:	OOOOOOOOOO
+Quanta 45:	OOOOOOOOOO
+Quanta 46:	OOOOOOOOOO
+Quanta 47:	OOOMMMMMMM
+Quanta 48:	MMMMMMMMMM
+Quanta 49:	MMMMMMMMMM
+Quanta 50:	MMMMMMMMMM
+Quanta 51:	MMMMMMMMMM
+Quanta 52:	MMMMMMMMMM
+Quanta 53:	MMMMMMMMMM
+Quanta 54:	MMMMMMMMMM
+Quanta 55:	MMMMPPPPPP
+Quanta 56:	PPPPPPPPPP
+Quanta 57:	PPPPPPPPPP
+Quanta 58:	PPPPPPPPPP
+Quanta 59:	PPPPPPPPPP
+Quanta 60:	PPPPPPPPPP
+Quanta 61:	PPPPPQQQQQ
+Quanta 62:	QQQQQQQQQQ
+Quanta 63:	QQQQQQQQQQ
+Quanta 64:	QQQQQQQQQQ
+Quanta 65:	QQQQQQQQQQ
+Quanta 66:	QQQQQQRSSS
+Quanta 67:	SSSSSSSSTT
+Quanta 68:	TTTTTTTTTT
+Quanta 69:	TTTTTTTTTT
+Quanta 70:	TTTTTTTTTT
+Quanta 71:	TTTTTTTTTT
+Quanta 72:	TTTTTTTTTT
+Quanta 73:	TTTTTTTTTU
+Quanta 74:	UUUUUUUUUU
+Quanta 75:	UUUUUUUUUU
+Quanta 76:	UUUUUUUUUU
+Quanta 77:	UUUUUUUUUU
+Quanta 78:	UUUUUUUUUU
+Quanta 79:	UUUUUUUUUU
+Quanta 80:	UUUUUUUUUU
+Quanta 81:	UUUUUUUUUU
+Quanta 82:	UUUUUUUUUU
+Quanta 83:	VVVVVVVVVV
+Quanta 84:	VVVVVVVVVV
+Quanta 85:	VVVVVVVVVV
+Quanta 86:	VWWWWWWWWW
+Quanta 87:	WWWWWWWWWW
+Quanta 88:	WWWWWWWWWW
+Quanta 89:	WWWWWWWWWW
+Quanta 90:	WWWWWWWWWW
+Quanta 91:	WWWWWWWWWW
+Quanta 92:	WWWWWWWWWW
+Quanta 93:	WWWWWWWWWW
+Quanta 94:	WWXXXXXXXX
+Quanta 95:	XXXXXXXXXX
+Quanta 96:	XXXXXXXXXX
+Quanta 97:	XXXYYYYYYY
+Quanta 98:	YYYYYYYYYY
+Quanta 99:	YYYYYYYYYY
+Quanta 100:	YYYYYYYYYY
+Quanta 101:	YYYYYYYYYY
+Quanta 102:	YYYYYYYYYY
+Quanta 103:	YYYYYYYYYY
+Quanta 104:	YYYY
+
+
+Statistics Report:
+	P name	|	Arrival	|	Dur	|	Pri	|	TA	|	Res
+-------------------------------------------------------------------------------------------------
+	A	|	1	|	0.1	|	4	|	0.1	|	0
+	B	|	2	|	1	|	4	|	1	|	0
+	C	|	2	|	1	|	2	|	1.1	|	0.1
+	D	|	3	|	3	|	1	|	3.1	|	0.1
+	E	|	8	|	2	|	2	|	2	|	0
+	F	|	9	|	6	|	2	|	6	|	0
+	G	|	10	|	1	|	3	|	5.1	|	4.1
+	H	|	10	|	4	|	1	|	9.1	|	5.1
+	I	|	11	|	3	|	2	|	11.1	|	8.1
+	J	|	13	|	5	|	3	|	14.1	|	9.1
+	K	|	15	|	1	|	2	|	13.1	|	12.1
+	L	|	19	|	5	|	2	|	14.1	|	9.1
+	N	|	22	|	6	|	3	|	17.1	|	11.1
+	O	|	22	|	6	|	3	|	23.1	|	17.1
+	M	|	22	|	8	|	2	|	31.1	|	23.1
+	P	|	36	|	6	|	3	|	23.1	|	17.1
+	Q	|	23	|	5	|	1	|	41.1	|	36.1
+	R	|	25	|	0.1	|	1	|	39.2	|	39.1
+	S	|	36	|	1	|	1	|	29.2	|	28.2
+	T	|	41	|	6	|	3	|	30.2	|	24.2
+	U	|	46	|	9	|	4	|	34.2	|	25.2
+	V	|	54	|	3	|	2	|	29.2	|	26.2
+	W	|	59	|	8	|	1	|	32.2	|	24.2
+	X	|	60	|	3	|	4	|	34.2	|	31.2
+	Y	|	60	|	7	|	2	|	41.2	|	34.2
+-------------------------------------------------------------------------------------------------
+
+
+Average turnaround time: 19.404
+Average wait time: 19.248
+Average reponse time: 19.248
+Average throughput: 0.239464
+
+
+Starting Shortest Job First
+Simulation #3
+Processes as they will be handled
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	4	|	6	|	2
+	B	|	6	|	8	|	2
+	C	|	13	|	2	|	3
+	D	|	14	|	4	|	3
+	E	|	18	|	8	|	1
+	F	|	19	|	2	|	3
+	H	|	20	|	0.1	|	3
+	G	|	20	|	6	|	3
+	I	|	22	|	7	|	1
+	J	|	26	|	6	|	2
+	K	|	26	|	9	|	2
+	L	|	27	|	4	|	3
+	M	|	27	|	8	|	2
+	N	|	29	|	3	|	3
+	O	|	32	|	4	|	4
+	P	|	34	|	2	|	4
+	Q	|	37	|	1	|	4
+	R	|	39	|	2	|	1
+	T	|	43	|	1	|	3
+	S	|	43	|	9	|	2
+	U	|	44	|	7	|	1
+---------------------------------------------------------------
+
+
+Process Map
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	AAAAAAAAAA
+Quanta 5:	AAAAAAAAAA
+Quanta 6:	AAAAAAAAAA
+Quanta 7:	AAAAAAAAAA
+Quanta 8:	AAAAAAAAAA
+Quanta 9:	AAAAAAAAAA
+Quanta 10:	BBBBBBBBBB
+Quanta 11:	BBBBBBBBBB
+Quanta 12:	BBBBBBBBBB
+Quanta 13:	BBBBBBBBBB
+Quanta 14:	BBBBBBBBBB
+Quanta 15:	BBBBBBBBBB
+Quanta 16:	BBBBBBBBBB
+Quanta 17:	BBBBBBBBBB
+Quanta 18:	CCCCCCCCCC
+Quanta 19:	CCCCCCCCCC
+Quanta 20:	DDDDDDDDDD
+Quanta 21:	DDDDDDDDDD
+Quanta 22:	DDDDDDDDDD
+Quanta 23:	DDDDDDDDDD
+Quanta 24:	EEEEEEEEEE
+Quanta 25:	EEEEEEEEEE
+Quanta 26:	EEEEEEEEEE
+Quanta 27:	EEEEEEEEEE
+Quanta 28:	EEEEEEEEEE
+Quanta 29:	EEEEEEEEEE
+Quanta 30:	EEEEEEEEEE
+Quanta 31:	EEEEEEEEEE
+Quanta 32:	FFFFFFFFFF
+Quanta 33:	FFFFFFFFFF
+Quanta 34:	FHGGGGGGGG
+Quanta 35:	GGGGGGGGGG
+Quanta 36:	GGGGGGGGGG
+Quanta 37:	GGGGGGGGGG
+Quanta 38:	GGGGGGGGGG
+Quanta 39:	GGGGGGGGGG
+Quanta 40:	GGGIIIIIII
+Quanta 41:	IIIIIIIIII
+Quanta 42:	IIIIIIIIII
+Quanta 43:	IIIIIIIIII
+Quanta 44:	IIIIIIIIII
+Quanta 45:	IIIIIIIIII
+Quanta 46:	IIIIIIIIII
+Quanta 47:	IIIIJJJJJJ
+Quanta 48:	JJJJJJJJJJ
+Quanta 49:	JJJJJJJJJJ
+Quanta 50:	JJJJJJJJJJ
+Quanta 51:	JJJJJJJJJJ
+Quanta 52:	JJJJJJJJJJ
+Quanta 53:	JJJJJKKKKK
+Quanta 54:	KKKKKKKKKK
+Quanta 55:	KKKKKKKKKK
+Quanta 56:	KKKKKKKKKK
+Quanta 57:	KKKKKKKKKK
+Quanta 58:	KKKKKKKKKK
+Quanta 59:	KKKKKKKKKK
+Quanta 60:	KKKKKKKKKK
+Quanta 61:	KKKKKKKKKK
+Quanta 62:	KKKKKKLLLL
+Quanta 63:	LLLLLLLLLL
+Quanta 64:	LLLLLLLLLL
+Quanta 65:	LLLLLLLLLL
+Quanta 66:	LLLLLLLMMM
+Quanta 67:	MMMMMMMMMM
+Quanta 68:	MMMMMMMMMM
+Quanta 69:	MMMMMMMMMM
+Quanta 70:	MMMMMMMMMM
+Quanta 71:	MMMMMMMMMM
+Quanta 72:	MMMMMMMMMM
+Quanta 73:	MMMMMMMMMM
+Quanta 74:	MMMMMMMMNN
+Quanta 75:	NNNNNNNNNN
+Quanta 76:	NNNNNNNNNN
+Quanta 77:	NNNNNNNNNO
+Quanta 78:	OOOOOOOOOO
+Quanta 79:	OOOOOOOOOO
+Quanta 80:	OOOOOOOOOO
+Quanta 81:	OOOOOOOOOO
+Quanta 82:	PPPPPPPPPP
+Quanta 83:	PPPPPPPPPP
+Quanta 84:	PQQQQQQQQQ
+Quanta 85:	QQRRRRRRRR
+Quanta 86:	RRRRRRRRRR
+Quanta 87:	RRRTTTTTTT
+Quanta 88:	TTTTSSSSSS
+Quanta 89:	SSSSSSSSSS
+Quanta 90:	SSSSSSSSSS
+Quanta 91:	SSSSSSSSSS
+Quanta 92:	SSSSSSSSSS
+Quanta 93:	SSSSSSSSSS
+Quanta 94:	SSSSSSSSSS
+Quanta 95:	SSSSSSSSSS
+Quanta 96:	SSSSSSSSSS
+Quanta 97:	SSSSSUUUUU
+Quanta 98:	UUUUUUUUUU
+Quanta 99:	UUUUUUUUUU
+Quanta 100:	UUUUUUUUUU
+Quanta 101:	UUUUUUUUUU
+Quanta 102:	UUUUUUUUUU
+Quanta 103:	UUUUUUUUUU
+Quanta 104:	UUUUUU
+
+
+Statistics Report:
+	P name	|	Arrival	|	Dur	|	Pri	|	TA	|	Res
+-------------------------------------------------------------------------------------------------
+	A	|	4	|	6	|	2	|	6	|	0
+	B	|	6	|	8	|	2	|	12	|	4
+	C	|	13	|	2	|	3	|	7	|	5
+	D	|	14	|	4	|	3	|	10	|	6
+	E	|	18	|	8	|	1	|	14	|	6
+	F	|	19	|	2	|	3	|	15	|	13
+	H	|	20	|	0.1	|	3	|	14.1	|	14
+	G	|	20	|	6	|	3	|	20.1	|	14.1
+	I	|	22	|	7	|	1	|	25.1	|	18.1
+	J	|	26	|	6	|	2	|	27.1	|	21.1
+	K	|	26	|	9	|	2	|	36.1	|	27.1
+	L	|	27	|	4	|	3	|	39.1	|	35.1
+	M	|	27	|	8	|	2	|	47.1	|	39.1
+	N	|	29	|	3	|	3	|	48.1	|	45.1
+	O	|	32	|	4	|	4	|	49.1	|	45.1
+	P	|	34	|	2	|	4	|	49.1	|	47.1
+	Q	|	37	|	1	|	4	|	47.1	|	46.1
+	R	|	39	|	2	|	1	|	47.1	|	45.1
+	T	|	43	|	1	|	3	|	44.1	|	43.1
+	S	|	43	|	9	|	2	|	53.1	|	44.1
+	U	|	44	|	7	|	1	|	59.1	|	52.1
+-------------------------------------------------------------------------------------------------
+
+
+Average turnaround time: 32.1667
+Average wait time: 31.5952
+Average reponse time: 31.5952
+Average throughput: 0.200765
+
+
+Starting Shortest Job First
+Simulation #4
+Processes as they will be handled
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	6	|	4	|	1
+	B	|	11	|	3	|	2
+	C	|	14	|	0.1	|	3
+	E	|	14	|	0.1	|	4
+	D	|	14	|	6	|	1
+	F	|	15	|	5	|	2
+	G	|	21	|	5	|	1
+	H	|	23	|	1	|	1
+	I	|	28	|	3	|	4
+	J	|	28	|	9	|	3
+	K	|	30	|	3	|	3
+	L	|	31	|	3	|	4
+	N	|	33	|	3	|	1
+	M	|	33	|	9	|	4
+	O	|	40	|	4	|	2
+	Q	|	41	|	4	|	4
+	P	|	41	|	8	|	2
+	R	|	46	|	4	|	2
+	S	|	48	|	5	|	1
+	T	|	49	|	1	|	4
+	U	|	52	|	2	|	3
+	V	|	53	|	4	|	4
+	W	|	54	|	8	|	1
+---------------------------------------------------------------
+
+
+Process Map
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	----------
+Quanta 5:	----------
+Quanta 6:	AAAAAAAAAA
+Quanta 7:	AAAAAAAAAA
+Quanta 8:	AAAAAAAAAA
+Quanta 9:	AAAAAAAAAA
+Quanta 10:	---------B
+Quanta 11:	BBBBBBBBBB
+Quanta 12:	BBBBBBBBBB
+Quanta 13:	BBBBBBBBBC
+Quanta 14:	EDDDDDDDDD
+Quanta 15:	DDDDDDDDDD
+Quanta 16:	DDDDDDDDDD
+Quanta 17:	DDDDDDDDDD
+Quanta 18:	DDDDDDDDDD
+Quanta 19:	DDDDDDDDDD
+Quanta 20:	DFFFFFFFFF
+Quanta 21:	FFFFFFFFFF
+Quanta 22:	FFFFFFFFFF
+Quanta 23:	FFFFFFFFFF
+Quanta 24:	FFFFFFFFFF
+Quanta 25:	FGGGGGGGGG
+Quanta 26:	GGGGGGGGGG
+Quanta 27:	GGGGGGGGGG
+Quanta 28:	GGGGGGGGGG
+Quanta 29:	GGGGGGGGGG
+Quanta 30:	GHHHHHHHHH
+Quanta 31:	HIIIIIIIII
+Quanta 32:	IIIIIIIIII
+Quanta 33:	IIIIIIIIII
+Quanta 34:	IIJJJJJJJJ
+Quanta 35:	JJJJJJJJJJ
+Quanta 36:	JJJJJJJJJJ
+Quanta 37:	JJJJJJJJJJ
+Quanta 38:	JJJJJJJJJJ
+Quanta 39:	JJJJJJJJJJ
+Quanta 40:	JJJJJJJJJJ
+Quanta 41:	JJJJJJJJJJ
+Quanta 42:	JJJJJJJJJJ
+Quanta 43:	JJJKKKKKKK
+Quanta 44:	KKKKKKKKKK
+Quanta 45:	KKKKKKKKKK
+Quanta 46:	KKKKLLLLLL
+Quanta 47:	LLLLLLLLLL
+Quanta 48:	LLLLLLLLLL
+Quanta 49:	LLLLLNNNNN
+Quanta 50:	NNNNNNNNNN
+Quanta 51:	NNNNNNNNNN
+Quanta 52:	NNNNNNMMMM
+Quanta 53:	MMMMMMMMMM
+Quanta 54:	MMMMMMMMMM
+Quanta 55:	MMMMMMMMMM
+Quanta 56:	MMMMMMMMMM
+Quanta 57:	MMMMMMMMMM
+Quanta 58:	MMMMMMMMMM
+Quanta 59:	MMMMMMMMMM
+Quanta 60:	MMMMMMMMMM
+Quanta 61:	MMMMMMMOOO
+Quanta 62:	OOOOOOOOOO
+Quanta 63:	OOOOOOOOOO
+Quanta 64:	OOOOOOOOOO
+Quanta 65:	OOOOOOOOQQ
+Quanta 66:	QQQQQQQQQQ
+Quanta 67:	QQQQQQQQQQ
+Quanta 68:	QQQQQQQQQQ
+Quanta 69:	QQQQQQQQQP
+Quanta 70:	PPPPPPPPPP
+Quanta 71:	PPPPPPPPPP
+Quanta 72:	PPPPPPPPPP
+Quanta 73:	PPPPPPPPPP
+Quanta 74:	PPPPPPPPPP
+Quanta 75:	PPPPPPPPPP
+Quanta 76:	PPPPPPPPPP
+Quanta 77:	PPPPPPPPPP
+Quanta 78:	RRRRRRRRRR
+Quanta 79:	RRRRRRRRRR
+Quanta 80:	RRRRRRRRRR
+Quanta 81:	RRRRRRRRRR
+Quanta 82:	RSSSSSSSSS
+Quanta 83:	SSSSSSSSSS
+Quanta 84:	SSSSSSSSSS
+Quanta 85:	SSSSSSSSSS
+Quanta 86:	SSSSSSSSSS
+Quanta 87:	SSTTTTTTTT
+Quanta 88:	TTTUUUUUUU
+Quanta 89:	UUUUUUUUUU
+Quanta 90:	UUUUVVVVVV
+Quanta 91:	VVVVVVVVVV
+Quanta 92:	VVVVVVVVVV
+Quanta 93:	VVVVVVVVVV
+Quanta 94:	VVVVVWWWWW
+Quanta 95:	WWWWWWWWWW
+Quanta 96:	WWWWWWWWWW
+Quanta 97:	WWWWWWWWWW
+Quanta 98:	WWWWWWWWWW
+Quanta 99:	WWWWWWWWWW
+Quanta 100:	WWWWWWWWWW
+Quanta 101:	WWWWWWWWWW
+Quanta 102:	WWWWWW
+
+
+Statistics Report:
+	P name	|	Arrival	|	Dur	|	Pri	|	TA	|	Res
+-------------------------------------------------------------------------------------------------
+	A	|	6	|	4	|	1	|	4	|	0
+	B	|	11	|	3	|	2	|	3	|	0
+	C	|	14	|	0.1	|	3	|	0.1	|	0
+	E	|	14	|	0.1	|	4	|	0.1	|	0
+	D	|	14	|	6	|	1	|	6	|	0
+	F	|	15	|	5	|	2	|	9.2	|	4.2
+	G	|	21	|	5	|	1	|	8.2	|	3.2
+	H	|	23	|	1	|	1	|	7.2	|	6.2
+	I	|	28	|	3	|	4	|	5.2	|	2.2
+	J	|	28	|	9	|	3	|	14.2	|	5.2
+	K	|	30	|	3	|	3	|	15.2	|	12.2
+	L	|	31	|	3	|	4	|	17.2	|	14.2
+	N	|	33	|	3	|	1	|	18.2	|	15.2
+	M	|	33	|	9	|	4	|	27.2	|	18.2
+	O	|	40	|	4	|	2	|	24.2	|	20.2
+	Q	|	41	|	4	|	4	|	27.2	|	23.2
+	P	|	41	|	8	|	2	|	35.2	|	27.2
+	R	|	46	|	4	|	2	|	34.2	|	30.2
+	S	|	48	|	5	|	1	|	37.2	|	32.2
+	T	|	49	|	1	|	4	|	37.2	|	36.2
+	U	|	52	|	2	|	3	|	36.2	|	34.2
+	V	|	53	|	4	|	4	|	39.2	|	35.2
+	W	|	54	|	8	|	1	|	46.2	|	38.2
+-------------------------------------------------------------------------------------------------
+
+
+Average turnaround time: 19.8174
+Average wait time: 19.3087
+Average reponse time: 19.3087
+Average throughput: 0.224172
+
+
+Starting Shortest Job First
+Simulation #5
+Processes as they will be handled
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	B	|	10	|	0.1	|	1
+	A	|	10	|	8	|	3
+	C	|	15	|	3	|	2
+	E	|	17	|	7	|	1
+	D	|	17	|	8	|	2
+	F	|	19	|	3	|	1
+	H	|	20	|	0.1	|	3
+	G	|	20	|	9	|	4
+	I	|	23	|	0.1	|	4
+	J	|	28	|	8	|	2
+	K	|	29	|	2	|	2
+	M	|	30	|	5	|	2
+	L	|	30	|	6	|	4
+	O	|	42	|	3	|	3
+	N	|	42	|	7	|	4
+	P	|	43	|	0.1	|	2
+	Q	|	45	|	3	|	2
+	R	|	46	|	7	|	3
+	T	|	52	|	1	|	4
+	S	|	52	|	9	|	1
+---------------------------------------------------------------
+
+
+Process Map
+Quanta 0:	----------
+Quanta 1:	----------
+Quanta 2:	----------
+Quanta 3:	----------
+Quanta 4:	----------
+Quanta 5:	----------
+Quanta 6:	----------
+Quanta 7:	----------
+Quanta 8:	----------
+Quanta 9:	---------B
+Quanta 10:	AAAAAAAAAA
+Quanta 11:	AAAAAAAAAA
+Quanta 12:	AAAAAAAAAA
+Quanta 13:	AAAAAAAAAA
+Quanta 14:	AAAAAAAAAA
+Quanta 15:	AAAAAAAAAA
+Quanta 16:	AAAAAAAAAA
+Quanta 17:	AAAAAAAAAA
+Quanta 18:	CCCCCCCCCC
+Quanta 19:	CCCCCCCCCC
+Quanta 20:	CCCCCCCCCC
+Quanta 21:	EEEEEEEEEE
+Quanta 22:	EEEEEEEEEE
+Quanta 23:	EEEEEEEEEE
+Quanta 24:	EEEEEEEEEE
+Quanta 25:	EEEEEEEEEE
+Quanta 26:	EEEEEEEEEE
+Quanta 27:	EEEEEEEEEE
+Quanta 28:	DDDDDDDDDD
+Quanta 29:	DDDDDDDDDD
+Quanta 30:	DDDDDDDDDD
+Quanta 31:	DDDDDDDDDD
+Quanta 32:	DDDDDDDDDD
+Quanta 33:	DDDDDDDDDD
+Quanta 34:	DDDDDDDDDD
+Quanta 35:	DDDDDDDDDD
+Quanta 36:	DFFFFFFFFF
+Quanta 37:	FFFFFFFFFF
+Quanta 38:	FFFFFFFFFF
+Quanta 39:	FFHGGGGGGG
+Quanta 40:	GGGGGGGGGG
+Quanta 41:	GGGGGGGGGG
+Quanta 42:	GGGGGGGGGG
+Quanta 43:	GGGGGGGGGG
+Quanta 44:	GGGGGGGGGG
+Quanta 45:	GGGGGGGGGG
+Quanta 46:	GGGGGGGGGG
+Quanta 47:	GGGGGGGGGG
+Quanta 48:	GGGGIJJJJJ
+Quanta 49:	JJJJJJJJJJ
+Quanta 50:	JJJJJJJJJJ
+Quanta 51:	JJJJJJJJJJ
+Quanta 52:	JJJJJJJJJJ
+Quanta 53:	JJJJJJJJJJ
+Quanta 54:	JJJJJJJJJJ
+Quanta 55:	JJJJJJJJJJ
+Quanta 56:	JJJJJJKKKK
+Quanta 57:	KKKKKKKKKK
+Quanta 58:	KKKKKKKMMM
+Quanta 59:	MMMMMMMMMM
+Quanta 60:	MMMMMMMMMM
+Quanta 61:	MMMMMMMMMM
+Quanta 62:	MMMMMMMMMM
+Quanta 63:	MMMMMMMMLL
+Quanta 64:	LLLLLLLLLL
+Quanta 65:	LLLLLLLLLL
+Quanta 66:	LLLLLLLLLL
+Quanta 67:	LLLLLLLLLL
+Quanta 68:	LLLLLLLLLL
+Quanta 69:	LLLLLLLLLO
+Quanta 70:	OOOOOOOOOO
+Quanta 71:	OOOOOOOOOO
+Quanta 72:	OOOOOOOOOO
+Quanta 73:	NNNNNNNNNN
+Quanta 74:	NNNNNNNNNN
+Quanta 75:	NNNNNNNNNN
+Quanta 76:	NNNNNNNNNN
+Quanta 77:	NNNNNNNNNN
+Quanta 78:	NNNNNNNNNN
+Quanta 79:	NNNNNNNNNN
+Quanta 80:	NPQQQQQQQQ
+Quanta 81:	QQQQQQQQQQ
+Quanta 82:	QQQQQQQQQQ
+Quanta 83:	QQQRRRRRRR
+Quanta 84:	RRRRRRRRRR
+Quanta 85:	RRRRRRRRRR
+Quanta 86:	RRRRRRRRRR
+Quanta 87:	RRRRRRRRRR
+Quanta 88:	RRRRRRRRRR
+Quanta 89:	RRRRRRRRRR
+Quanta 90:	RRRRTTTTTT
+Quanta 91:	TTTTTSSSSS
+Quanta 92:	SSSSSSSSSS
+Quanta 93:	SSSSSSSSSS
+Quanta 94:	SSSSSSSSSS
+Quanta 95:	SSSSSSSSSS
+Quanta 96:	SSSSSSSSSS
+Quanta 97:	SSSSSSSSSS
+Quanta 98:	SSSSSSSSSS
+Quanta 99:	SSSSSSSSSS
+Quanta 100:	SSSSSS
+
+
+Statistics Report:
+	P name	|	Arrival	|	Dur	|	Pri	|	TA	|	Res
+-------------------------------------------------------------------------------------------------
+	B	|	10	|	0.1	|	1	|	0.1	|	0
+	A	|	10	|	8	|	3	|	8.1	|	0.1
+	C	|	15	|	3	|	2	|	6.1	|	3.1
+	E	|	17	|	7	|	1	|	11.1	|	4.1
+	D	|	17	|	8	|	2	|	19.1	|	11.1
+	F	|	19	|	3	|	1	|	20.1	|	17.1
+	H	|	20	|	0.1	|	3	|	19.2	|	19.1
+	G	|	20	|	9	|	4	|	28.2	|	19.2
+	I	|	23	|	0.1	|	4	|	25.3	|	25.2
+	J	|	28	|	8	|	2	|	28.3	|	20.3
+	K	|	29	|	2	|	2	|	29.3	|	27.3
+	M	|	30	|	5	|	2	|	33.3	|	28.3
+	L	|	30	|	6	|	4	|	39.3	|	33.3
+	O	|	42	|	3	|	3	|	30.3	|	27.3
+	N	|	42	|	7	|	4	|	37.3	|	30.3
+	P	|	43	|	0.1	|	2	|	36.4	|	36.3
+	Q	|	45	|	3	|	2	|	37.4	|	34.4
+	R	|	46	|	7	|	3	|	43.4	|	36.4
+	T	|	52	|	1	|	4	|	38.4	|	37.4
+	S	|	52	|	9	|	1	|	47.4	|	38.4
+-------------------------------------------------------------------------------------------------
+
+
+Average turnaround time: 26.91
+Average wait time: 26.9
+Average reponse time: 26.9
+Average throughput: 0.198807
+
+
+Starting Shortest Time Remaining
+Simulation #1
+pid   a time   e time   r time.  w time
+A       4       14.2      8       2.2
+B       7       9      2       0
+C       7       45.1      7       31
+D       9       28.9      6       13.8
+E       9       126.9      7       110.8
+F       11       11.2      0.1       0
+G       12       21.6      4       5.5
+H       13       17.3      3       1.2
+I       19       156.3      8       129.3
+J       20       20.1      0.1       0
+K       20       35      6       9
+L       23       134      7       104
+M       23       23.1      0.1       0
+N       24       24.9      1       0
+O       33       173.5      9       131.5
+P       38       40.9      2       1
+Q       38       38.9      1       0
+R       42       57.3      5       10.3
+S       46       47.9      2       0
+T       47       53      3       3
+U       49       50.9      2       0
+V       51       182.6      9       122.6
+W       52       83.2      6       25.2
+X       94       101.5      5       2.4
+Y       52       89.3      6       31.3
+Z       57       141.1      7       77.1
+[       57       164.4      8       99.4
+\       58       63.4      5       0.4
+]       58       58.1      0.1       0
+^       59       72.6      5       8.6
+_       61       77.7      5       11.7
+`       62       67.5      4       1.5
+a       63       63.1      0.1       0
+b       73       148.2      7       68.2
+c       73       191.7      9       109.7
+d       80       107.6      6       21.5
+e       85       94.4      5       4.3
+f       91       113.7      6       16.6
+g       97       99      2       0
+h       99       119.8      6       14.7
+Quanta 0: A A A A A A A A A A 
+Quanta 1: A A A A A A A A A A 
+Quanta 2: A A A A A A A A A A 
+Quanta 3: A B B B B B B B B B 
+Quanta 4: B B B B B B B B B B 
+Quanta 5: B A A A A A A A A A 
+Quanta 6: A A A A A A A A A A 
+Quanta 7: A F F A A A A A A A 
+Quanta 8: A A A A A A A A A A 
+Quanta 9: A A A A A A A A A A 
+Quanta 10: A A A H H H H H H H 
+Quanta 11: H H H H H H H H H H 
+Quanta 12: H H H H H H H H H H 
+Quanta 13: H H H H G G G G G G 
+Quanta 14: G G G G G G G G G G 
+Quanta 15: G G G G G G G G G G 
+Quanta 16: J J G G G G G G G G 
+Quanta 17: G G G G G G G D D D 
+Quanta 18: D D D D D D D D D D 
+Quanta 19: M M D D D D D D D D 
+Quanta 20: N N N N N N N N N N 
+Quanta 21: D D D D D D D D D D 
+Quanta 22: D D D D D D D D D D 
+Quanta 23: D D D D D D D D D D 
+Quanta 24: D D D D D D D D D D 
+Quanta 25: K K K K K K K K K K 
+Quanta 26: K K K K K K K K K K 
+Quanta 27: K K K K K K K K K K 
+Quanta 28: K K K K K K K K K K 
+Quanta 29: K K K K K K K K K K 
+Quanta 30: K K K K K K K K K K 
+Quanta 31: K C C C C C C C C C 
+Quanta 32: C C C C C C C C C C 
+Quanta 33: C C C C C C C C C C 
+Quanta 34: Q Q Q Q Q Q Q Q Q Q 
+Quanta 35: P P P P P P P P P P 
+Quanta 36: P P P P P P P P P P 
+Quanta 37: C C C C C C C C C C 
+Quanta 38: C C C C C C C C C C 
+Quanta 39: C C C C C C C C C C 
+Quanta 40: C C C C C C C C C C 
+Quanta 41: C C R R R R R R R R 
+Quanta 42: S S S S S S S S S S 
+Quanta 43: S S S S S S S S S S 
+Quanta 44: T T T T T T T T T T 
+Quanta 45: U U U U U U U U U U 
+Quanta 46: U U U U U U U U U U 
+Quanta 47: T T T T T T T T T T 
+Quanta 48: T T T T T T T T T T 
+Quanta 49: T R R R R R R R R R 
+Quanta 50: R R R R R R R R R R 
+Quanta 51: R R R R R R R R R R 
+Quanta 52: R R R R R R R R R R 
+Quanta 53: R R R R W W W W W W 
+Quanta 54: ] ] \ \ \ \ \ \ \ \ 
+Quanta 55: \ \ \ \ \ \ \ \ \ \ 
+Quanta 56: \ \ \ \ \ \ \ \ \ \ 
+Quanta 57: \ \ \ \ \ \ \ \ \ \ 
+Quanta 58: \ \ \ \ \ \ \ \ \ \ 
+Quanta 59: a a \ \ \ ` ` ` ` ` 
+Quanta 60: ` ` ` ` ` ` ` ` ` ` 
+Quanta 61: ` ` ` ` ` ` ` ` ` ` 
+Quanta 62: ` ` ` ` ` ` ` ` ` ` 
+Quanta 63: ` ` ` ` ` ` ^ ^ ^ ^ 
+Quanta 64: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 65: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 66: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 67: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 68: ^ ^ ^ ^ ^ ^ ^ _ _ _ 
+Quanta 69: _ _ _ _ _ _ _ _ _ _ 
+Quanta 70: _ _ _ _ _ _ _ _ _ _ 
+Quanta 71: _ _ _ _ _ _ _ _ _ _ 
+Quanta 72: _ _ _ _ _ _ _ _ _ _ 
+Quanta 73: _ _ _ _ _ _ _ _ W W 
+Quanta 74: W W W W W W W W W W 
+Quanta 75: W W W W W W W W W W 
+Quanta 76: W W W W W W W W W W 
+Quanta 77: W W W W W W W W W W 
+Quanta 78: W W W W W W W W W W 
+Quanta 79: W W W Y Y Y Y Y Y Y 
+Quanta 80: Y Y Y Y Y Y Y Y Y Y 
+Quanta 81: Y Y Y Y Y Y Y Y Y Y 
+Quanta 82: Y Y Y Y Y Y Y Y Y Y 
+Quanta 83: Y Y Y Y Y Y Y Y Y Y 
+Quanta 84: Y Y Y Y Y Y Y Y Y Y 
+Quanta 85: Y Y Y Y e e e e e e 
+Quanta 86: e e e e e e e e e e 
+Quanta 87: e e e e e e e e e e 
+Quanta 88: e e e e e e e e e e 
+Quanta 89: e e e e e e e e e e 
+Quanta 90: e e e e e X X X X X 
+Quanta 91: X X X X X X X X X X 
+Quanta 92: X X X X X X X X X X 
+Quanta 93: X g g g g g g g g g 
+Quanta 94: g g g g g g g g g g 
+Quanta 95: g X X X X X X X X X 
+Quanta 96: X X X X X X X X X X 
+Quanta 97: X X X X X X d d d d 
+Quanta 98: d d d d d d d d d d 
+Quanta 99: d d d d d d d d d d 
+Quanta 100: d d d d d d d d d d 
+Quanta 101: d d d d d d d d d d 
+Quanta 102: d d d d d d d d d d 
+Quanta 103: d d d d d d d f f f 
+Quanta 104: f f f f f f f f f f 
+Quanta 105: f f f f f f f f f f 
+Quanta 106: f f f f f f f f f f 
+Quanta 107: f f f f f f f f f f 
+Quanta 108: f f f f f f f f f f 
+Quanta 109: f f f f f f f f h h 
+Quanta 110: h h h h h h h h h h 
+Quanta 111: h h h h h h h h h h 
+Quanta 112: h h h h h h h h h h 
+Quanta 113: h h h h h h h h h h 
+Quanta 114: h h h h h h h h h h 
+Quanta 115: h h h h h h h h h E 
+Quanta 116: E E E E E E E E E E 
+Quanta 117: E E E E E E E E E E 
+Quanta 118: E E E E E E E E E E 
+Quanta 119: E E E E E E E E E E 
+Quanta 120: E E E E E E E E E E 
+Quanta 121: E E E E E E E E E E 
+Quanta 122: E E E E E E E E E E 
+Quanta 123: L L L L L L L L L L 
+Quanta 124: L L L L L L L L L L 
+Quanta 125: L L L L L L L L L L 
+Quanta 126: L L L L L L L L L L 
+Quanta 127: L L L L L L L L L L 
+Quanta 128: L L L L L L L L L L 
+Quanta 129: L L L L L L L L L L 
+Quanta 130: L Z Z Z Z Z Z Z Z Z 
+Quanta 131: Z Z Z Z Z Z Z Z Z Z 
+Quanta 132: Z Z Z Z Z Z Z Z Z Z 
+Quanta 133: Z Z Z Z Z Z Z Z Z Z 
+Quanta 134: Z Z Z Z Z Z Z Z Z Z 
+Quanta 135: Z Z Z Z Z Z Z Z Z Z 
+Quanta 136: Z Z Z Z Z Z Z Z Z Z 
+Quanta 137: Z Z b b b b b b b b 
+Quanta 138: b b b b b b b b b b 
+Quanta 139: b b b b b b b b b b 
+Quanta 140: b b b b b b b b b b 
+Quanta 141: b b b b b b b b b b 
+Quanta 142: b b b b b b b b b b 
+Quanta 143: b b b b b b b b b b 
+Quanta 144: b b b I I I I I I I 
+Quanta 145: I I I I I I I I I I 
+Quanta 146: I I I I I I I I I I 
+Quanta 147: I I I I I I I I I I 
+Quanta 148: I I I I I I I I I I 
+Quanta 149: I I I I I I I I I I 
+Quanta 150: I I I I I I I I I I 
+Quanta 151: I I I I I I I I I I 
+Quanta 152: I I I I [ [ [ [ [ [ 
+Quanta 153: [ [ [ [ [ [ [ [ [ [ 
+Quanta 154: [ [ [ [ [ [ [ [ [ [ 
+Quanta 155: [ [ [ [ [ [ [ [ [ [ 
+Quanta 156: [ [ [ [ [ [ [ [ [ [ 
+Quanta 157: [ [ [ [ [ [ [ [ [ [ 
+Quanta 158: [ [ [ [ [ [ [ [ [ [ 
+Quanta 159: [ [ [ [ [ [ [ [ [ [ 
+Quanta 160: [ [ [ [ [ O O O O O 
+Quanta 161: O O O O O O O O O O 
+Quanta 162: O O O O O O O O O O 
+Quanta 163: O O O O O O O O O O 
+Quanta 164: O O O O O O O O O O 
+Quanta 165: O O O O O O O O O O 
+Quanta 166: O O O O O O O O O O 
+Quanta 167: O O O O O O O O O O 
+Quanta 168: O O O O O O O O O O 
+Quanta 169: O O O O O O V V V V 
+Quanta 170: V V V V V V V V V V 
+Quanta 171: V V V V V V V V V V 
+Quanta 172: V V V V V V V V V V 
+Quanta 173: V V V V V V V V V V 
+Quanta 174: V V V V V V V V V V 
+Quanta 175: V V V V V V V V V V 
+Quanta 176: V V V V V V V V V V 
+Quanta 177: V V V V V V V V V V 
+Quanta 178: V V V V V V V c c c 
+Quanta 179: c c c c c c c c c c 
+Quanta 180: c c c c c c c c c c 
+Quanta 181: c c c c c c c c c c 
+Quanta 182: c c c c c c c c c c 
+Quanta 183: c c c c c c c c c c 
+Quanta 184: c c c c c c c c c c 
+Quanta 185: c c c c c c c c c c 
+Quanta 186: c c c c c c c c c c 
+Quanta 187: c c c c c c c c     
+Quanta 188:                     
+Quanta 189:                     
+Quanta 190:                     
+Quanta 191:                
+Avg response time is 73.685
+Avg waiting time is 29.195
+Avg Turnaround time is 5.5375
+Throughoutput is 0.208659
+Starting Shortest Time Remaining
+Simulation #2
+pid   a time   e time   r time.  w time
+A       1       1.2      0.1       0
+B       2       2.9      1       0
+C       2       3.9      1       1
+D       3       7      3       1
+E       8       10      2       0
+F       9       41.8      6       26.7
+G       10       11      1       0
+H       10       19.2      4       5.1
+I       11       14.1      3       0
+J       13       24.3      5       6.2
+K       15       16      1       0
+L       19       29.6      5       5.6
+M       22       135.7      8       105.7
+N       22       47.9      6       19.9
+O       22       54      6       26
+P       36       71.4      6       29.4
+Q       23       34.7      5       6.7
+R       25       25.1      0.1       0
+S       36       36.9      1       0
+T       41       84.9      6       37.9
+U       46       161      9       106
+V       54       57.1      3       0.1
+W       59       143.8      8       76.8
+X       60       63      3       0
+Y       60       113.4      7       46.4
+Z       62       65      2       1.1
+[       65       68.1      3       0.1
+\       68       75.5      4       3.5
+]       73       120.5      7       40.5
+^       74       78.6      3       1.6
+_       77       151.9      8       66.8
+`       77       170.1      9       84
+a       78       106.3      6       22.2
+b       79       79.2      0.1       0
+c       80       97.1      5       12
+d       82       90      3       4.9
+e       85       87      2       0
+f       90       127.6      7       30.5
+g       93       95      2       0
+h       99       102.1      3       0
+Quanta 0: A A B B B B B B B B 
+Quanta 1: B B C C C C C C C C 
+Quanta 2: C C D D D D D D D D 
+Quanta 3: D D D D D D D D D D 
+Quanta 4: D D D D D D D D D D 
+Quanta 5: D D D E E E E E E E 
+Quanta 6: E E E E E E E E E E 
+Quanta 7: E E E G G G G G G G 
+Quanta 8: G G G I I I I I I I 
+Quanta 9: I I I I I I I I I I 
+Quanta 10: I I I I I I I I I I 
+Quanta 11: I I I I H H H H H H 
+Quanta 12: H H H K K K K K K K 
+Quanta 13: K K K H H H H H H H 
+Quanta 14: H H H H H H H H H H 
+Quanta 15: H H H H H H H H H H 
+Quanta 16: H H H H H J J J J J 
+Quanta 17: J J J J J J J J J J 
+Quanta 18: J J J J J J J J J J 
+Quanta 19: J J J J J J J J J J 
+Quanta 20: J J J J J J J J J J 
+Quanta 21: J J J J J J L L L L 
+Quanta 22: L L R R L L L L L L 
+Quanta 23: L L L L L L L L L L 
+Quanta 24: L L L L L L L L L L 
+Quanta 25: L L L L L L L L L L 
+Quanta 26: L L L L L L L L L Q 
+Quanta 27: Q Q Q Q Q Q Q Q Q Q 
+Quanta 28: Q Q Q Q Q Q Q Q Q Q 
+Quanta 29: Q Q Q Q Q Q Q Q Q Q 
+Quanta 30: Q Q Q Q Q Q Q Q Q Q 
+Quanta 31: Q Q Q Q Q Q Q Q Q Q 
+Quanta 32: F F F F F F F F F F 
+Quanta 33: F F S S S S S S S S 
+Quanta 34: S S F F F F F F F F 
+Quanta 35: F F F F F F F F F F 
+Quanta 36: F F F F F F F F F F 
+Quanta 37: F F F F F F F F F F 
+Quanta 38: F F F F F F F F F F 
+Quanta 39: F N N N N N N N N N 
+Quanta 40: N N N N N N N N N N 
+Quanta 41: N N N N N N N N N N 
+Quanta 42: N N N N N N N N N N 
+Quanta 43: N N N N N N N N N N 
+Quanta 44: N N N N N N N N N N 
+Quanta 45: N N O O O O O O O O 
+Quanta 46: O O O O O O O O O O 
+Quanta 47: O O O O O O O O O O 
+Quanta 48: O O O O O O O O O O 
+Quanta 49: O O O O O O O O O O 
+Quanta 50: O O O O O O O O O O 
+Quanta 51: O O O V V V V V V V 
+Quanta 52: V V V V V V V V V V 
+Quanta 53: V V V V V V V V V V 
+Quanta 54: V V V V P P P P P P 
+Quanta 55: P P P P P P P P P P 
+Quanta 56: P P P P P P P P P P 
+Quanta 57: P P X X X X X X X X 
+Quanta 58: X X X X X X X X X X 
+Quanta 59: X X X X X X X X X X 
+Quanta 60: X X X Z Z Z Z Z Z Z 
+Quanta 61: Z Z Z Z Z Z Z Z Z Z 
+Quanta 62: Z Z Z [ [ [ [ [ [ [ 
+Quanta 63: [ [ [ [ [ [ [ [ [ [ 
+Quanta 64: [ [ [ [ [ [ [ [ [ [ 
+Quanta 65: [ [ [ [ P P P P P P 
+Quanta 66: P P P P P P P P P P 
+Quanta 67: P P P P P P P P P P 
+Quanta 68: P P P P P P P \ \ \ 
+Quanta 69: \ \ \ \ \ \ \ \ \ \ 
+Quanta 70: \ \ \ \ \ \ \ \ \ \ 
+Quanta 71: \ \ \ \ \ \ \ \ \ \ 
+Quanta 72: \ \ \ \ \ \ \ \ ^ ^ 
+Quanta 73: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 74: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 75: ^ ^ ^ ^ ^ ^ ^ ^ ^ T 
+Quanta 76: T T T b b T T T T T 
+Quanta 77: T T T T T T T T T T 
+Quanta 78: T T T T T T T T T T 
+Quanta 79: T T T T T T T T T T 
+Quanta 80: T T T T T T T T T T 
+Quanta 81: T T T T T T T T T T 
+Quanta 82: T T d e e e e e e e 
+Quanta 83: e e e e e e e e e e 
+Quanta 84: e e e d d d d d d d 
+Quanta 85: d d d d d d d d d d 
+Quanta 86: d d d d d d d d d d 
+Quanta 87: d d d c c c c c c c 
+Quanta 88: c c c c c c c c c c 
+Quanta 89: c c c c c c c c c c 
+Quanta 90: c c c g g g g g g g 
+Quanta 91: g g g g g g g g g g 
+Quanta 92: g g g c c c c c c c 
+Quanta 93: c c c c c c c c c c 
+Quanta 94: c c c c a a a a a a 
+Quanta 95: a a a a a a a a a a 
+Quanta 96: a a a h h h h h h h 
+Quanta 97: h h h h h h h h h h 
+Quanta 98: h h h h h h h h h h 
+Quanta 99: h h h h a a a a a a 
+Quanta 100: a a a a a a a a a a 
+Quanta 101: a a a a a a a a a a 
+Quanta 102: a a a a a a a a a a 
+Quanta 103: a a a a a a Y Y Y Y 
+Quanta 104: Y Y Y Y Y Y Y Y Y Y 
+Quanta 105: Y Y Y Y Y Y Y Y Y Y 
+Quanta 106: Y Y Y Y Y Y Y Y Y Y 
+Quanta 107: Y Y Y Y Y Y Y Y Y Y 
+Quanta 108: Y Y Y Y Y Y Y Y Y Y 
+Quanta 109: Y Y Y Y Y Y Y Y Y Y 
+Quanta 110: Y Y Y Y Y Y Y ] ] ] 
+Quanta 111: ] ] ] ] ] ] ] ] ] ] 
+Quanta 112: ] ] ] ] ] ] ] ] ] ] 
+Quanta 113: ] ] ] ] ] ] ] ] ] ] 
+Quanta 114: ] ] ] ] ] ] ] ] ] ] 
+Quanta 115: ] ] ] ] ] ] ] ] ] ] 
+Quanta 116: ] ] ] ] ] ] ] ] ] ] 
+Quanta 117: ] ] ] ] ] ] ] ] f f 
+Quanta 118: f f f f f f f f f f 
+Quanta 119: f f f f f f f f f f 
+Quanta 120: f f f f f f f f f f 
+Quanta 121: f f f f f f f f f f 
+Quanta 122: f f f f f f f f f f 
+Quanta 123: f f f f f f f f f f 
+Quanta 124: f f f f f f f f f M 
+Quanta 125: M M M M M M M M M M 
+Quanta 126: M M M M M M M M M M 
+Quanta 127: M M M M M M M M M M 
+Quanta 128: M M M M M M M M M M 
+Quanta 129: M M M M M M M M M M 
+Quanta 130: M M M M M M M M M M 
+Quanta 131: M M M M M M M M M M 
+Quanta 132: M M M M M M M M M M 
+Quanta 133: W W W W W W W W W W 
+Quanta 134: W W W W W W W W W W 
+Quanta 135: W W W W W W W W W W 
+Quanta 136: W W W W W W W W W W 
+Quanta 137: W W W W W W W W W W 
+Quanta 138: W W W W W W W W W W 
+Quanta 139: W W W W W W W W W W 
+Quanta 140: W W W W W W W W W W 
+Quanta 141: W _ _ _ _ _ _ _ _ _ 
+Quanta 142: _ _ _ _ _ _ _ _ _ _ 
+Quanta 143: _ _ _ _ _ _ _ _ _ _ 
+Quanta 144: _ _ _ _ _ _ _ _ _ _ 
+Quanta 145: _ _ _ _ _ _ _ _ _ _ 
+Quanta 146: _ _ _ _ _ _ _ _ _ _ 
+Quanta 147: _ _ _ _ _ _ _ _ _ _ 
+Quanta 148: _ _ _ _ _ _ _ _ _ _ 
+Quanta 149: _ _ U U U U U U U U 
+Quanta 150: U U U U U U U U U U 
+Quanta 151: U U U U U U U U U U 
+Quanta 152: U U U U U U U U U U 
+Quanta 153: U U U U U U U U U U 
+Quanta 154: U U U U U U U U U U 
+Quanta 155: U U U U U U U U U U 
+Quanta 156: U U U U U U U U U U 
+Quanta 157: U U U U U U U U U U 
+Quanta 158: U U U ` ` ` ` ` ` ` 
+Quanta 159: ` ` ` ` ` ` ` ` ` ` 
+Quanta 160: ` ` ` ` ` ` ` ` ` ` 
+Quanta 161: ` ` ` ` ` ` ` ` ` ` 
+Quanta 162: ` ` ` ` ` ` ` ` ` ` 
+Quanta 163: ` ` ` ` ` ` ` ` ` ` 
+Quanta 164: ` ` ` ` ` ` ` ` ` ` 
+Quanta 165: ` ` ` ` ` ` ` ` ` ` 
+Quanta 166: ` ` ` ` ` ` ` ` ` ` 
+Quanta 167: ` ` ` `             
+Quanta 168:                     
+Quanta 169:                     
+Quanta 170:    
+Avg response time is 63.57
+Avg waiting time is 19.1925
+Avg Turnaround time is 4.5275
+Throughoutput is 0.235156
+Starting Shortest Time Remaining
+Simulation #3
+pid   a time   e time   r time.  w time
+A       4       10      6       0
+B       6       26.4      8       12.3
+C       13       15      2       0
+D       14       19.1      4       1
+E       18       147.8      8       121.7
+F       19       21.3      2       0.4
+G       20       53.9      6       27.9
+H       20       20.1      0.1       0
+I       22       89.8      7       60.8
+J       26       65.1      6       33.1
+K       26       173.1      9       138.1
+L       27       31      4       0
+M       27       155.9      8       120.9
+N       29       34.1      3       2.1
+O       32       43.2      4       7.2
+P       34       36.1      2       0.2
+Q       37       37.9      1       0
+R       39       40.9      2       0
+S       43       182.2      9       130.2
+T       43       44.2      1       0.3
+U       44       118.4      7       67.4
+V       46       49      3       0
+W       50       50.9      1       0
+X       52       75.2      6       17.2
+Y       88       125.5      7       30.4
+Z       52       81.5      6       23.5
+[       53       59      5       1
+\       64       67.1      2       1.2
+]       64       69.1      2       3.2
+^       79       79.2      0.1       0
+_       81       82.5      1       0.5
+`       83       83.2      0.1       0
+a       86       132.6      7       39.5
+b       90       93.1      3       0
+c       91       97.2      4       2.1
+d       93       111.5      6       12.4
+e       94       101.3      4       3.2
+f       95       105.4      4       6.3
+g       97       139.7      7       35.6
+h       99       164      8       56.9
+Quanta 0: A A A A A A A A A A 
+Quanta 1: A A A A A A A A A A 
+Quanta 2: A A A A A A A A A A 
+Quanta 3: A A A A A A A A A A 
+Quanta 4: A A A A A A A A A A 
+Quanta 5: A A A A A A A A A A 
+Quanta 6: A B B B B B B B B B 
+Quanta 7: B B B B B B B B B B 
+Quanta 8: B B B B B B B B B B 
+Quanta 9: B C C C C C C C C C 
+Quanta 10: C C C C C C C C C C 
+Quanta 11: C D D D D D D D D D 
+Quanta 12: D D D D D D D D D D 
+Quanta 13: D D D D D D D D D D 
+Quanta 14: D D D D D D D D D D 
+Quanta 15: D D F F F F F F F F 
+Quanta 16: H H F F F F F F F F 
+Quanta 17: F F F F B B B B B B 
+Quanta 18: B B B B B B B B B B 
+Quanta 19: B B B B B B B B B B 
+Quanta 20: B B B B B B B B B B 
+Quanta 21: B B B B B B B B B B 
+Quanta 22: B B B B B G G G G G 
+Quanta 23: L L L L L L L L L L 
+Quanta 24: L L L L L L L L L L 
+Quanta 25: L L L L L L L L L L 
+Quanta 26: L L L L L L L L L L 
+Quanta 27: L N N N N N N N N N 
+Quanta 28: N N N N N N N N N N 
+Quanta 29: N N N N N N N N N N 
+Quanta 30: N N P P P P P P P P 
+Quanta 31: P P P P P P P P P P 
+Quanta 32: P P O O O O O O O O 
+Quanta 33: Q Q Q Q Q Q Q Q Q Q 
+Quanta 34: O O O O O O O O O O 
+Quanta 35: R R R R R R R R R R 
+Quanta 36: R R R R R R R R R R 
+Quanta 37: O O O O O O O O O O 
+Quanta 38: O O O O O O O O O O 
+Quanta 39: O O O T T T T T T T 
+Quanta 40: T T T G G G G G G G 
+Quanta 41: G G G G G G G G G G 
+Quanta 42: V V V V V V V V V V 
+Quanta 43: V V V V V V V V V V 
+Quanta 44: V V V V V V V V V V 
+Quanta 45: V G G G G G G G G G 
+Quanta 46: W W W W W W W W W W 
+Quanta 47: G G G G G G G G G G 
+Quanta 48: G G G G G G G G G G 
+Quanta 49: G G G G G G G G G G 
+Quanta 50: [ [ [ [ [ [ [ [ [ [ 
+Quanta 51: [ [ [ [ [ [ [ [ [ [ 
+Quanta 52: [ [ [ [ [ [ [ [ [ [ 
+Quanta 53: [ [ [ [ [ [ [ [ [ [ 
+Quanta 54: [ [ [ [ [ [ [ [ [ [ 
+Quanta 55: [ J J J J J J J J J 
+Quanta 56: J J J J J J J J J J 
+Quanta 57: J J J J J J J J J J 
+Quanta 58: J J J J J J J J J J 
+Quanta 59: J J J J J J J J J J 
+Quanta 60: J J J J J J J J J J 
+Quanta 61: J J \ \ \ \ \ \ \ \ 
+Quanta 62: \ \ \ \ \ \ \ \ \ \ 
+Quanta 63: \ \ ] ] ] ] ] ] ] ] 
+Quanta 64: ] ] ] ] ] ] ] ] ] ] 
+Quanta 65: ] ] X X X X X X X X 
+Quanta 66: X X X X X X X X X X 
+Quanta 67: X X X X X X X X X X 
+Quanta 68: X X X X X X X X X X 
+Quanta 69: X X X X X X X X X X 
+Quanta 70: X X X X X X X X X X 
+Quanta 71: X X X Z Z Z Z Z Z Z 
+Quanta 72: Z Z Z Z Z Z Z Z Z Z 
+Quanta 73: Z Z Z Z Z Z Z Z Z Z 
+Quanta 74: Z Z Z Z Z Z Z Z Z Z 
+Quanta 75: Z ^ ^ Z Z Z Z Z Z Z 
+Quanta 76: Z Z Z Z Z Z Z Z Z Z 
+Quanta 77: Z Z Z Z Z Z _ _ _ _ 
+Quanta 78: _ _ _ _ _ _ I I I I 
+Quanta 79: I ` ` I I I I I I I 
+Quanta 80: I I I I I I I I I I 
+Quanta 81: I I I I I I I I I I 
+Quanta 82: I I I I I I I I I I 
+Quanta 83: I I I I I I I I I I 
+Quanta 84: I I I I I I I I I I 
+Quanta 85: I I I I I I I I I U 
+Quanta 86: U b b b b b b b b b 
+Quanta 87: b b b b b b b b b b 
+Quanta 88: b b b b b b b b b b 
+Quanta 89: b b c c c c c c c c 
+Quanta 90: c c c c c c c c c c 
+Quanta 91: c c c c c c c c c c 
+Quanta 92: c c c c c c c c c c 
+Quanta 93: c c c e e e e e e e 
+Quanta 94: e e e e e e e e e e 
+Quanta 95: e e e e e e e e e e 
+Quanta 96: e e e e e e e e e e 
+Quanta 97: e e e e f f f f f f 
+Quanta 98: f f f f f f f f f f 
+Quanta 99: f f f f f f f f f f 
+Quanta 100: f f f f f f f f f f 
+Quanta 101: f f f f f d d d d d 
+Quanta 102: d d d d d d d d d d 
+Quanta 103: d d d d d d d d d d 
+Quanta 104: d d d d d d d d d d 
+Quanta 105: d d d d d d d d d d 
+Quanta 106: d d d d d d d d d d 
+Quanta 107: d d d d d d U U U U 
+Quanta 108: U U U U U U U U U U 
+Quanta 109: U U U U U U U U U U 
+Quanta 110: U U U U U U U U U U 
+Quanta 111: U U U U U U U U U U 
+Quanta 112: U U U U U U U U U U 
+Quanta 113: U U U U U U U U U U 
+Quanta 114: U U U U U Y Y Y Y Y 
+Quanta 115: Y Y Y Y Y Y Y Y Y Y 
+Quanta 116: Y Y Y Y Y Y Y Y Y Y 
+Quanta 117: Y Y Y Y Y Y Y Y Y Y 
+Quanta 118: Y Y Y Y Y Y Y Y Y Y 
+Quanta 119: Y Y Y Y Y Y Y Y Y Y 
+Quanta 120: Y Y Y Y Y Y Y Y Y Y 
+Quanta 121: Y Y Y Y Y Y a a a a 
+Quanta 122: a a a a a a a a a a 
+Quanta 123: a a a a a a a a a a 
+Quanta 124: a a a a a a a a a a 
+Quanta 125: a a a a a a a a a a 
+Quanta 126: a a a a a a a a a a 
+Quanta 127: a a a a a a a a a a 
+Quanta 128: a a a a a a a g g g 
+Quanta 129: g g g g g g g g g g 
+Quanta 130: g g g g g g g g g g 
+Quanta 131: g g g g g g g g g g 
+Quanta 132: g g g g g g g g g g 
+Quanta 133: g g g g g g g g g g 
+Quanta 134: g g g g g g g g g g 
+Quanta 135: g g g g g g g g E E 
+Quanta 136: E E E E E E E E E E 
+Quanta 137: E E E E E E E E E E 
+Quanta 138: E E E E E E E E E E 
+Quanta 139: E E E E E E E E E E 
+Quanta 140: E E E E E E E E E E 
+Quanta 141: E E E E E E E E E E 
+Quanta 142: E E E E E E E E E E 
+Quanta 143: E E E E E E E E E M 
+Quanta 144: M M M M M M M M M M 
+Quanta 145: M M M M M M M M M M 
+Quanta 146: M M M M M M M M M M 
+Quanta 147: M M M M M M M M M M 
+Quanta 148: M M M M M M M M M M 
+Quanta 149: M M M M M M M M M M 
+Quanta 150: M M M M M M M M M M 
+Quanta 151: M M M M M M M M M M 
+Quanta 152: h h h h h h h h h h 
+Quanta 153: h h h h h h h h h h 
+Quanta 154: h h h h h h h h h h 
+Quanta 155: h h h h h h h h h h 
+Quanta 156: h h h h h h h h h h 
+Quanta 157: h h h h h h h h h h 
+Quanta 158: h h h h h h h h h h 
+Quanta 159: h h h h h h h h h h 
+Quanta 160: h K K K K K K K K K 
+Quanta 161: K K K K K K K K K K 
+Quanta 162: K K K K K K K K K K 
+Quanta 163: K K K K K K K K K K 
+Quanta 164: K K K K K K K K K K 
+Quanta 165: K K K K K K K K K K 
+Quanta 166: K K K K K K K K K K 
+Quanta 167: K K K K K K K K K K 
+Quanta 168: K K K K K K K K K K 
+Quanta 169: K K S S S S S S S S 
+Quanta 170: S S S S S S S S S S 
+Quanta 171: S S S S S S S S S S 
+Quanta 172: S S S S S S S S S S 
+Quanta 173: S S S S S S S S S S 
+Quanta 174: S S S S S S S S S S 
+Quanta 175: S S S S S S S S S S 
+Quanta 176: S S S S S S S S S S 
+Quanta 177: S S S S S S S S S S 
+Quanta 178: S S S   V V V c c c 
+Quanta 179: c c c c c c c c c c 
+Quanta 180: c c c c c c c c c c 
+Quanta 181: c c c c c c c c c c 
+Quanta 182: c c  
+Avg response time is 72.585
+Avg waiting time is 23.915
+Avg Turnaround time is 5.7275
+Throughoutput is 0.219539
+Starting Shortest Time Remaining
+Simulation #4
+pid   a time   e time   r time.  w time
+A       6       10.1      4       0
+B       11       14.1      3       0
+C       14       14.3      0.1       0.1
+D       14       26.7      6       6.6
+E       14       14.5      0.1       0.3
+F       15       20.1      5       0
+G       21       44.2      5       18.2
+H       23       23.9      1       0
+I       28       31      3       0
+J       28       174.3      9       137.3
+K       30       34.1      3       1.1
+L       31       37.2      3       3.2
+M       33       183.4      9       141.4
+N       33       40.3      3       4.3
+O       40       48.3      4       4.3
+P       41       124.7      8       75.7
+Q       41       53.4      4       8.4
+R       46       59.5      4       9.5
+S       48       76.9      5       23.9
+T       49       49.9      1       0
+U       52       55.4      2       1.5
+V       53       63.6      4       6.6
+W       54       132.8      8       70.8
+X       54       99.3      6       39.3
+Y       73       192.5      9       110.5
+Z       59       110.5      6       45.5
+[       60       67.7      4       3.7
+\       61       85.1      5       19.1
+]       63       92.2      5       24.2
+^       66       140.9      8       66.9
+_       68       72      4       0
+`       73       149      8       68
+a       74       80      3       3
+b       78       201.6      9       114.5
+c       82       116.6      6       28.5
+d       84       157.1      8       65
+e       87       89      2       0
+f       88       165.2      8       69.1
+g       92       93.2      1       0.2
+h       99       104.4      5       0.3
+Quanta 0: A A A A A A A A A A 
+Quanta 1: A A A A A A A A A A 
+Quanta 2: A A A A A A A A A A 
+Quanta 3: A A A A A A A A A A 
+Quanta 4: A B B B B B B B B B 
+Quanta 5: B B B B B B B B B B 
+Quanta 6: B B B B B B B B B B 
+Quanta 7: B B C C E E D D D D 
+Quanta 8: D F F F F F F F F F 
+Quanta 9: F F F F F F F F F F 
+Quanta 10: F F F F F F F F F F 
+Quanta 11: F F F F F F F F F F 
+Quanta 12: F F F F F F F F F F 
+Quanta 13: F F D D D D D D D D 
+Quanta 14: D D D D D D D D D D 
+Quanta 15: D D D D D D D D D D 
+Quanta 16: H H H H H H H H H H 
+Quanta 17: D D D D D D D D D D 
+Quanta 18: D D D D D D D D D D 
+Quanta 19: D D D D D D D D G G 
+Quanta 20: G G G G G G G G G G 
+Quanta 21: I I I I I I I I I I 
+Quanta 22: I I I I I I I I I I 
+Quanta 23: I I I I I I I I I I 
+Quanta 24: I K K K K K K K K K 
+Quanta 25: K K K K K K K K K K 
+Quanta 26: K K K K K K K K K K 
+Quanta 27: K K L L L L L L L L 
+Quanta 28: L L L L L L L L L L 
+Quanta 29: L L L L L L L L L L 
+Quanta 30: L L L N N N N N N N 
+Quanta 31: N N N N N N N N N N 
+Quanta 32: N N N N N N N N N N 
+Quanta 33: N N N N G G G G G G 
+Quanta 34: G G G G G G G G G G 
+Quanta 35: G G G G G G G G G G 
+Quanta 36: G G G G G G G G G G 
+Quanta 37: G G G O O O O O O O 
+Quanta 38: O O O O O O O O O O 
+Quanta 39: O O O O O O O O O O 
+Quanta 40: O O O O O O O O O O 
+Quanta 41: O O O O Q Q Q Q Q Q 
+Quanta 42: T T T T T T T T T T 
+Quanta 43: Q Q Q Q Q Q Q Q Q Q 
+Quanta 44: Q Q Q Q Q Q Q Q Q Q 
+Quanta 45: Q Q Q Q Q Q Q Q Q Q 
+Quanta 46: Q Q Q Q Q U U U U U 
+Quanta 47: U U U U U U U U U U 
+Quanta 48: U U U U U R R R R R 
+Quanta 49: R R R R R R R R R R 
+Quanta 50: R R R R R R R R R R 
+Quanta 51: R R R R R R R R R R 
+Quanta 52: R R R R R R V V V V 
+Quanta 53: V V V V V V V V V V 
+Quanta 54: V V V V V V V V V V 
+Quanta 55: V V V V V V V V V V 
+Quanta 56: V V V V V V V [ [ [ 
+Quanta 57: [ [ [ [ [ [ [ [ [ [ 
+Quanta 58: [ [ [ [ [ [ [ [ [ [ 
+Quanta 59: [ [ [ [ [ [ [ [ [ [ 
+Quanta 60: [ [ [ [ [ [ [ [ S S 
+Quanta 61: _ _ _ _ _ _ _ _ _ _ 
+Quanta 62: _ _ _ _ _ _ _ _ _ _ 
+Quanta 63: _ _ _ _ _ _ _ _ _ _ 
+Quanta 64: _ _ _ _ _ _ _ _ _ _ 
+Quanta 65: _ S S S S S S S S S 
+Quanta 66: S S S S S S S S S S 
+Quanta 67: S S S S S S S S S S 
+Quanta 68: S S S S S S S S S S 
+Quanta 69: S S S S S S S S S S 
+Quanta 70: a a a a a a a a a a 
+Quanta 71: a a a a a a a a a a 
+Quanta 72: a a a a a a a a a a 
+Quanta 73: a \ \ \ \ \ \ \ \ \ 
+Quanta 74: \ \ \ \ \ \ \ \ \ \ 
+Quanta 75: \ \ \ \ \ \ \ \ \ \ 
+Quanta 76: \ \ \ \ \ \ \ \ \ \ 
+Quanta 77: \ \ \ \ \ \ \ \ \ \ 
+Quanta 78: \ \ ] ] ] ] ] ] ] ] 
+Quanta 79: ] ] ] ] ] ] ] ] ] ] 
+Quanta 80: ] e e e e e e e e e 
+Quanta 81: e e e e e e e e e e 
+Quanta 82: e ] ] ] ] ] ] ] ] ] 
+Quanta 83: ] ] ] ] ] ] ] ] ] ] 
+Quanta 84: ] ] ] ] ] ] ] ] ] ] 
+Quanta 85: ] ] ] g g g g g g g 
+Quanta 86: g g g X X X X X X X 
+Quanta 87: X X X X X X X X X X 
+Quanta 88: X X X X X X X X X X 
+Quanta 89: X X X X X X X X X X 
+Quanta 90: X X X X X X X X X X 
+Quanta 91: X X X X X X X X X X 
+Quanta 92: X X X X h h h h h h 
+Quanta 93: h h h h h h h h h h 
+Quanta 94: h h h h h h h h h h 
+Quanta 95: h h h h h h h h h h 
+Quanta 96: h h h h h h h h h h 
+Quanta 97: h h h h h Z Z Z Z Z 
+Quanta 98: Z Z Z Z Z Z Z Z Z Z 
+Quanta 99: Z Z Z Z Z Z Z Z Z Z 
+Quanta 100: Z Z Z Z Z Z Z Z Z Z 
+Quanta 101: Z Z Z Z Z Z Z Z Z Z 
+Quanta 102: Z Z Z Z Z Z Z Z Z Z 
+Quanta 103: Z Z Z Z Z Z c c c c 
+Quanta 104: c c c c c c c c c c 
+Quanta 105: c c c c c c c c c c 
+Quanta 106: c c c c c c c c c c 
+Quanta 107: c c c c c c c c c c 
+Quanta 108: c c c c c c c c c c 
+Quanta 109: c c c c c c c P P P 
+Quanta 110: P P P P P P P P P P 
+Quanta 111: P P P P P P P P P P 
+Quanta 112: P P P P P P P P P P 
+Quanta 113: P P P P P P P P P P 
+Quanta 114: P P P P P P P P P P 
+Quanta 115: P P P P P P P P P P 
+Quanta 116: P P P P P P P P P P 
+Quanta 117: P P P P P P P P W W 
+Quanta 118: W W W W W W W W W W 
+Quanta 119: W W W W W W W W W W 
+Quanta 120: W W W W W W W W W W 
+Quanta 121: W W W W W W W W W W 
+Quanta 122: W W W W W W W W W W 
+Quanta 123: W W W W W W W W W W 
+Quanta 124: W W W W W W W W W W 
+Quanta 125: W W W W W W W W W ^ 
+Quanta 126: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 127: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 128: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 129: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 130: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 131: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 132: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 133: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 134: ` ` ` ` ` ` ` ` ` ` 
+Quanta 135: ` ` ` ` ` ` ` ` ` ` 
+Quanta 136: ` ` ` ` ` ` ` ` ` ` 
+Quanta 137: ` ` ` ` ` ` ` ` ` ` 
+Quanta 138: ` ` ` ` ` ` ` ` ` ` 
+Quanta 139: ` ` ` ` ` ` ` ` ` ` 
+Quanta 140: ` ` ` ` ` ` ` ` ` ` 
+Quanta 141: ` ` ` ` ` ` ` ` ` ` 
+Quanta 142: ` d d d d d d d d d 
+Quanta 143: d d d d d d d d d d 
+Quanta 144: d d d d d d d d d d 
+Quanta 145: d d d d d d d d d d 
+Quanta 146: d d d d d d d d d d 
+Quanta 147: d d d d d d d d d d 
+Quanta 148: d d d d d d d d d d 
+Quanta 149: d d d d d d d d d d 
+Quanta 150: d d f f f f f f f f 
+Quanta 151: f f f f f f f f f f 
+Quanta 152: f f f f f f f f f f 
+Quanta 153: f f f f f f f f f f 
+Quanta 154: f f f f f f f f f f 
+Quanta 155: f f f f f f f f f f 
+Quanta 156: f f f f f f f f f f 
+Quanta 157: f f f f f f f f f f 
+Quanta 158: f f f J J J J J J J 
+Quanta 159: J J J J J J J J J J 
+Quanta 160: J J J J J J J J J J 
+Quanta 161: J J J J J J J J J J 
+Quanta 162: J J J J J J J J J J 
+Quanta 163: J J J J J J J J J J 
+Quanta 164: J J J J J J J J J J 
+Quanta 165: J J J J J J J J J J 
+Quanta 166: J J J J J J J J J J 
+Quanta 167: J J J J M M M M M M 
+Quanta 168: M M M M M M M M M M 
+Quanta 169: M M M M M M M M M M 
+Quanta 170: M M M M M M M M M M 
+Quanta 171: M M M M M M M M M M 
+Quanta 172: M M M M M M M M M M 
+Quanta 173: M M M M M M M M M M 
+Quanta 174: M M M M M M M M M M 
+Quanta 175: M M M M M M M M M M 
+Quanta 176: M M M M M Y Y Y Y Y 
+Quanta 177: Y Y Y Y Y Y Y Y Y Y 
+Quanta 178: Y Y Y Y Y Y Y Y Y Y 
+Quanta 179: Y Y Y Y Y Y Y Y Y Y 
+Quanta 180: Y Y Y Y Y Y Y Y Y Y 
+Quanta 181: Y Y Y Y Y Y Y Y Y Y 
+Quanta 182: Y Y Y Y Y Y Y Y Y Y 
+Quanta 183: Y Y Y Y Y Y Y Y Y Y 
+Quanta 184: Y Y Y Y Y Y Y Y Y Y 
+Quanta 185: Y Y Y Y Y Y b b b b 
+Quanta 186: b b b b b b b b b b 
+Quanta 187: b b b b b b b b b b 
+Quanta 188: b b b b b b b b b b 
+Quanta 189: b b b b b b b b b b 
+Quanta 190: b b b b b b b b b b 
+Quanta 191: b b b b b b b b b b 
+Quanta 192: b b b b b b b b b b 
+Quanta 193: b b b b b b b b b b 
+Quanta 194: b b b b b b b       
+Quanta 195:                     
+Quanta 196:                     
+Quanta 197:                     
+Quanta 198:                     
+Quanta 199:                     
+Quanta 200:                     
+Quanta 201:              
+Avg response time is 78.3175
+Avg waiting time is 29.275
+Avg Turnaround time is 5.4075
+Throughoutput is 0.198413
+Starting Shortest Time Remaining
+Simulation #5
+pid   a time   e time   r time.  w time
+A       10       21.6      8       3.5
+B       10       10.2      0.1       0
+C       15       18.1      3       0
+D       17       103.8      8       78.7
+E       17       34      7       9.9
+F       19       24.9      3       2.9
+G       20       151.4      9       122.4
+H       20       20.1      0.1       0
+I       23       23.1      0.1       0
+J       28       118      8       82
+K       29       30.9      2       0
+L       30       51.6      6       15.6
+M       30       39.1      5       4.1
+N       42       59.7      7       10.7
+O       42       45.2      3       0.2
+P       43       43.1      0.1       0
+Q       45       48.3      3       0.3
+R       46       88.2      7       35.2
+S       52       160.5      9       99.5
+T       52       52.9      1       0
+U       55       169.6      9       105.6
+V       56       74      6       12
+W       57       67.9      5       5.9
+X       58       178.7      9       111.7
+Y       60       63      3       0
+Z       88       91.2      2       1.2
+[       60       187.8      9       118.8
+\       62       126.1      8       56.1
+]       74       134.2      8       52.2
+^       76       83.1      4       3
+_       76       79      2       1
+`       76       77      1       0
+a       77       142.3      8       57.2
+b       81       196.9      9       106.8
+c       88       89.2      1       0.2
+d       92       206      9       104.9
+e       93       97.5      4       0.4
+f       94       94.2      0.1       0
+g       97       97.2      0.1       0
+h       99       109.9      6       4.8
+Quanta 0: B B A A A A A A A A 
+Quanta 1: A A A A A A A A A A 
+Quanta 2: A A A A A A A A A A 
+Quanta 3: A A A A A A A A A A 
+Quanta 4: A A A A A A A A A A 
+Quanta 5: C C C C C C C C C C 
+Quanta 6: C C C C C C C C C C 
+Quanta 7: C C C C C C C C C C 
+Quanta 8: C A A A A A A A A A 
+Quanta 9: A A A A A A A A A H 
+Quanta 10: H A A A A A A A A A 
+Quanta 11: A A A A A A F F F F 
+Quanta 12: F F F F F F F F F I 
+Quanta 13: I F F F F F F F F F 
+Quanta 14: F F F F F F F F F E 
+Quanta 15: E E E E E E E E E E 
+Quanta 16: E E E E E E E E E E 
+Quanta 17: E E E E E E E E E E 
+Quanta 18: E E E E E E E E E K 
+Quanta 19: K K K K K K K K K K 
+Quanta 20: K K K K K K K K K E 
+Quanta 21: E E E E E E E E E E 
+Quanta 22: E E E E E E E E E E 
+Quanta 23: E E E E E E E E E E 
+Quanta 24: M M M M M M M M M M 
+Quanta 25: M M M M M M M M M M 
+Quanta 26: M M M M M M M M M M 
+Quanta 27: M M M M M M M M M M 
+Quanta 28: M M M M M M M M M M 
+Quanta 29: M L L L L L L L L L 
+Quanta 30: L L L L L L L L L L 
+Quanta 31: L L L L L L L L L O 
+Quanta 32: O O O O O O O O O P 
+Quanta 33: P O O O O O O O O O 
+Quanta 34: O O O O O O O O O O 
+Quanta 35: O O Q Q Q Q Q Q Q Q 
+Quanta 36: Q Q Q Q Q Q Q Q Q Q 
+Quanta 37: Q Q Q Q Q Q Q Q Q Q 
+Quanta 38: Q Q Q L L L L L L L 
+Quanta 39: L L L L L L L L L L 
+Quanta 40: L L L L L L L L L L 
+Quanta 41: L L L L L L N N N T 
+Quanta 42: T T T T T T T T T N 
+Quanta 43: N N N N N N N N N N 
+Quanta 44: N N N N N N N N N N 
+Quanta 45: N N N N N N N N N N 
+Quanta 46: N N N N N N N N N N 
+Quanta 47: N N N N N N N N N N 
+Quanta 48: N N N N N N N N N N 
+Quanta 49: N N N N N N N W W Y 
+Quanta 50: Y Y Y Y Y Y Y Y Y Y 
+Quanta 51: Y Y Y Y Y Y Y Y Y Y 
+Quanta 52: Y Y Y Y Y Y Y Y Y Y 
+Quanta 53: W W W W W W W W W W 
+Quanta 54: W W W W W W W W W W 
+Quanta 55: W W W W W W W W W W 
+Quanta 56: W W W W W W W W W W 
+Quanta 57: W W W W W W W W W V 
+Quanta 58: V V V V V V V V V V 
+Quanta 59: V V V V V V V V V V 
+Quanta 60: V V V V V V V V V V 
+Quanta 61: V V V V V V V V V V 
+Quanta 62: V V V V V V V V V V 
+Quanta 63: V V V V V V V V V V 
+Quanta 64: R R R R R R R R R R 
+Quanta 65: R R R R R R R R R R 
+Quanta 66: ` ` ` ` ` ` ` ` ` ` 
+Quanta 67: _ _ _ _ _ _ _ _ _ _ 
+Quanta 68: _ _ _ _ _ _ _ _ _ _ 
+Quanta 69: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 70: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 71: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 72: ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+Quanta 73: ^ R R R R R R R R R 
+Quanta 74: R R R R R R R R R R 
+Quanta 75: R R R R R R R R R R 
+Quanta 76: R R R R R R R R R R 
+Quanta 77: R R R R R R R R R R 
+Quanta 78: R R c c c c c c c c 
+Quanta 79: c c Z Z Z Z Z Z Z Z 
+Quanta 80: Z Z Z Z Z Z Z Z Z Z 
+Quanta 81: Z Z D D D D D D D D 
+Quanta 82: D D D D D D D D D D 
+Quanta 83: e e e e e e e e e e 
+Quanta 84: f f e e e e e e e e 
+Quanta 85: e e e e e e e e e e 
+Quanta 86: e e e e e e e e e e 
+Quanta 87: g g e e e D D D D D 
+Quanta 88: D D D D D D D D D D 
+Quanta 89: D D D D D D D D D D 
+Quanta 90: D D D D D D D D D D 
+Quanta 91: D D D D D D D D D D 
+Quanta 92: D D D D D D D D D D 
+Quanta 93: D D D D D D D D h h 
+Quanta 94: h h h h h h h h h h 
+Quanta 95: h h h h h h h h h h 
+Quanta 96: h h h h h h h h h h 
+Quanta 97: h h h h h h h h h h 
+Quanta 98: h h h h h h h h h h 
+Quanta 99: h h h h h h h h h J 
+Quanta 100: J J J J J J J J J J 
+Quanta 101: J J J J J J J J J J 
+Quanta 102: J J J J J J J J J J 
+Quanta 103: J J J J J J J J J J 
+Quanta 104: J J J J J J J J J J 
+Quanta 105: J J J J J J J J J J 
+Quanta 106: J J J J J J J J J J 
+Quanta 107: J J J J J J J J J J 
+Quanta 108: \ \ \ \ \ \ \ \ \ \ 
+Quanta 109: \ \ \ \ \ \ \ \ \ \ 
+Quanta 110: \ \ \ \ \ \ \ \ \ \ 
+Quanta 111: \ \ \ \ \ \ \ \ \ \ 
+Quanta 112: \ \ \ \ \ \ \ \ \ \ 
+Quanta 113: \ \ \ \ \ \ \ \ \ \ 
+Quanta 114: \ \ \ \ \ \ \ \ \ \ 
+Quanta 115: \ \ \ \ \ \ \ \ \ \ 
+Quanta 116: \ ] ] ] ] ] ] ] ] ] 
+Quanta 117: ] ] ] ] ] ] ] ] ] ] 
+Quanta 118: ] ] ] ] ] ] ] ] ] ] 
+Quanta 119: ] ] ] ] ] ] ] ] ] ] 
+Quanta 120: ] ] ] ] ] ] ] ] ] ] 
+Quanta 121: ] ] ] ] ] ] ] ] ] ] 
+Quanta 122: ] ] ] ] ] ] ] ] ] ] 
+Quanta 123: ] ] ] ] ] ] ] ] ] ] 
+Quanta 124: ] ] a a a a a a a a 
+Quanta 125: a a a a a a a a a a 
+Quanta 126: a a a a a a a a a a 
+Quanta 127: a a a a a a a a a a 
+Quanta 128: a a a a a a a a a a 
+Quanta 129: a a a a a a a a a a 
+Quanta 130: a a a a a a a a a a 
+Quanta 131: a a a a a a a a a a 
+Quanta 132: a a a G G G G G G G 
+Quanta 133: G G G G G G G G G G 
+Quanta 134: G G G G G G G G G G 
+Quanta 135: G G G G G G G G G G 
+Quanta 136: G G G G G G G G G G 
+Quanta 137: G G G G G G G G G G 
+Quanta 138: G G G G G G G G G G 
+Quanta 139: G G G G G G G G G G 
+Quanta 140: G G G G G G G G G G 
+Quanta 141: G G G G S S S S S S 
+Quanta 142: S S S S S S S S S S 
+Quanta 143: S S S S S S S S S S 
+Quanta 144: S S S S S S S S S S 
+Quanta 145: S S S S S S S S S S 
+Quanta 146: S S S S S S S S S S 
+Quanta 147: S S S S S S S S S S 
+Quanta 148: S S S S S S S S S S 
+Quanta 149: S S S S S S S S S S 
+Quanta 150: S S S S S U U U U U 
+Quanta 151: U U U U U U U U U U 
+Quanta 152: U U U U U U U U U U 
+Quanta 153: U U U U U U U U U U 
+Quanta 154: U U U U U U U U U U 
+Quanta 155: U U U U U U U U U U 
+Quanta 156: U U U U U U U U U U 
+Quanta 157: U U U U U U U U U U 
+Quanta 158: U U U U U U U U U U 
+Quanta 159: U U U U U U X X X X 
+Quanta 160: X X X X X X X X X X 
+Quanta 161: X X X X X X X X X X 
+Quanta 162: X X X X X X X X X X 
+Quanta 163: X X X X X X X X X X 
+Quanta 164: X X X X X X X X X X 
+Quanta 165: X X X X X X X X X X 
+Quanta 166: X X X X X X X X X X 
+Quanta 167: X X X X X X X X X X 
+Quanta 168: X X X X X X X [ [ [ 
+Quanta 169: [ [ [ [ [ [ [ [ [ [ 
+Quanta 170: [ [ [ [ [ [ [ [ [ [ 
+Quanta 171: [ [ [ [ [ [ [ [ [ [ 
+Quanta 172: [ [ [ [ [ [ [ [ [ [ 
+Quanta 173: [ [ [ [ [ [ [ [ [ [ 
+Quanta 174: [ [ [ [ [ [ [ [ [ [ 
+Quanta 175: [ [ [ [ [ [ [ [ [ [ 
+Quanta 176: [ [ [ [ [ [ [ [ [ [ 
+Quanta 177: [ [ [ [ [ [ [ [ b b 
+Quanta 178: b b b b b b b b b b 
+Quanta 179: b b b b b b b b b b 
+Quanta 180: b b b b b b b b b b 
+Quanta 181: b b b b b b b b b b 
+Quanta 182: b b b b b b b b b b 
+Quanta 183: b b b b b b b b b b 
+Quanta 184: b b b b b b b b b b 
+Quanta 185: b b b b b b b b b b 
+Quanta 186: b b b b b b b b b d 
+Quanta 187: d d d d d d d d d d 
+Quanta 188: d d d d d d d d d d 
+Quanta 189: d d d d d d d d d d 
+Quanta 190: d d d d d d d d d d 
+Quanta 191: d d d d d d d d d d 
+Quanta 192: d d d d d d d d d d 
+Quanta 193: d d d d d d d d d d 
+Quanta 194: d d d d d d d d d d 
+Quanta 195: d d d d d d d d d d 
+Quanta 196:                     
+Quanta 197:                     
+Quanta 198:                     
+Quanta 199:                     
+Quanta 200:                     
+Quanta 201:                     
+Quanta 202:                     
+Quanta 203:                     
+Quanta 204:                     
+Quanta 205:                     
+ 
+Avg response time is 82.2325
+Avg waiting time is 30.17
+Avg Turnaround time is 5.505
+Throughoutput is 0.194175
+Starting Round Robin
+
+
+Quanta 4: pid A
+Quanta 5: pid A
+Quanta 6: pid A
+Quanta 7: pid A
+Quanta 8: pid B
+Quanta 9: pid C
+Quanta 10: pid A
+Quanta 11: pid B
+Quanta 12: pid D
+Quanta 13: pid E
+Quanta 14: pid C
+Quanta 15: pid A
+Quanta 16: pid F
+Quanta 17: pid G
+Quanta 18: pid D
+Quanta 19: pid H
+Quanta 20: pid E
+Quanta 21: pid C
+Quanta 22: pid A
+Quanta 23: pid G
+Quanta 24: pid D
+Quanta 25: pid I
+Quanta 26: pid H
+Quanta 27: pid J
+Quanta 28: pid K
+Quanta 29: pid E
+Quanta 30: pid C
+Quanta 31: pid A
+Quanta 32: pid L
+Quanta 33: pid M
+Quanta 34: pid G
+Quanta 35: pid N
+Quanta 36: pid D
+Quanta 37: pid I
+Quanta 38: pid H
+Quanta 39: pid K
+Quanta 40: pid E
+Quanta 41: pid C
+Quanta 42: pid L
+Quanta 43: pid O
+Quanta 44: pid G
+Quanta 45: pid D
+Quanta 46: pid I
+Quanta 47: pid P
+Quanta 48: pid Q
+Quanta 49: pid K
+Quanta 50: pid E
+Quanta 51: pid C
+Quanta 52: pid R
+Quanta 53: pid L
+Quanta 54: pid O
+Quanta 55: pid D
+Quanta 56: pid S
+Quanta 57: pid I
+Quanta 58: pid T
+Quanta 59: pid P
+Quanta 60: pid U
+Quanta 61: pid K
+Quanta 62: pid E
+Quanta 63: pid V
+Quanta 64: pid C
+Quanta 65: pid W
+Quanta 66: pid R
+Quanta 67: pid L
+Quanta 68: pid O
+Quanta 69: pid S
+Quanta 70: pid I
+Quanta 71: pid T
+Quanta 72: pid U
+Quanta 73: pid K
+Quanta 74: pid E
+Quanta 75: pid V
+Quanta 76: pid W
+Quanta 77: pid R
+Quanta 78: pid L
+Quanta 79: pid O
+Quanta 80: pid I
+Quanta 81: pid T
+Quanta 82: pid K
+Quanta 83: pid V
+Quanta 84: pid W
+Quanta 85: pid R
+Quanta 86: pid L
+Quanta 87: pid O
+Quanta 88: pid I
+Quanta 89: pid V
+Quanta 90: pid W
+Quanta 91: pid R
+Quanta 92: pid L
+Quanta 93: pid O
+Quanta 94: pid I
+Quanta 95: pid V
+Quanta 96: pid W
+Quanta 97: pid O
+Quanta 98: pid X
+Quanta 99: pid V
+Quanta 100: pid W
+Quanta 101: pid O
+Quanta 102: pid X
+Quanta 103: pid V
+Quanta 104: pid O
+Quanta 105: pid X
+Quanta 106: pid V
+Quanta 107: pid X
+Quanta 108: pid V
+Quanta 109: pid X
+Turnaround         Wait            Response
+--------------------------------------------
+16.725               21.15              4.425
+Throughput: 0.363636
+Starting Round Robin
+
+
+Quanta 1: pid A
+Quanta 2: pid B
+Quanta 3: pid C
+Quanta 4: pid D
+Quanta 5: pid D
+Quanta 6: pid D
+Quanta 8: pid E
+Quanta 9: pid E
+Quanta 10: pid F
+Quanta 11: pid G
+Quanta 12: pid H
+Quanta 13: pid F
+Quanta 14: pid I
+Quanta 15: pid H
+Quanta 16: pid J
+Quanta 17: pid F
+Quanta 18: pid I
+Quanta 19: pid K
+Quanta 20: pid H
+Quanta 21: pid J
+Quanta 22: pid F
+Quanta 23: pid I
+Quanta 24: pid L
+Quanta 25: pid H
+Quanta 26: pid J
+Quanta 27: pid M
+Quanta 28: pid N
+Quanta 29: pid O
+Quanta 30: pid F
+Quanta 31: pid L
+Quanta 32: pid J
+Quanta 33: pid M
+Quanta 34: pid N
+Quanta 35: pid O
+Quanta 36: pid F
+Quanta 37: pid L
+Quanta 38: pid J
+Quanta 39: pid M
+Quanta 40: pid N
+Quanta 41: pid O
+Quanta 42: pid P
+Quanta 43: pid L
+Quanta 44: pid M
+Quanta 45: pid N
+Quanta 46: pid O
+Quanta 47: pid P
+Quanta 48: pid L
+Quanta 49: pid M
+Quanta 50: pid N
+Quanta 51: pid O
+Quanta 52: pid P
+Quanta 53: pid M
+Quanta 54: pid N
+Quanta 55: pid O
+Quanta 56: pid P
+Quanta 57: pid M
+Quanta 58: pid P
+Quanta 59: pid M
+Quanta 60: pid P
+Turnaround         Wait            Response
+--------------------------------------------
+4.975               6.1              1.125
+Throughput: 0.363636
+Starting Round Robin
+
+
+Quanta 4: pid A
+Quanta 5: pid A
+Quanta 6: pid A
+Quanta 7: pid B
+Quanta 8: pid A
+Quanta 9: pid B
+Quanta 10: pid A
+Quanta 11: pid B
+Quanta 12: pid A
+Quanta 13: pid B
+Quanta 14: pid C
+Quanta 15: pid B
+Quanta 16: pid D
+Quanta 17: pid C
+Quanta 18: pid B
+Quanta 19: pid D
+Quanta 20: pid E
+Quanta 21: pid B
+Quanta 22: pid F
+Quanta 23: pid D
+Quanta 24: pid G
+Quanta 25: pid H
+Quanta 26: pid E
+Quanta 27: pid B
+Quanta 28: pid I
+Quanta 29: pid F
+Quanta 30: pid D
+Quanta 31: pid G
+Quanta 32: pid J
+Quanta 33: pid K
+Quanta 34: pid E
+Quanta 35: pid L
+Quanta 36: pid M
+Quanta 37: pid I
+Quanta 38: pid N
+Quanta 39: pid G
+Quanta 40: pid O
+Quanta 41: pid J
+Quanta 42: pid K
+Quanta 43: pid P
+Quanta 44: pid E
+Quanta 45: pid L
+Quanta 46: pid M
+Quanta 47: pid Q
+Quanta 48: pid I
+Quanta 49: pid N
+Quanta 50: pid R
+Quanta 51: pid G
+Quanta 52: pid O
+Quanta 53: pid J
+Quanta 54: pid K
+Quanta 55: pid S
+Quanta 56: pid T
+Quanta 57: pid P
+Quanta 58: pid U
+Quanta 59: pid E
+Quanta 60: pid L
+Quanta 61: pid V
+Quanta 62: pid M
+Quanta 63: pid I
+Quanta 64: pid N
+Quanta 65: pid W
+Quanta 66: pid R
+Quanta 67: pid G
+Quanta 68: pid X
+Quanta 69: pid O
+Quanta 70: pid J
+Quanta 71: pid K
+Quanta 72: pid S
+Quanta 73: pid U
+Quanta 74: pid E
+Quanta 75: pid L
+Quanta 76: pid V
+Quanta 77: pid M
+Quanta 78: pid I
+Quanta 79: pid G
+Quanta 80: pid X
+Quanta 81: pid O
+Quanta 82: pid J
+Quanta 83: pid K
+Quanta 84: pid S
+Quanta 85: pid U
+Quanta 86: pid E
+Quanta 87: pid V
+Quanta 88: pid M
+Quanta 89: pid I
+Quanta 90: pid X
+Quanta 91: pid J
+Quanta 92: pid K
+Quanta 93: pid S
+Quanta 94: pid U
+Quanta 95: pid E
+Quanta 96: pid Y
+Quanta 97: pid M
+Quanta 98: pid I
+Quanta 99: pid X
+Quanta 100: pid K
+Quanta 101: pid S
+Quanta 102: pid U
+Quanta 103: pid Y
+Quanta 104: pid M
+Quanta 105: pid X
+Quanta 106: pid K
+Quanta 107: pid S
+Quanta 108: pid U
+Quanta 109: pid Y
+Quanta 110: pid M
+Quanta 111: pid X
+Quanta 112: pid K
+Quanta 113: pid S
+Quanta 114: pid U
+Quanta 115: pid Y
+Quanta 116: pid S
+Quanta 117: pid Y
+Quanta 118: pid S
+Quanta 119: pid Y
+Quanta 120: pid Y
+Turnaround         Wait            Response
+--------------------------------------------
+20.325               25.175              4.85
+Throughput: 0.330579
+Starting Round Robin
+
+
+Quanta 6: pid A
+Quanta 7: pid A
+Quanta 8: pid A
+Quanta 9: pid A
+Quanta 11: pid B
+Quanta 12: pid B
+Quanta 13: pid B
+Quanta 14: pid C
+Quanta 15: pid D
+Quanta 16: pid E
+Quanta 17: pid F
+Quanta 18: pid D
+Quanta 19: pid F
+Quanta 20: pid D
+Quanta 21: pid F
+Quanta 22: pid D
+Quanta 23: pid G
+Quanta 24: pid F
+Quanta 25: pid D
+Quanta 26: pid H
+Quanta 27: pid G
+Quanta 28: pid F
+Quanta 29: pid D
+Quanta 30: pid G
+Quanta 31: pid I
+Quanta 32: pid J
+Quanta 33: pid K
+Quanta 34: pid G
+Quanta 35: pid L
+Quanta 36: pid I
+Quanta 37: pid J
+Quanta 38: pid M
+Quanta 39: pid N
+Quanta 40: pid K
+Quanta 41: pid G
+Quanta 42: pid L
+Quanta 43: pid I
+Quanta 44: pid J
+Quanta 45: pid M
+Quanta 46: pid N
+Quanta 47: pid O
+Quanta 48: pid K
+Quanta 49: pid P
+Quanta 50: pid Q
+Quanta 51: pid L
+Quanta 52: pid J
+Quanta 53: pid M
+Quanta 54: pid R
+Quanta 55: pid N
+Quanta 56: pid O
+Quanta 57: pid S
+Quanta 58: pid T
+Quanta 59: pid P
+Quanta 60: pid Q
+Quanta 61: pid U
+Quanta 62: pid J
+Quanta 63: pid V
+Quanta 64: pid M
+Quanta 65: pid W
+Quanta 66: pid X
+Quanta 67: pid R
+Quanta 68: pid O
+Quanta 69: pid S
+Quanta 70: pid P
+Quanta 71: pid Q
+Quanta 72: pid U
+Quanta 73: pid J
+Quanta 74: pid V
+Quanta 75: pid M
+Quanta 76: pid W
+Quanta 77: pid X
+Quanta 78: pid R
+Quanta 79: pid O
+Quanta 80: pid S
+Quanta 81: pid P
+Quanta 82: pid Q
+Quanta 83: pid Y
+Quanta 84: pid J
+Quanta 85: pid V
+Quanta 86: pid M
+Quanta 87: pid W
+Quanta 88: pid X
+Quanta 89: pid R
+Quanta 90: pid S
+Quanta 91: pid P
+Quanta 92: pid Y
+Quanta 93: pid J
+Quanta 94: pid V
+Quanta 95: pid M
+Quanta 96: pid W
+Quanta 97: pid X
+Quanta 98: pid S
+Quanta 99: pid P
+Quanta 100: pid Y
+Quanta 101: pid J
+Quanta 102: pid M
+Quanta 103: pid W
+Quanta 104: pid X
+Quanta 105: pid P
+Quanta 106: pid Y
+Quanta 107: pid M
+Quanta 108: pid W
+Quanta 109: pid X
+Quanta 110: pid P
+Quanta 111: pid Y
+Quanta 112: pid W
+Quanta 113: pid Y
+Quanta 114: pid W
+Quanta 115: pid Y
+Quanta 116: pid Y
+Quanta 117: pid Y
+Turnaround         Wait            Response
+--------------------------------------------
+15.35               18.775              3.425
+Throughput: 0.338983
+Starting Round Robin
+
+
+Quanta 10: pid A
+Quanta 11: pid B
+Quanta 12: pid A
+Quanta 13: pid A
+Quanta 14: pid A
+Quanta 15: pid A
+Quanta 16: pid C
+Quanta 17: pid A
+Quanta 18: pid C
+Quanta 19: pid D
+Quanta 20: pid E
+Quanta 21: pid A
+Quanta 22: pid C
+Quanta 23: pid F
+Quanta 24: pid D
+Quanta 25: pid G
+Quanta 26: pid H
+Quanta 27: pid E
+Quanta 28: pid A
+Quanta 29: pid I
+Quanta 30: pid F
+Quanta 31: pid D
+Quanta 32: pid G
+Quanta 33: pid E
+Quanta 34: pid J
+Quanta 35: pid K
+Quanta 36: pid L
+Quanta 37: pid M
+Quanta 38: pid F
+Quanta 39: pid D
+Quanta 40: pid G
+Quanta 41: pid E
+Quanta 42: pid J
+Quanta 43: pid K
+Quanta 44: pid L
+Quanta 45: pid M
+Quanta 46: pid D
+Quanta 47: pid G
+Quanta 48: pid E
+Quanta 49: pid N
+Quanta 50: pid O
+Quanta 51: pid J
+Quanta 52: pid P
+Quanta 53: pid L
+Quanta 54: pid Q
+Quanta 55: pid M
+Quanta 56: pid R
+Quanta 57: pid D
+Quanta 58: pid G
+Quanta 59: pid E
+Quanta 60: pid N
+Quanta 61: pid O
+Quanta 62: pid J
+Quanta 63: pid S
+Quanta 64: pid T
+Quanta 65: pid L
+Quanta 66: pid Q
+Quanta 67: pid U
+Quanta 68: pid M
+Quanta 69: pid V
+Quanta 70: pid R
+Quanta 71: pid W
+Quanta 72: pid D
+Quanta 73: pid X
+Quanta 74: pid G
+Quanta 75: pid E
+Quanta 76: pid Y
+Quanta 77: pid N
+Quanta 78: pid O
+Quanta 79: pid J
+Quanta 80: pid S
+Quanta 81: pid L
+Quanta 82: pid Q
+Quanta 83: pid U
+Quanta 84: pid M
+Quanta 85: pid V
+Quanta 86: pid R
+Quanta 87: pid W
+Quanta 88: pid D
+Quanta 89: pid X
+Quanta 90: pid G
+Quanta 91: pid Y
+Quanta 92: pid N
+Quanta 93: pid J
+Quanta 94: pid S
+Quanta 95: pid L
+Quanta 96: pid U
+Quanta 97: pid V
+Quanta 98: pid R
+Quanta 99: pid W
+Quanta 100: pid Z
+Quanta 101: pid X
+Quanta 102: pid G
+Quanta 103: pid Y
+Quanta 104: pid N
+Quanta 105: pid J
+Quanta 106: pid S
+Quanta 107: pid U
+Quanta 108: pid V
+Quanta 109: pid R
+Quanta 110: pid W
+Quanta 111: pid Z
+Quanta 112: pid X
+Quanta 113: pid G
+Quanta 114: pid N
+Quanta 115: pid J
+Quanta 116: pid S
+Quanta 117: pid U
+Quanta 118: pid V
+Quanta 119: pid R
+Quanta 120: pid W
+Quanta 121: pid X
+Quanta 122: pid N
+Quanta 123: pid S
+Quanta 124: pid U
+Quanta 125: pid V
+Quanta 126: pid R
+Quanta 127: pid X
+Quanta 128: pid S
+Quanta 129: pid U
+Quanta 130: pid X
+Quanta 131: pid S
+Quanta 132: pid U
+Quanta 133: pid X
+Quanta 134: pid S
+Quanta 135: pid U
+Quanta 136: pid X
+Turnaround         Wait            Response
+--------------------------------------------
+24.75               29.775              5.025
+Throughput: 0.291971
+Starting Highest Priority First (Nonpreemptive)
+Simulation #1
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	4	|	8	|	3
+	B	|	7	|	2	|	3
+	C	|	7	|	7	|	4
+	D	|	9	|	6	|	3
+	E	|	9	|	7	|	3
+	F	|	11	|	0.1	|	1
+	G	|	12	|	4	|	2
+	H	|	13	|	3	|	1
+	I	|	19	|	8	|	4
+	J	|	20	|	0.1	|	2
+	K	|	20	|	6	|	3
+	L	|	23	|	7	|	1
+	M	|	23	|	0.1	|	3
+	N	|	24	|	1	|	2
+	O	|	33	|	9	|	1
+	P	|	38	|	2	|	1
+	Q	|	38	|	1	|	3
+	R	|	42	|	5	|	1
+	S	|	46	|	2	|	4
+	T	|	47	|	3	|	1
+	U	|	49	|	2	|	2
+	V	|	51	|	9	|	3
+	W	|	52	|	6	|	4
+	X	|	94	|	5	|	2
+	Y	|	52	|	6	|	3
+	Z	|	57	|	7	|	2
+	[	|	57	|	8	|	3
+	\	|	58	|	5	|	1
+	]	|	58	|	0.1	|	3
+	^	|	59	|	5	|	2
+	_	|	61	|	5	|	3
+	`	|	62	|	4	|	2
+	a	|	63	|	0.1	|	1
+	b	|	73	|	7	|	2
+	c	|	73	|	9	|	3
+	d	|	80	|	6	|	3
+	e	|	85	|	5	|	4
+	f	|	91	|	6	|	1
+	g	|	97	|	2	|	2
+	h	|	99	|	6	|	4
+---------------------------------------------------------------
+
+
+A
+A
+A
+A
+A
+A
+A
+F
+F
+H
+H
+H
+B
+B
+G
+G
+E
+E
+G
+C
+C
+C
+C
+C
+C
+C
+D
+D
+D
+D
+D
+D
+I
+I
+I
+I
+I
+I
+I
+I
+J
+K
+K
+K
+K
+K
+K
+L
+M
+L
+M
+L
+M
+L
+M
+N
+O
+O
+O
+O
+O
+O
+O
+O
+O
+Q
+P
+P
+R
+R
+R
+R
+R
+S
+S
+T
+T
+T
+U
+U
+V
+V
+V
+V
+V
+V
+V
+V
+V
+W
+W
+W
+W
+W
+W
+Z
+Stats
+----------------
+Avg response time is 24
+Avg waiting time is 22
+Avg Turnaround time is 25
+Throughouput is 0.23
+Timegraph is 
+Starting Highest Priority First (Nonpreemptive)
+Simulation #2
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	1	|	0.1	|	4
+	B	|	2	|	1	|	4
+	C	|	2	|	1	|	2
+	D	|	3	|	3	|	1
+	E	|	8	|	2	|	2
+	F	|	9	|	6	|	2
+	G	|	10	|	1	|	3
+	H	|	10	|	4	|	1
+	I	|	11	|	3	|	2
+	J	|	13	|	5	|	3
+	K	|	15	|	1	|	2
+	L	|	19	|	5	|	2
+	M	|	22	|	8	|	2
+	N	|	22	|	6	|	3
+	O	|	22	|	6	|	3
+	P	|	36	|	6	|	3
+	Q	|	23	|	5	|	1
+	R	|	25	|	0.1	|	1
+	S	|	36	|	1	|	1
+	T	|	41	|	6	|	3
+	U	|	46	|	9	|	4
+	V	|	54	|	3	|	2
+	W	|	59	|	8	|	1
+	X	|	60	|	3	|	4
+	Y	|	60	|	7	|	2
+	Z	|	62	|	2	|	4
+	[	|	65	|	3	|	1
+	\	|	68	|	4	|	1
+	]	|	73	|	7	|	3
+	^	|	74	|	3	|	2
+	_	|	77	|	8	|	2
+	`	|	77	|	9	|	2
+	a	|	78	|	6	|	4
+	b	|	79	|	0.1	|	2
+	c	|	80	|	5	|	4
+	d	|	82	|	3	|	1
+	e	|	85	|	2	|	1
+	f	|	90	|	7	|	1
+	g	|	93	|	2	|	3
+	h	|	99	|	3	|	4
+---------------------------------------------------------------
+
+
+A
+C
+D
+D
+D
+B
+E
+E
+H
+H
+H
+H
+F
+F
+F
+F
+F
+F
+I
+G
+G
+I
+J
+J
+J
+J
+J
+K
+L
+L
+L
+L
+L
+O
+M
+O
+N
+O
+N
+O
+M
+M
+M
+M
+M
+M
+M
+M
+Q
+Q
+Q
+Q
+Q
+R
+S
+P
+P
+P
+P
+P
+P
+T
+T
+T
+T
+T
+T
+U
+U
+U
+U
+U
+U
+U
+U
+U
+V
+V
+V
+W
+W
+W
+W
+W
+W
+W
+W
+Y
+X
+Y
+X
+Y
+X
+Y
+X
+X
+X
+Z
+Stats
+----------------
+Avg response time is 16
+Avg waiting time is 14
+Avg Turnaround time is 17
+Throughouput is 0.25
+Timegraph is 
+Starting Highest Priority First (Nonpreemptive)
+Simulation #3
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	4	|	6	|	2
+	B	|	6	|	8	|	2
+	C	|	13	|	2	|	3
+	D	|	14	|	4	|	3
+	E	|	18	|	8	|	1
+	F	|	19	|	2	|	3
+	G	|	20	|	6	|	3
+	H	|	20	|	0.1	|	3
+	I	|	22	|	7	|	1
+	J	|	26	|	6	|	2
+	K	|	26	|	9	|	2
+	L	|	27	|	4	|	3
+	M	|	27	|	8	|	2
+	N	|	29	|	3	|	3
+	O	|	32	|	4	|	4
+	P	|	34	|	2	|	4
+	Q	|	37	|	1	|	4
+	R	|	39	|	2	|	1
+	S	|	43	|	9	|	2
+	T	|	43	|	1	|	3
+	U	|	44	|	7	|	1
+	V	|	46	|	3	|	3
+	W	|	50	|	1	|	1
+	X	|	52	|	6	|	3
+	Y	|	88	|	7	|	2
+	Z	|	52	|	6	|	2
+	[	|	53	|	5	|	2
+	\	|	64	|	2	|	1
+	]	|	64	|	2	|	1
+	^	|	79	|	0.1	|	4
+	_	|	81	|	1	|	2
+	`	|	83	|	0.1	|	1
+	a	|	86	|	7	|	2
+	b	|	90	|	3	|	3
+	c	|	91	|	4	|	4
+	d	|	93	|	6	|	3
+	e	|	94	|	4	|	4
+	f	|	95	|	4	|	3
+	g	|	97	|	7	|	2
+	h	|	99	|	8	|	3
+---------------------------------------------------------------
+
+
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+E
+E
+E
+E
+E
+E
+C
+C
+D
+D
+D
+D
+E
+F
+F
+H
+I
+I
+G
+G
+G
+G
+G
+I
+K
+J
+K
+J
+K
+J
+K
+J
+K
+J
+J
+J
+J
+J
+J
+M
+L
+M
+L
+M
+L
+M
+L
+M
+N
+N
+N
+O
+O
+O
+O
+P
+P
+Q
+R
+R
+T
+S
+S
+S
+S
+S
+S
+S
+S
+S
+U
+U
+U
+U
+U
+U
+U
+V
+V
+V
+W
+Z
+Stats
+----------------
+Avg response time is 27
+Avg waiting time is 24
+Avg Turnaround time is 28
+Throughouput is 0.23
+Timegraph is 
+Starting Highest Priority First (Nonpreemptive)
+Simulation #4
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	6	|	4	|	1
+	B	|	11	|	3	|	2
+	C	|	14	|	0.1	|	3
+	D	|	14	|	6	|	1
+	E	|	14	|	0.1	|	4
+	F	|	15	|	5	|	2
+	G	|	21	|	5	|	1
+	H	|	23	|	1	|	1
+	I	|	28	|	3	|	4
+	J	|	28	|	9	|	3
+	K	|	30	|	3	|	3
+	L	|	31	|	3	|	4
+	M	|	33	|	9	|	4
+	N	|	33	|	3	|	1
+	O	|	40	|	4	|	2
+	P	|	41	|	8	|	2
+	Q	|	41	|	4	|	4
+	R	|	46	|	4	|	2
+	S	|	48	|	5	|	1
+	T	|	49	|	1	|	4
+	U	|	52	|	2	|	3
+	V	|	53	|	4	|	4
+	W	|	54	|	8	|	1
+	X	|	54	|	6	|	4
+	Y	|	73	|	9	|	2
+	Z	|	59	|	6	|	3
+	[	|	60	|	4	|	2
+	\	|	61	|	5	|	2
+	]	|	63	|	5	|	4
+	^	|	66	|	8	|	1
+	_	|	68	|	4	|	2
+	`	|	73	|	8	|	3
+	a	|	74	|	3	|	2
+	b	|	78	|	9	|	4
+	c	|	82	|	6	|	4
+	d	|	84	|	8	|	1
+	e	|	87	|	2	|	1
+	f	|	88	|	8	|	1
+	g	|	92	|	1	|	3
+	h	|	99	|	5	|	4
+---------------------------------------------------------------
+
+
+A
+A
+A
+A
+B
+B
+B
+D
+D
+D
+D
+D
+D
+C
+F
+F
+F
+F
+F
+G
+G
+G
+G
+E
+G
+H
+N
+N
+N
+J
+J
+J
+J
+J
+J
+J
+J
+I
+J
+K
+K
+K
+L
+L
+L
+M
+M
+M
+M
+M
+M
+M
+M
+M
+O
+O
+O
+O
+Q
+P
+Q
+P
+Q
+R
+R
+R
+R
+S
+S
+S
+S
+S
+T
+U
+U
+V
+V
+V
+V
+X
+W
+X
+W
+X
+W
+X
+Z
+Z
+Z
+Z
+Z
+Z
+[
+Stats
+----------------
+Avg response time is 18
+Avg waiting time is 16
+Avg Turnaround time is 19
+Throughouput is 0.25
+Timegraph is 
+Starting Highest Priority First (Nonpreemptive)
+Simulation #5
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	10	|	8	|	3
+	B	|	10	|	0.1	|	1
+	C	|	15	|	3	|	2
+	D	|	17	|	8	|	2
+	E	|	17	|	7	|	1
+	F	|	19	|	3	|	1
+	G	|	20	|	9	|	4
+	H	|	20	|	0.1	|	3
+	I	|	23	|	0.1	|	4
+	J	|	28	|	8	|	2
+	K	|	29	|	2	|	2
+	L	|	30	|	6	|	4
+	M	|	30	|	5	|	2
+	N	|	42	|	7	|	4
+	O	|	42	|	3	|	3
+	P	|	43	|	0.1	|	2
+	Q	|	45	|	3	|	2
+	R	|	46	|	7	|	3
+	S	|	52	|	9	|	1
+	T	|	52	|	1	|	4
+	U	|	55	|	9	|	3
+	V	|	56	|	6	|	1
+	W	|	57	|	5	|	1
+	X	|	58	|	9	|	1
+	Y	|	60	|	3	|	1
+	Z	|	88	|	2	|	2
+	[	|	60	|	9	|	3
+	\	|	62	|	8	|	2
+	]	|	74	|	8	|	3
+	^	|	76	|	4	|	2
+	_	|	76	|	2	|	3
+	`	|	76	|	1	|	4
+	a	|	77	|	8	|	1
+	b	|	81	|	9	|	1
+	c	|	88	|	1	|	4
+	d	|	92	|	9	|	1
+	e	|	93	|	4	|	4
+	f	|	94	|	0.1	|	4
+	g	|	97	|	0.1	|	1
+	h	|	99	|	6	|	1
+---------------------------------------------------------------
+
+
+B
+A
+A
+A
+A
+C
+A
+E
+E
+E
+E
+C
+C
+C
+C
+C
+E
+D
+D
+D
+D
+D
+D
+D
+D
+F
+F
+F
+G
+H
+G
+H
+G
+H
+G
+H
+G
+H
+I
+J
+J
+J
+J
+J
+J
+J
+J
+K
+K
+M
+L
+M
+L
+M
+L
+L
+L
+L
+L
+L
+N
+O
+N
+O
+N
+O
+N
+O
+O
+O
+P
+Q
+Q
+Q
+R
+R
+R
+R
+R
+R
+R
+S
+T
+S
+T
+S
+T
+S
+T
+S
+Stats
+----------------
+Avg response time is 22
+Avg waiting time is 22
+Avg Turnaround time is 26
+Throughouput is 0.19
+Timegraph is 

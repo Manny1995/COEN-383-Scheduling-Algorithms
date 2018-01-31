@@ -64,6 +64,9 @@ void RR::startRR(vector<Process *> inProcs){ //--replace the following line
 //int main(){
     //comment out 'procs' once main is changed and uncomment the procs = inProcs assignment line
     //procs = generateProcessList();
+
+    cout << "\nStarting Round Robin\n\n" << endl;
+
     procs = inProcs;
     int num = procs.size();
     double quanta = 0;

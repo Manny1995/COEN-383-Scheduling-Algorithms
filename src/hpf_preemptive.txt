@@ -1,0 +1,746 @@
+Starting Highest Priority First (Preemptive)
+Simulation #1
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	0	|	0.1	|	2
+	B	|	0	|	4	|	1
+	C	|	5	|	8	|	1
+	D	|	6	|	8	|	1
+	E	|	7	|	6	|	1
+	F	|	10	|	9	|	2
+	G	|	15	|	4	|	1
+	H	|	24	|	8	|	3
+	I	|	26	|	1	|	3
+	J	|	26	|	0.1	|	4
+	K	|	26	|	2	|	4
+	L	|	32	|	0.1	|	4
+	M	|	34	|	7	|	2
+	N	|	34	|	3	|	3
+	O	|	34	|	9	|	1
+	P	|	36	|	7	|	2
+	Q	|	37	|	6	|	4
+	R	|	39	|	2	|	4
+	S	|	55	|	3	|	2
+	T	|	41	|	7	|	3
+	U	|	46	|	3	|	1
+	V	|	48	|	6	|	4
+	W	|	52	|	0.1	|	1
+	X	|	52	|	6	|	3
+	Y	|	58	|	8	|	1
+	Z	|	60	|	1	|	3
+	[	|	61	|	1	|	3
+	\	|	65	|	9	|	1
+	]	|	65	|	7	|	3
+	^	|	70	|	0.1	|	1
+	_	|	73	|	8	|	2
+	`	|	76	|	3	|	4
+	a	|	99	|	5	|	4
+	b	|	77	|	8	|	3
+	c	|	79	|	5	|	4
+	d	|	81	|	4	|	2
+	e	|	84	|	0.1	|	3
+	f	|	88	|	3	|	3
+	g	|	94	|	2	|	2
+	h	|	97	|	1	|	3
+---------------------------------------------------------------
+
+
+B
+B
+B
+B
+A
+C
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+Stats
+----------------
+Avg response time is 4
+Avg waiting time is 4
+Avg Turnaround time is 3
+Throughouput is 0.01
+Timegraph is B
+Starting Highest Priority First (Preemptive)
+Simulation #2
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	0	|	2	|	2
+	B	|	1	|	5	|	2
+	C	|	12	|	5	|	1
+	D	|	16	|	3	|	1
+	E	|	17	|	7	|	2
+	F	|	21	|	7	|	2
+	G	|	21	|	7	|	4
+	H	|	33	|	9	|	1
+	I	|	37	|	7	|	3
+	J	|	48	|	6	|	4
+	K	|	50	|	9	|	3
+	L	|	58	|	3	|	4
+	M	|	60	|	7	|	4
+	N	|	65	|	0.1	|	4
+	O	|	67	|	5	|	1
+	P	|	70	|	2	|	4
+	Q	|	19	|	9	|	2
+	R	|	21	|	6	|	2
+	S	|	21	|	5	|	4
+	T	|	23	|	5	|	1
+	U	|	26	|	3	|	4
+	V	|	34	|	9	|	2
+	W	|	37	|	9	|	4
+	X	|	61	|	9	|	1
+	Y	|	63	|	0.1	|	2
+	Z	|	69	|	1	|	2
+	[	|	71	|	7	|	3
+	\	|	73	|	7	|	1
+	]	|	74	|	6	|	1
+	^	|	75	|	4	|	1
+	_	|	76	|	7	|	4
+	`	|	77	|	7	|	1
+	a	|	81	|	5	|	2
+	b	|	82	|	5	|	3
+	c	|	84	|	0.1	|	2
+	d	|	89	|	8	|	3
+	e	|	91	|	2	|	1
+	f	|	91	|	2	|	2
+	g	|	93	|	8	|	4
+	h	|	94	|	5	|	4
+---------------------------------------------------------------
+
+
+A
+A
+B
+B
+B
+B
+B
+C
+C
+C
+C
+C
+D
+D
+D
+E
+E
+E
+E
+E
+E
+E
+F
+F
+F
+F
+F
+F
+F
+H
+H
+H
+G
+G
+G
+G
+G
+G
+G
+H
+H
+H
+H
+H
+H
+I
+I
+I
+I
+I
+I
+I
+K
+K
+J
+J
+K
+K
+K
+J
+J
+J
+J
+K
+K
+K
+T
+R
+R
+R
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+S
+R
+S
+R
+S
+R
+S
+S
+T
+T
+T
+T
+U
+U
+U
+V
+Stats
+----------------
+Avg response time is 27
+Avg waiting time is 31
+Avg Turnaround time is 30
+Throughouput is 0.15
+Timegraph is ABCDEFGHIJQRSTU
+Starting Highest Priority First (Preemptive)
+Simulation #3
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	5	|	2	|	2
+	B	|	6	|	8	|	1
+	C	|	8	|	5	|	1
+	D	|	8	|	9	|	1
+	E	|	17	|	8	|	2
+	F	|	10	|	3	|	4
+	G	|	14	|	1	|	2
+	H	|	25	|	6	|	1
+	I	|	25	|	8	|	2
+	J	|	26	|	1	|	3
+	K	|	28	|	4	|	4
+	L	|	35	|	6	|	3
+	M	|	37	|	4	|	4
+	N	|	40	|	2	|	3
+	O	|	44	|	0.1	|	4
+	P	|	46	|	9	|	3
+	Q	|	48	|	3	|	3
+	R	|	50	|	5	|	3
+	S	|	52	|	2	|	4
+	T	|	59	|	5	|	1
+	U	|	75	|	2	|	2
+	V	|	60	|	3	|	1
+	W	|	60	|	2	|	2
+	X	|	62	|	0.1	|	1
+	Y	|	64	|	9	|	2
+	Z	|	66	|	2	|	1
+	[	|	66	|	8	|	3
+	\	|	67	|	6	|	1
+	]	|	69	|	3	|	2
+	^	|	70	|	0.1	|	4
+	_	|	74	|	9	|	4
+	`	|	76	|	5	|	1
+	a	|	82	|	3	|	2
+	b	|	87	|	6	|	3
+	c	|	90	|	5	|	3
+	d	|	90	|	5	|	4
+	e	|	91	|	2	|	3
+	f	|	99	|	3	|	4
+	g	|	94	|	4	|	3
+	h	|	97	|	0.1	|	3
+---------------------------------------------------------------
+
+
+A
+B
+B
+B
+B
+B
+A
+B
+B
+B
+D
+C
+D
+C
+D
+C
+D
+C
+D
+C
+D
+D
+D
+D
+G
+E
+F
+F
+F
+E
+E
+E
+E
+E
+E
+E
+H
+I
+H
+I
+H
+I
+H
+I
+H
+I
+H
+I
+I
+I
+J
+K
+K
+K
+K
+L
+L
+L
+L
+L
+L
+M
+M
+M
+M
+N
+N
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+Stats
+----------------
+Avg response time is 19
+Avg waiting time is 23
+Avg Turnaround time is 22
+Throughouput is 0.14
+Timegraph is ABCDGFEHIJKLMN
+Starting Highest Priority First (Preemptive)
+Simulation #4
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	2	|	5	|	2
+	B	|	2	|	1	|	2
+	C	|	6	|	0.1	|	2
+	D	|	6	|	7	|	3
+	E	|	7	|	0.1	|	3
+	F	|	10	|	1	|	3
+	G	|	12	|	7	|	3
+	H	|	18	|	9	|	4
+	I	|	24	|	5	|	3
+	J	|	33	|	2	|	4
+	K	|	34	|	5	|	2
+	L	|	37	|	6	|	1
+	M	|	50	|	6	|	2
+	N	|	61	|	9	|	3
+	O	|	65	|	0.1	|	1
+	P	|	15	|	5	|	4
+	Q	|	25	|	6	|	1
+	R	|	28	|	9	|	4
+	S	|	28	|	7	|	3
+	T	|	36	|	1	|	1
+	U	|	36	|	6	|	1
+	V	|	40	|	2	|	2
+	W	|	49	|	8	|	3
+	X	|	60	|	4	|	2
+	Y	|	66	|	0.1	|	3
+	Z	|	70	|	1	|	3
+	[	|	72	|	5	|	1
+	\	|	74	|	6	|	1
+	]	|	76	|	4	|	1
+	^	|	76	|	7	|	1
+	_	|	78	|	5	|	3
+	`	|	83	|	4	|	4
+	a	|	85	|	8	|	3
+	b	|	85	|	0.1	|	1
+	c	|	88	|	3	|	3
+	d	|	89	|	8	|	3
+	e	|	90	|	7	|	3
+	f	|	91	|	0.1	|	3
+	g	|	94	|	2	|	2
+	h	|	97	|	7	|	3
+---------------------------------------------------------------
+
+
+A
+B
+A
+A
+A
+A
+C
+C
+C
+C
+C
+C
+C
+C
+C
+D
+C
+D
+C
+D
+C
+D
+C
+D
+C
+D
+C
+D
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+Stats
+----------------
+Avg response time is 4
+Avg waiting time is 10
+Avg Turnaround time is 9
+Throughouput is 0.03
+Timegraph is BAD
+Starting Highest Priority First (Preemptive)
+Simulation #5
+	P name	|	Arrival	|	Dur	|	Pri
+---------------------------------------------------------------
+	A	|	6	|	3	|	4
+	B	|	8	|	3	|	1
+	C	|	18	|	3	|	3
+	D	|	20	|	4	|	2
+	E	|	23	|	0.1	|	3
+	F	|	23	|	6	|	2
+	G	|	25	|	2	|	1
+	H	|	28	|	0.1	|	4
+	I	|	37	|	4	|	4
+	J	|	42	|	0.1	|	1
+	K	|	47	|	3	|	1
+	L	|	50	|	3	|	1
+	M	|	52	|	7	|	4
+	N	|	53	|	0.1	|	4
+	O	|	58	|	9	|	2
+	P	|	59	|	7	|	4
+	Q	|	60	|	5	|	1
+	R	|	60	|	3	|	2
+	S	|	61	|	2	|	1
+	T	|	64	|	7	|	3
+	U	|	86	|	4	|	3
+	V	|	64	|	4	|	4
+	W	|	66	|	8	|	2
+	X	|	71	|	6	|	1
+	Y	|	73	|	6	|	3
+	Z	|	75	|	9	|	3
+	[	|	77	|	9	|	4
+	\	|	77	|	3	|	1
+	]	|	78	|	2	|	3
+	^	|	78	|	8	|	1
+	_	|	81	|	7	|	1
+	`	|	87	|	9	|	4
+	a	|	88	|	2	|	3
+	b	|	88	|	1	|	1
+	c	|	91	|	8	|	2
+	d	|	92	|	2	|	1
+	e	|	92	|	5	|	3
+	f	|	93	|	7	|	3
+	g	|	94	|	4	|	3
+	h	|	95	|	4	|	4
+---------------------------------------------------------------
+
+
+A
+A
+B
+B
+B
+A
+C
+C
+D
+D
+D
+D
+C
+G
+G
+F
+F
+F
+F
+F
+F
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+Stats
+----------------
+Avg response time is 2
+Avg waiting time is 5
+Avg Turnaround time is 4
+Throughouput is 0.06
+Timegraph is BADCGF

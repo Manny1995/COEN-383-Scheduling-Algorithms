@@ -57,6 +57,9 @@ void hpfsNpDriver(vector <vector <Process *> > batch){
 
 
     for (int i = 0; i < batch.size(); i++) {
+
+        cout << "Starting Highest Priority First (Nonpreemptive)" << endl;
+        cout << "Simulation #" << i+1 << endl;
         printProcessListNP(batch[i]);
         simulate_hpfs_non_preemptive(batch[i]);
     }
