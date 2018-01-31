@@ -7,6 +7,7 @@ Process::Process() {
     arrivalTime = generate::arrivalTime();
     runTime = generate::runTime();
     priority = generate::priority();
+    startTime = 0;
     timeLeft = runTime;
     started = false;
 }
@@ -18,6 +19,7 @@ Process::Process(float arrivalTime, float runTime, int priority) {
 	this->priority = priority;
     this->timeLeft = runTime;
     this->started = false;
+    this->startTime = 0;
 
 }
 
@@ -28,12 +30,15 @@ Process::Process (Process &p) {
     this->timeLeft = p.timeLeft;
     this->identifier = p.identifier;
     this->started = p.started;
+    this->startTime = p.startTime;
 }
 
 
 // call this once execution is started to get the response time
 double Process::startExecution(double time) {
     this->timeLeft = time - this->arrivalTime;
+    this->started = true;
+    this->startTime = time;
     return this->timeLeft;
 }
 

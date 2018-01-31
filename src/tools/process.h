@@ -19,6 +19,7 @@ public:
     
     float arrivalTime;
     float runTime;
+    float startTime; //time the process first executes
     int priority;
 
     float timeLeft;

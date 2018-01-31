@@ -6,12 +6,14 @@
  * for a main from a separate file to access and run these contents.
 */
 
+#ifndef RR_CPP
+ #define RR_CPP
+
 #include <iostream>
-#include "../tools/tools.h"
-#include <ctime>
-#include <cmath>
 #include <queue>
-#include <cstring>
+
+#include "RR.h"
+ #include "../tools/tools.h"
 using namespace std;
 using namespace generate;
 
@@ -21,10 +23,11 @@ double avgTurn;
 double avgWait;
 double avgResp;
 
-void injectProc(double quanta){
+void RR::injectProc(double quanta){
         //inject the process(es) into the queue upon its arrival time
-        while(procs[0]->arrivalTime == (double)quanta){
+        while(procs[0]->arrivalTime == (double)quanta){ //seg faulting here, trying to access procs[0]
 		    if(procs.size() != 0){
+            cout << "Check" << endl;
             procQueue.push(procs[0]);
             procs.erase(procs.begin());
             }else{ 
@@ -34,9 +37,9 @@ void injectProc(double quanta){
 
 }
 
-void runProc(double quanta){
+void RR::runProc(double quanta){
     if(procQueue.size() > 0){
-        if((procQueue.front())->responseTime == -1){
+        if(!(procQueue.front())->started){
             (procQueue.front())->startExecution((double)quanta);
         }  
         (procQueue.front())->runTime-=1;
@@ -45,9 +48,9 @@ void runProc(double quanta){
         
         //calculating metrics when process finished
         if((procQueue.front())->runTime <= 0){ 
-            avgTurn += ((float)quanta - (procQueue.front())->responseTime);
+            avgTurn += ((float)quanta - (procQueue.front())->startTime);
             avgWait += ((float)quanta - (procQueue.front())->arrivalTime);
-            avgResp += ((procQueue.front())->responseTime);
+            avgResp += (((procQueue.front())->startTime)-((procQueue.front())->arrivalTime));
             procQueue.pop();
         }else{
             //moving the top process to the back of the queue
@@ -58,11 +61,11 @@ void runProc(double quanta){
     }
 }
 
-//void startRR(Process *inProcs){ --replace the following line
-int main(){
+void RR::startRR(vector<Process *> inProcs){ //--replace the following line
+//int main(){
     //comment out 'procs' once main is changed and uncomment the procs = inProcs assignment line
-    procs = generateProcessList();
-    //vector<Process *> procs = inProcs;
+    //procs = generateProcessList();
+    procs = inProcs;
     int num = procs.size();
     double quanta = 0;
     avgTurn = 0;
@@ -79,3 +82,5 @@ int main(){
     cout << "Throughput: " << num/quanta << endl; 
 
 }
+
+#endif
