@@ -22,6 +22,9 @@ void simulate_hpfs_preemptive(vector < Process * > processList){
             cur_proc++;
         }
 
+        if (queue->top() != NULL)
+            cout << queue->top()->identifier << endl;
+
         queue->executeQuanta(quanta);
         queue->ageProcesses(quanta);
     }
@@ -36,8 +39,25 @@ void simulate_hpfs_preemptive(vector < Process * > processList){
     cout << "Timegraph is " << queue->timeGraph << endl;
 }
 
+
+void printProcessListP(vector<Process *> &processList) {
+    cerr << "ajsdk" << endl;
+
+    cout << "\tP name\t|\tArrival\t|\tDur\t|\tPri" << endl;
+    cout << "---------------------------------------------------------------" << endl;
+    for (int i = 0; i < processList.size(); i++) {
+
+        Process *p = processList[i];
+        cout << "\t" << p->identifier << "\t|\t" << p->arrivalTime << "\t|\t" << p->runTime << "\t|\t" << p->priority << endl;  
+    }
+
+    cout << "---------------------------------------------------------------" << endl;
+    cout << "\n" << endl;
+}
+
 void hpfsPDriver(vector <vector <Process *> > batch){
     for (int i = 0; i < batch.size(); i++) {
+        printProcessListP(batch[i]);
         simulate_hpfs_preemptive(batch[i]);
     }
 }

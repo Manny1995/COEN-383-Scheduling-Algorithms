@@ -18,7 +18,7 @@ void HPFS_Non_Preemptive::executeQuanta(int quanta) {
         total_waiting += quanta - cur_proc->arrivalTime - cur_proc->runTime + 1; //completion - arrival - runtime
         total_turnaround += quanta - cur_proc->arrivalTime; //completion - arrival
         total_completed++;
-        timeGraph+=cur_proc->identifier;
+       // timeGraph+=cur_proc->identifier;
         container[cur_proc->priority-1].erase(container[cur_proc->priority-1].begin());
         cur_proc = NULL;
     }
